@@ -7,6 +7,14 @@ independent FarmBot Genesis v1.8 demonstration shows the journey from an
 assembled machine to a service assembly, a selected component and a documented
 parts reference. Customers can inspect visually or search directly by name or number.
 
+## Open the hosted demo
+
+[**Launch the FarmBot GPT Site →**](https://farmbot-genesis-cad-showcase.alert-buddy-5171.chatgpt.site)
+
+The GPT Site works remotely; no local server is required. Its access is currently
+restricted to authorized accounts. Sign in with an account granted Site access.
+This public repository contains the evaluation package; GitHub Pages is not enabled.
+
 ## Try the experience
 
 1. Open the machine and switch between Showcase and CAD mode.
@@ -19,7 +27,7 @@ No request or order is sent automatically. The model contains 1,187 source CAD
 bodies; a body is not necessarily an individually sold replacement part.
 This is a reference demonstration, not an approved production parts catalog.
 
-## Preview locally
+## Optional local preview
 
 Download or clone this repository, then run from its root:
 
@@ -27,7 +35,9 @@ Download or clone this repository, then run from its root:
 python3 -m http.server 8000 --bind 127.0.0.1
 ```
 
-Open **http://127.0.0.1:8000/** in a modern browser. An HTTP server is required;
+For this optional preview, open **http://127.0.0.1:8000/** on the same computer.
+That address is local only; use the GPT Site link above for remote viewing.
+An HTTP server is required;
 opening the HTML file directly does not load the 3D model. Stop the server with
 Ctrl+C. This unmodified local preview is permitted by the evaluation license.
 The [review walkthrough](customer-review.html) describes the inspection tasks.
