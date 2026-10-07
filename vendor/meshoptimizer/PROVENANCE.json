@@ -1,0 +1,15 @@
+{
+  "package": "meshoptimizer",
+  "version": "0.25.0",
+  "license": "MIT",
+  "sourceUrl": "https://github.com/zeux/meshoptimizer/tree/v0.25/js",
+  "tarballUrl": "https://registry.npmjs.org/meshoptimizer/-/meshoptimizer-0.25.0.tgz",
+  "npmIntegrity": "sha512-ewwuAo3ujPZ7T3Y2oTkEoLlXvNOqnr0cjyAxfv5djXJqwD9QlxDDO0qGtsqB4Z9QUVvhruKXg9q/xfK9I5S1xQ==",
+  "archiveSha256": "dc81f04fda9e01efe4d46636b813b28a5376a72ab0628717f73c0a05eb465d5b",
+  "files": {
+    "LICENSE.md": "e4a26033e3551fb2722888949fbb41e77aee628e8e8f04dcffeee301aa7e5634",
+    "README.md": "846434c7e4f299f70110a5ccafa7bf767eb1bea524df49856d912567a9d62054",
+    "meshopt_decoder.module.js": "4ac97b2c44347dacb9a0ca9c3740c8678d166fdcf02bc1612f371e27418e70a7",
+    "meshopt_encoder.module.js": "54f67e999c6facbb946219f967e96cb6dc00a004d1c7c7ae5ca373e003600ebf"
+  }
+}

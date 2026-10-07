@@ -1,0 +1,2123 @@
+{
+  "schemaVersion": 1,
+  "sourceCommit": "44e0fa24d4a538dfa1255a4e89308ccabf3abaeb",
+  "cadRootName": "FarmBot Genesis v1.8 Beta",
+  "limitations": [
+    "A CAD body count is not a purchased assembly count. Name agreement is supporting evidence, not validated interchangeability.",
+    "The official version label is Production Run 1; the root assembly retains the legacy Beta name.",
+    "All-instances CAD includes infrastructure, packaging, subcomponents, and hidden bodies. Their counts must not replace BOM quantities."
+  ],
+  "statistics": {
+    "exact-name-and-count-match": 99,
+    "identity-needs-reconciliation": 62,
+    "not-in-standard-configuration": 18,
+    "exact-name-count-differs": 1,
+    "source-quantity-unknown": 15
+  },
+  "rows": [
+    {
+      "catalogId": "bearing",
+      "name": "Bearing",
+      "documentedQuantity": 40,
+      "exactCadBodyNames": [
+        "Bearing"
+      ],
+      "cadBodyCount": 40,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "belt-clip-dampener",
+      "name": "Belt Clip Dampener",
+      "documentedQuantity": 6,
+      "exactCadBodyNames": [
+        "Belt Clip Dampener"
+      ],
+      "cadBodyCount": 6,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "belt-sleeve",
+      "name": "Belt Sleeve",
+      "documentedQuantity": 6,
+      "exactCadBodyNames": [
+        "Belt Sleeve"
+      ],
+      "cadBodyCount": 6,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "belt--1",
+      "name": "Belt — 1.7m",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "identity-needs-reconciliation"
+    },
+    {
+      "catalogId": "belt--2",
+      "name": "Belt — 3.2m",
+      "documentedQuantity": 0,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "not-in-standard-configuration"
+    },
+    {
+      "catalogId": "belt--3",
+      "name": "Belt — 4.5m",
+      "documentedQuantity": 2,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "identity-needs-reconciliation"
+    },
+    {
+      "catalogId": "belt--4",
+      "name": "Belt — 7.5m",
+      "documentedQuantity": 0,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "not-in-standard-configuration"
+    },
+    {
+      "catalogId": "leadscrew-block",
+      "name": "Leadscrew Block",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [
+        "Leadscrew Block"
+      ],
+      "cadBodyCount": 1,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "leadscrew",
+      "name": "Leadscrew",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [
+        "Leadscrew"
+      ],
+      "cadBodyCount": 1,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "precision-shim",
+      "name": "M5 Precision Shim",
+      "documentedQuantity": 20,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "identity-needs-reconciliation"
+    },
+    {
+      "catalogId": "pulley",
+      "name": "Pulley",
+      "documentedQuantity": 3,
+      "exactCadBodyNames": [
+        "GT2 Pulley - 20 Tooth"
+      ],
+      "cadBodyCount": 3,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "shaft-coupler",
+      "name": "Shaft Coupler",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "identity-needs-reconciliation"
+    },
+    {
+      "catalogId": "v-wheel",
+      "name": "V-Wheel",
+      "documentedQuantity": 20,
+      "exactCadBodyNames": [
+        "V-Wheel"
+      ],
+      "cadBodyCount": 20,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "cable-carrier-x-axis--1",
+      "name": "X-Axis Cable Carrier — 1.6m",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "identity-needs-reconciliation"
+    },
+    {
+      "catalogId": "cable-carrier-x-axis--2",
+      "name": "X-Axis Cable Carrier — 3.1m",
+      "documentedQuantity": 0,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "not-in-standard-configuration"
+    },
+    {
+      "catalogId": "cable-carrier-y-axis--1",
+      "name": "Y-Axis Cable Carrier — 1.7m",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "identity-needs-reconciliation"
+    },
+    {
+      "catalogId": "cable-carrier-y-axis--2",
+      "name": "Y-Axis Cable Carrier — 3.2m",
+      "documentedQuantity": 0,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "not-in-standard-configuration"
+    },
+    {
+      "catalogId": "cable-carrier-z-axis",
+      "name": "Z-Axis Cable Carrier",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "identity-needs-reconciliation"
+    },
+    {
+      "catalogId": "camera-cable--1",
+      "name": "Camera Cable — 2.6m",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [
+        "Camera Cable"
+      ],
+      "cadBodyCount": 1,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "camera-cable--2",
+      "name": "Camera Cable — 4.1m",
+      "documentedQuantity": 0,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "not-in-standard-configuration"
+    },
+    {
+      "catalogId": "camera-calibration-card",
+      "name": "Camera Calibration Card",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "identity-needs-reconciliation"
+    },
+    {
+      "catalogId": "camera",
+      "name": "Camera",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [
+        "Camera"
+      ],
+      "cadBodyCount": 1,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "electronics-box--1",
+      "name": "Electronics Box — Box",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "identity-needs-reconciliation"
+    },
+    {
+      "catalogId": "electronics-box--2",
+      "name": "Electronics Box — Lid",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "identity-needs-reconciliation"
+    },
+    {
+      "catalogId": "electronics-box--3",
+      "name": "Electronics Box — Gasket",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "identity-needs-reconciliation"
+    },
+    {
+      "catalogId": "electronics-box--4",
+      "name": "Electronics Box — Latch",
+      "documentedQuantity": 2,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "identity-needs-reconciliation"
+    },
+    {
+      "catalogId": "encoder-cable--1",
+      "name": "Encoder Cable — X1, 0.7m",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "identity-needs-reconciliation"
+    },
+    {
+      "catalogId": "encoder-cable--2",
+      "name": "Encoder Cable — X2, 2.3m",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "identity-needs-reconciliation"
+    },
+    {
+      "catalogId": "encoder-cable--3",
+      "name": "Encoder Cable — Y, 2.7m",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "identity-needs-reconciliation"
+    },
+    {
+      "catalogId": "encoder-cable--4",
+      "name": "Encoder Cable — ZY, 2.6m",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "identity-needs-reconciliation"
+    },
+    {
+      "catalogId": "encoder-cable--5",
+      "name": "Encoder Cable — X2, 3.8m",
+      "documentedQuantity": 0,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "not-in-standard-configuration"
+    },
+    {
+      "catalogId": "encoder-cable--6",
+      "name": "Encoder Cable — Y, 4.2m",
+      "documentedQuantity": 0,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "not-in-standard-configuration"
+    },
+    {
+      "catalogId": "encoder-cable--7",
+      "name": "Encoder Cable — ZY, 4.1m",
+      "documentedQuantity": 0,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "not-in-standard-configuration"
+    },
+    {
+      "catalogId": "encoder-cable--8",
+      "name": "Encoder Cable — ZZ, 1.8m",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "identity-needs-reconciliation"
+    },
+    {
+      "catalogId": "encoder",
+      "name": "Encoder",
+      "documentedQuantity": 4,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "identity-needs-reconciliation"
+    },
+    {
+      "catalogId": "farmduino-data-cable",
+      "name": "Farmduino Data Cable",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "identity-needs-reconciliation"
+    },
+    {
+      "catalogId": "farmduino",
+      "name": "Farmduino",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [
+        "Farmduino"
+      ],
+      "cadBodyCount": 1,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "fuse",
+      "name": "Fuse",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [
+        "Fuse - 7.5A"
+      ],
+      "cadBodyCount": 1,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "jumper-link",
+      "name": "Jumper Link",
+      "documentedQuantity": 4,
+      "exactCadBodyNames": [
+        "Jumper Link"
+      ],
+      "cadBodyCount": 3,
+      "status": "exact-name-count-differs"
+    },
+    {
+      "catalogId": "led-strip--1",
+      "name": "LED Strip — 1.2m",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [
+        "LED Strip"
+      ],
+      "cadBodyCount": 1,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "led-strip--2",
+      "name": "LED Strip — 2.7m",
+      "documentedQuantity": 0,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "not-in-standard-configuration"
+    },
+    {
+      "catalogId": "micro-sd-card-adapter",
+      "name": "Micro SD Card Adapter",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "identity-needs-reconciliation"
+    },
+    {
+      "catalogId": "micro-sd-card",
+      "name": "Micro SD Card",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "identity-needs-reconciliation"
+    },
+    {
+      "catalogId": "motor-cable--1",
+      "name": "Motor Cable — X1, 0.7m",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "identity-needs-reconciliation"
+    },
+    {
+      "catalogId": "motor-cable--2",
+      "name": "Motor Cable — X2, 2.3m",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "identity-needs-reconciliation"
+    },
+    {
+      "catalogId": "motor-cable--3",
+      "name": "Motor Cable — Y, 2.7m",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "identity-needs-reconciliation"
+    },
+    {
+      "catalogId": "motor-cable--4",
+      "name": "Motor Cable — ZY, 2.6m",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "identity-needs-reconciliation"
+    },
+    {
+      "catalogId": "motor-cable--5",
+      "name": "Motor Cable — X2, 3.8m",
+      "documentedQuantity": 0,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "not-in-standard-configuration"
+    },
+    {
+      "catalogId": "motor-cable--6",
+      "name": "Motor Cable — Y, 4.2m",
+      "documentedQuantity": 0,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "not-in-standard-configuration"
+    },
+    {
+      "catalogId": "motor-cable--7",
+      "name": "Motor Cable — ZY, 4.1m",
+      "documentedQuantity": 0,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "not-in-standard-configuration"
+    },
+    {
+      "catalogId": "motor-cable--8",
+      "name": "Motor Cable — ZZ, 1.8m",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "identity-needs-reconciliation"
+    },
+    {
+      "catalogId": "motor",
+      "name": "Motor",
+      "documentedQuantity": 4,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "identity-needs-reconciliation"
+    },
+    {
+      "catalogId": "pi-adapter-board",
+      "name": "Pi Adapter Board",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [
+        "Pi Adapter Board"
+      ],
+      "cadBodyCount": 1,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "pogo-pin-jam-nut",
+      "name": "Pogo Pin Jam Nut",
+      "documentedQuantity": 24,
+      "exactCadBodyNames": [
+        "Pogo Pin Jam Nut"
+      ],
+      "cadBodyCount": 24,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "pogo-pin",
+      "name": "Pogo Pin",
+      "documentedQuantity": 12,
+      "exactCadBodyNames": [
+        "Pogo Pin"
+      ],
+      "cadBodyCount": 12,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "power-cord-protector",
+      "name": "Power Cord Protector",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "identity-needs-reconciliation"
+    },
+    {
+      "catalogId": "power-supply-cable--1",
+      "name": "Power Supply Cable — 2.5m",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [
+        "Power Supply Cable"
+      ],
+      "cadBodyCount": 1,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "power-supply-cable--2",
+      "name": "Power Supply Cable — 4m",
+      "documentedQuantity": 0,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "not-in-standard-configuration"
+    },
+    {
+      "catalogId": "power-supply",
+      "name": "Power Supply",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [
+        "Power Supply - 24V, 4.5A"
+      ],
+      "cadBodyCount": 1,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "push-button-nut",
+      "name": "Push Button Nut",
+      "documentedQuantity": 3,
+      "exactCadBodyNames": [
+        "Push Button Nut"
+      ],
+      "cadBodyCount": 3,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "push-button-o-ring",
+      "name": "Push Button O-Ring",
+      "documentedQuantity": 3,
+      "exactCadBodyNames": [
+        "Push Button O-Ring"
+      ],
+      "cadBodyCount": 3,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "push-button-red",
+      "name": "Red Push Button",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "identity-needs-reconciliation"
+    },
+    {
+      "catalogId": "push-button-white",
+      "name": "White Push Button",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "identity-needs-reconciliation"
+    },
+    {
+      "catalogId": "push-button-wiring-harness",
+      "name": "Push Button Wiring Harness",
+      "documentedQuantity": 3,
+      "exactCadBodyNames": [
+        "Push Button Wiring Harness"
+      ],
+      "cadBodyCount": 3,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "push-button-yellow",
+      "name": "Yellow Push Button",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "identity-needs-reconciliation"
+    },
+    {
+      "catalogId": "raspberry-pi-power-cable",
+      "name": "Raspberry Pi Power Cable",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "identity-needs-reconciliation"
+    },
+    {
+      "catalogId": "raspberry-pi",
+      "name": "Raspberry Pi",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "identity-needs-reconciliation"
+    },
+    {
+      "catalogId": "rotary-tool-motor",
+      "name": "Rotary Tool Motor",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "identity-needs-reconciliation"
+    },
+    {
+      "catalogId": "rotary-tool-pcb",
+      "name": "Rotary Tool PCB",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [
+        "Rotary Tool PCB"
+      ],
+      "cadBodyCount": 1,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "rtc-battery",
+      "name": "Realtime Clock Battery",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [
+        "Realtime Clock Battery"
+      ],
+      "cadBodyCount": 1,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "shunt",
+      "name": "Shunt",
+      "documentedQuantity": 8,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "identity-needs-reconciliation"
+    },
+    {
+      "catalogId": "soil-sensor-pcb",
+      "name": "Soil Sensor PCB",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [
+        "Soil Sensor PCB"
+      ],
+      "cadBodyCount": 1,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "solenoid-valve-cable",
+      "name": "Solenoid Valve Cable",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [
+        "Solenoid Valve Cable"
+      ],
+      "cadBodyCount": 1,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "solenoid-valve",
+      "name": "Solenoid Valve",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [
+        "Solenoid Valve"
+      ],
+      "cadBodyCount": 1,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "supergland",
+      "name": "Supergland",
+      "documentedQuantity": 2,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "identity-needs-reconciliation"
+    },
+    {
+      "catalogId": "utm-cable-y--1",
+      "name": "Y UTM Cable — 2.6m",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "identity-needs-reconciliation"
+    },
+    {
+      "catalogId": "utm-cable-y--2",
+      "name": "Y UTM Cable — 4.1m",
+      "documentedQuantity": 0,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "not-in-standard-configuration"
+    },
+    {
+      "catalogId": "utm-cable-z",
+      "name": "Z UTM Cable",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "identity-needs-reconciliation"
+    },
+    {
+      "catalogId": "utm-pcb",
+      "name": "UTM PCB",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [
+        "UTM PCB"
+      ],
+      "cadBodyCount": 1,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "vacuum-pump-cable-y--1",
+      "name": "Y Vacuum Pump Cable — 2.6m",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "identity-needs-reconciliation"
+    },
+    {
+      "catalogId": "vacuum-pump-cable-y--2",
+      "name": "Y Vacuum Pump Cable — 4.1m",
+      "documentedQuantity": 0,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "not-in-standard-configuration"
+    },
+    {
+      "catalogId": "vacuum-pump",
+      "name": "Vacuum Pump",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [
+        "Vacuum Pump"
+      ],
+      "cadBodyCount": 1,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "gantry-column",
+      "name": "Gantry Column",
+      "documentedQuantity": 2,
+      "exactCadBodyNames": [
+        "Gantry Column"
+      ],
+      "cadBodyCount": 2,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "gantry-main-beam--1",
+      "name": "Gantry Main Beam — 750mm",
+      "documentedQuantity": 2,
+      "exactCadBodyNames": [
+        "Gantry Main Beam"
+      ],
+      "cadBodyCount": 2,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "gantry-main-beam--2",
+      "name": "Gantry Main Beam — 1000mm",
+      "documentedQuantity": 0,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "not-in-standard-configuration"
+    },
+    {
+      "catalogId": "track-extrusion",
+      "name": "Track Extrusion",
+      "documentedQuantity": 6,
+      "exactCadBodyNames": [
+        "Track Extrusion"
+      ],
+      "cadBodyCount": 6,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "z-axis-extrusion",
+      "name": "Z-Axis Extrusion",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "identity-needs-reconciliation"
+    },
+    {
+      "catalogId": "allen-key-2-5mm",
+      "name": "2.5mm Allen Key",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "identity-needs-reconciliation"
+    },
+    {
+      "catalogId": "allen-key-2mm",
+      "name": "2mm Allen Key",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "identity-needs-reconciliation"
+    },
+    {
+      "catalogId": "bit-t10",
+      "name": "T10 Bit",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [
+        "T10 Bit"
+      ],
+      "cadBodyCount": 1,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "bit-t25",
+      "name": "T25 Bit",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [
+        "T25 Bit"
+      ],
+      "cadBodyCount": 1,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "eccentric-spacer",
+      "name": "Eccentric Spacer",
+      "documentedQuantity": 9,
+      "exactCadBodyNames": [
+        "Eccentric Spacer"
+      ],
+      "cadBodyCount": 9,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "flathead-wood-screw-t10",
+      "name": "T10 Flathead Wood Screw",
+      "documentedQuantity": 2,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "identity-needs-reconciliation"
+    },
+    {
+      "catalogId": "hex-driver-3mm",
+      "name": "3mm Hex Driver",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [
+        "3mm Hex Driver"
+      ],
+      "cadBodyCount": 1,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "m2-5-screw-4mm",
+      "name": "M2.5 x 4mm Screw",
+      "documentedQuantity": 8,
+      "exactCadBodyNames": [
+        "M2.5 x 4mm Screw"
+      ],
+      "cadBodyCount": 8,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "m2-5-screw-6mm",
+      "name": "M2.5 x 6mm Screw",
+      "documentedQuantity": 2,
+      "exactCadBodyNames": [
+        "M2.5 x 6mm Screw"
+      ],
+      "cadBodyCount": 2,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "m3-flat-head-screw-16mm",
+      "name": "M3 x 16mm Flat Head Screw",
+      "documentedQuantity": 2,
+      "exactCadBodyNames": [
+        "M3 x 16mm Flat Head Screw"
+      ],
+      "cadBodyCount": 2,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "m3-locknut",
+      "name": "M3 Locknut",
+      "documentedQuantity": 23,
+      "exactCadBodyNames": [
+        "M3 Locknut"
+      ],
+      "cadBodyCount": 23,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "m3-screw-10mm",
+      "name": "M3 x 10mm Screw",
+      "documentedQuantity": 4,
+      "exactCadBodyNames": [
+        "M3 x 10mm Screw"
+      ],
+      "cadBodyCount": 4,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "m3-screw-12mm",
+      "name": "M3 x 12mm Screw",
+      "documentedQuantity": 31,
+      "exactCadBodyNames": [
+        "M3 x 12mm Screw"
+      ],
+      "cadBodyCount": 31,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "m3-screw-35mm",
+      "name": "M3 x 35mm Screw",
+      "documentedQuantity": 4,
+      "exactCadBodyNames": [
+        "M3 x 35mm Screw"
+      ],
+      "cadBodyCount": 4,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "m3-setscrew-4mm",
+      "name": "M3 x 4mm Setscrew",
+      "documentedQuantity": 6,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "identity-needs-reconciliation"
+    },
+    {
+      "catalogId": "m4-setscrew-4mm",
+      "name": "M4 x 4mm Setscrew",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [
+        "M4 x 4mm Setscrew"
+      ],
+      "cadBodyCount": 1,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "m5-flange-locknut",
+      "name": "M5 Flange Locknut",
+      "documentedQuantity": 53,
+      "exactCadBodyNames": [
+        "M5 Flange Locknut"
+      ],
+      "cadBodyCount": 53,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "m5-flat-head-screw-16mm",
+      "name": "M5 x 16mm Flat Head Screw",
+      "documentedQuantity": 3,
+      "exactCadBodyNames": [
+        "M5 x 16mm Flat Head Screw"
+      ],
+      "cadBodyCount": 3,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "m5-screw-10mm",
+      "name": "M5 x 10mm Screw",
+      "documentedQuantity": 53,
+      "exactCadBodyNames": [
+        "M5 x 10mm Screw"
+      ],
+      "cadBodyCount": 53,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "m5-screw-12mm",
+      "name": "M5 x 12mm Screw",
+      "documentedQuantity": 8,
+      "exactCadBodyNames": [
+        "M5 x 12mm Screw"
+      ],
+      "cadBodyCount": 8,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "m5-screw-16mm",
+      "name": "M5 x 16mm Screw",
+      "documentedQuantity": 20,
+      "exactCadBodyNames": [
+        "M5 x 16mm Screw"
+      ],
+      "cadBodyCount": 20,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "m5-screw-20mm",
+      "name": "M5 x 20mm Screw",
+      "documentedQuantity": 11,
+      "exactCadBodyNames": [
+        "M5 x 20mm Screw"
+      ],
+      "cadBodyCount": 11,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "m5-screw-25mm",
+      "name": "M5 x 25mm Screw",
+      "documentedQuantity": 4,
+      "exactCadBodyNames": [
+        "M5 x 25mm Screw"
+      ],
+      "cadBodyCount": 4,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "m5-screw-30mm",
+      "name": "M5 x 30mm Screw",
+      "documentedQuantity": 25,
+      "exactCadBodyNames": [
+        "M5 x 30mm Screw"
+      ],
+      "cadBodyCount": 25,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "m5-setscrew-4mm",
+      "name": "M5 x 4mm Setscrew",
+      "documentedQuantity": 25,
+      "exactCadBodyNames": [
+        "M5 x 4mm Setscrew"
+      ],
+      "cadBodyCount": 25,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "magnet-countersunk",
+      "name": "Countersunk Magnet",
+      "documentedQuantity": 3,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "identity-needs-reconciliation"
+    },
+    {
+      "catalogId": "magnet-standard",
+      "name": "Standard Magnet",
+      "documentedQuantity": 12,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "identity-needs-reconciliation"
+    },
+    {
+      "catalogId": "nut-bar-10mm",
+      "name": "10mm Nut Bar",
+      "documentedQuantity": 12,
+      "exactCadBodyNames": [
+        "Nut Bar - 10mm"
+      ],
+      "cadBodyCount": 12,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "nut-bar-160mm",
+      "name": "160mm Nut Bar",
+      "documentedQuantity": 3,
+      "exactCadBodyNames": [
+        "Nut Bar - 160mm"
+      ],
+      "cadBodyCount": 3,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "nut-bar-20mm",
+      "name": "20mm Nut Bar",
+      "documentedQuantity": 6,
+      "exactCadBodyNames": [
+        "Nut Bar - 20mm"
+      ],
+      "cadBodyCount": 6,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "nut-bar-40mm",
+      "name": "40mm Nut Bar",
+      "documentedQuantity": 19,
+      "exactCadBodyNames": [
+        "Nut Bar - 40mm"
+      ],
+      "cadBodyCount": 19,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "nut-bar-60mm",
+      "name": "60mm Nut Bar",
+      "documentedQuantity": 4,
+      "exactCadBodyNames": [
+        "Nut Bar - 60mm"
+      ],
+      "cadBodyCount": 4,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "rotary-tool-chuck-adapter",
+      "name": "Rotary Tool Chuck Adapter",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [
+        "Rotary Tool Chuck Adapter"
+      ],
+      "cadBodyCount": 1,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "rotary-tool-chuck",
+      "name": "Rotary Tool Chuck",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [
+        "Rotary Tool Chuck"
+      ],
+      "cadBodyCount": 1,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "rotary-tool-m5-shaft-adapter",
+      "name": "Rotary Tool M5 Shaft Adapter",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [
+        "Rotary Tool M5 Shaft Adapter"
+      ],
+      "cadBodyCount": 1,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "rotary-tool-shaft-extension",
+      "name": "Rotary Tool Shaft Extension",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [
+        "Rotary Tool Shaft Extension"
+      ],
+      "cadBodyCount": 1,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "rotary-tool-trimmer-mount",
+      "name": "Rotary Tool Trimmer Mount",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [
+        "Rotary Tool Trimmer Mount"
+      ],
+      "cadBodyCount": 1,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "rotary-tool-trimmer",
+      "name": "Rotary Tool Trimmer",
+      "documentedQuantity": 30,
+      "exactCadBodyNames": [
+        "Rotary Tool Trimmer"
+      ],
+      "cadBodyCount": 30,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "standard-spacer",
+      "name": "Standard Spacer",
+      "documentedQuantity": 11,
+      "exactCadBodyNames": [
+        "M5 x 6mm Spacer"
+      ],
+      "cadBodyCount": 11,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "wood-screw-t25",
+      "name": "T25 Wood Screw",
+      "documentedQuantity": 35,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "identity-needs-reconciliation"
+    },
+    {
+      "catalogId": "wrench-8mm",
+      "name": "8mm Wrench",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [
+        "8mm Thin Wrench"
+      ],
+      "cadBodyCount": 1,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "zip-tie-200mm",
+      "name": "200mm Zip Tie",
+      "documentedQuantity": 4,
+      "exactCadBodyNames": [
+        "200mm Zip Tie"
+      ],
+      "cadBodyCount": 4,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "cable-carrier-spacer-block-40mm",
+      "name": "40mm Cable Carrier Spacer Block",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [
+        "40mm Cable Carrier Spacer Block"
+      ],
+      "cadBodyCount": 1,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "cable-carrier-support-horizontal-40mm-extruded",
+      "name": "Extruded 40mm Horizontal Cable Carrier Support",
+      "documentedQuantity": 3,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "identity-needs-reconciliation"
+    },
+    {
+      "catalogId": "cable-carrier-support-vertical-40mm-extruded",
+      "name": "Extruded 40mm Vertical Cable Carrier Support",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "identity-needs-reconciliation"
+    },
+    {
+      "catalogId": "cable-carrier-support-vertical-40mm",
+      "name": "40mm Vertical Cable Carrier Support",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [
+        "40mm Vertical Cable Carrier Support"
+      ],
+      "cadBodyCount": 1,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "camera-mount-half",
+      "name": "Camera Mount Half",
+      "documentedQuantity": 2,
+      "exactCadBodyNames": [
+        "Camera Mount Half"
+      ],
+      "cadBodyCount": 2,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "motor-housing-horizontal-75mm",
+      "name": "Horizontal Motor Housing",
+      "documentedQuantity": 3,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "identity-needs-reconciliation"
+    },
+    {
+      "catalogId": "motor-housing-vertical-80mm",
+      "name": "Vertical Motor Housing",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "identity-needs-reconciliation"
+    },
+    {
+      "catalogId": "rotary-tool-bottom",
+      "name": "Rotary Tool Bottom",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [
+        "Rotary Tool Bottom"
+      ],
+      "cadBodyCount": 1,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "rotary-tool-top",
+      "name": "Rotary Tool Top",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [
+        "Rotary Tool Top"
+      ],
+      "cadBodyCount": 1,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "seed-bin",
+      "name": "Seed Bin",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [
+        "Seed Bin"
+      ],
+      "cadBodyCount": 1,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "seed-tray",
+      "name": "Seed Tray",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [
+        "Seed Tray"
+      ],
+      "cadBodyCount": 1,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "seed-trough-holder",
+      "name": "Seed Trough Holder",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [
+        "Seed Trough Holder"
+      ],
+      "cadBodyCount": 1,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "seed-trough",
+      "name": "Seed Trough",
+      "documentedQuantity": 2,
+      "exactCadBodyNames": [
+        "Seed Trough"
+      ],
+      "cadBodyCount": 2,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "seeder",
+      "name": "Seeder",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [
+        "Seeder"
+      ],
+      "cadBodyCount": 1,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "soil-sensor",
+      "name": "Soil Sensor",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [
+        "Soil Sensor"
+      ],
+      "cadBodyCount": 1,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "solenoid-valve-mount",
+      "name": "Solenoid Valve Mount",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "identity-needs-reconciliation"
+    },
+    {
+      "catalogId": "utm",
+      "name": "UTM",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "identity-needs-reconciliation"
+    },
+    {
+      "catalogId": "vacuum-pump-cover",
+      "name": "Vacuum Pump Cover",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [
+        "Vacuum Pump Cover"
+      ],
+      "cadBodyCount": 1,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "watering-nozzle-bottom",
+      "name": "Watering Nozzle Bottom",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [
+        "Watering Nozzle Bottom"
+      ],
+      "cadBodyCount": 1,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "watering-nozzle-top",
+      "name": "Watering Nozzle Top",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [
+        "Watering Nozzle Top"
+      ],
+      "cadBodyCount": 1,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "belt-clip",
+      "name": "Belt Clip",
+      "documentedQuantity": 6,
+      "exactCadBodyNames": [
+        "Belt Clip - Slim"
+      ],
+      "cadBodyCount": 6,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "cable-carrier-mount-60mm",
+      "name": "60mm Cable Carrier Mount",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [
+        "60mm Cable Carrier Mount"
+      ],
+      "cadBodyCount": 1,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "cable-carrier-mount-x-axis",
+      "name": "X-Axis Cable Carrier Mount",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "identity-needs-reconciliation"
+    },
+    {
+      "catalogId": "cross-slide-plate",
+      "name": "Cross-Slide Plate",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [
+        "Cross-Slide Plate"
+      ],
+      "cadBodyCount": 1,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "gantry-corner-bracket-left",
+      "name": "Left Gantry Corner Bracket",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [
+        "Left Gantry Corner Bracket"
+      ],
+      "cadBodyCount": 1,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "gantry-corner-bracket-right",
+      "name": "Right Gantry Corner Bracket",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [
+        "Right Gantry Corner Bracket"
+      ],
+      "cadBodyCount": 1,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "gantry-joining-bar",
+      "name": "Gantry Joining Bar",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [
+        "Gantry Joining Bar"
+      ],
+      "cadBodyCount": 1,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "gantry-wheel-plate",
+      "name": "Gantry Wheel Plate",
+      "documentedQuantity": 2,
+      "exactCadBodyNames": [
+        "Gantry Wheel Plate"
+      ],
+      "cadBodyCount": 2,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "seed-trough-holder-mount",
+      "name": "Seed Trough Holder Mount",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [
+        "Seed Trough Holder Mount Plate"
+      ],
+      "cadBodyCount": 1,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "toolbay-3-slot",
+      "name": "3-Slot Toolbay",
+      "documentedQuantity": 2,
+      "exactCadBodyNames": [
+        "3-Slot Toolbay"
+      ],
+      "cadBodyCount": 2,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "vacuum-pump-mount",
+      "name": "Vacuum Pump Mount",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [
+        "Vacuum Pump Mount"
+      ],
+      "cadBodyCount": 1,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "z-axis-hardstop",
+      "name": "Z-Axis Hardstop",
+      "documentedQuantity": 2,
+      "exactCadBodyNames": [
+        "Z-Axis Hardstop"
+      ],
+      "cadBodyCount": 2,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "z-axis-motor-mount",
+      "name": "Z-Axis Motor Mount",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [
+        "Z-Axis Motor Mount"
+      ],
+      "cadBodyCount": 1,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "90-degree-barb",
+      "name": "90-Degree Barb",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "identity-needs-reconciliation"
+    },
+    {
+      "catalogId": "garden-hose-to-barb-adapter",
+      "name": "Garden Hose to Barb Adapter",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [
+        "Garden Hose to Barb Adapter"
+      ],
+      "cadBodyCount": 1,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "inline-air-filter",
+      "name": "Inline Air Filter",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [
+        "Inline Air Filter"
+      ],
+      "cadBodyCount": 1,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "luer-lock-adapter",
+      "name": "Luer Lock Adapter",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [
+        "M5 to Luer Lock Adapter"
+      ],
+      "cadBodyCount": 1,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "luer-lock-needle-16-gauge",
+      "name": "16 Gauge Luer Lock Needle",
+      "documentedQuantity": 3,
+      "exactCadBodyNames": [
+        "Luer Lock Needle - 16 Gauge"
+      ],
+      "cadBodyCount": 3,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "luer-lock-needle-19-gauge",
+      "name": "19 Gauge Luer Lock Needle",
+      "documentedQuantity": 3,
+      "exactCadBodyNames": [
+        "Luer Lock Needle - 19 Gauge"
+      ],
+      "cadBodyCount": 3,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "m5-barb",
+      "name": "M5 Barb",
+      "documentedQuantity": 3,
+      "exactCadBodyNames": [
+        "M5 Barb"
+      ],
+      "cadBodyCount": 3,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "npt-to-barb-adapter",
+      "name": "NPT to Barb Adapter",
+      "documentedQuantity": 2,
+      "exactCadBodyNames": [
+        "NPT to Barb Adapter"
+      ],
+      "cadBodyCount": 2,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "o-ring",
+      "name": "O-Ring",
+      "documentedQuantity": 3,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "identity-needs-reconciliation"
+    },
+    {
+      "catalogId": "pressure-regulator",
+      "name": "Pressure Regulator",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [
+        "Pressure Regulator"
+      ],
+      "cadBodyCount": 1,
+      "status": "exact-name-and-count-match"
+    },
+    {
+      "catalogId": "rubber-gasket",
+      "name": "Rubber Gasket",
+      "documentedQuantity": 4,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "identity-needs-reconciliation"
+    },
+    {
+      "catalogId": "tube-vacuum--1",
+      "name": "Vacuum Tube — 0.95m (Vacuum, Z-Axis, all bots)",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "identity-needs-reconciliation"
+    },
+    {
+      "catalogId": "tube-vacuum--2",
+      "name": "Vacuum Tube — 0.15m (Vacuum, Cross-Slide, all bots)",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "identity-needs-reconciliation"
+    },
+    {
+      "catalogId": "tube-water--1",
+      "name": "Water Tube — 0.95m (Water, Z-axis)",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "identity-needs-reconciliation"
+    },
+    {
+      "catalogId": "tube-water--2",
+      "name": "Water Tube — 2.1m (Water, Y-axis)",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "identity-needs-reconciliation"
+    },
+    {
+      "catalogId": "tube-water--3",
+      "name": "Water Tube — 2.5m (Water, X-axis)",
+      "documentedQuantity": 1,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "identity-needs-reconciliation"
+    },
+    {
+      "catalogId": "tube-water--4",
+      "name": "Water Tube — 3.6m (Water, Y-axis)",
+      "documentedQuantity": 0,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "not-in-standard-configuration"
+    },
+    {
+      "catalogId": "tube-water--5",
+      "name": "Water Tube — 4.0m (Water, X-axis)",
+      "documentedQuantity": 0,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "not-in-standard-configuration"
+    },
+    {
+      "catalogId": "packaging--main-carton",
+      "name": "Main Carton",
+      "documentedQuantity": null,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "source-quantity-unknown"
+    },
+    {
+      "catalogId": "packaging--main-carton-tray-insert",
+      "name": "Main Carton Tray Insert",
+      "documentedQuantity": null,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "source-quantity-unknown"
+    },
+    {
+      "catalogId": "packaging--main-carton-fill",
+      "name": "Main Carton Fill",
+      "documentedQuantity": null,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "source-quantity-unknown"
+    },
+    {
+      "catalogId": "packaging--main-carton-edge-protectors",
+      "name": "Main Carton Edge Protectors",
+      "documentedQuantity": null,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "source-quantity-unknown"
+    },
+    {
+      "catalogId": "packaging--main-carton-polystrapping",
+      "name": "Main Carton Polystrapping",
+      "documentedQuantity": null,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "source-quantity-unknown"
+    },
+    {
+      "catalogId": "packaging--extrusion-kit-genesis",
+      "name": "Extrusion Kit - Genesis",
+      "documentedQuantity": null,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "source-quantity-unknown"
+    },
+    {
+      "catalogId": "packaging--extrusion-kit-genesis-xl",
+      "name": "Extrusion Kit - Genesis (XL)",
+      "documentedQuantity": null,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "source-quantity-unknown"
+    },
+    {
+      "catalogId": "packaging--extrusion-kit-wrapping",
+      "name": "Extrusion Kit Wrapping",
+      "documentedQuantity": null,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "source-quantity-unknown"
+    },
+    {
+      "catalogId": "packaging--extrusion-kit-end-stops",
+      "name": "Extrusion Kit End Stops",
+      "documentedQuantity": null,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "source-quantity-unknown"
+    },
+    {
+      "catalogId": "packaging--extrusion-kit-fill",
+      "name": "Extrusion Kit Fill",
+      "documentedQuantity": null,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "source-quantity-unknown"
+    },
+    {
+      "catalogId": "packaging--extrusion-kit-edge-protectors",
+      "name": "Extrusion Kit Edge Protectors",
+      "documentedQuantity": null,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "source-quantity-unknown"
+    },
+    {
+      "catalogId": "packaging--extrusion-kit-polystrapping",
+      "name": "Extrusion Kit Polystrapping",
+      "documentedQuantity": null,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "source-quantity-unknown"
+    },
+    {
+      "catalogId": "packaging--hardware-kit-box",
+      "name": "Hardware Kit Box",
+      "documentedQuantity": null,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "source-quantity-unknown"
+    },
+    {
+      "catalogId": "packaging--press-to-seal-bag",
+      "name": "Press-to-Seal Bag",
+      "documentedQuantity": null,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "source-quantity-unknown"
+    },
+    {
+      "catalogId": "packaging--100-recycled-50lb-kraft-paper",
+      "name": "100% Recycled 50lb Kraft Paper",
+      "documentedQuantity": null,
+      "exactCadBodyNames": [],
+      "cadBodyCount": null,
+      "status": "source-quantity-unknown"
+    }
+  ],
+  "unmatchedCadBodyNames": [
+    {
+      "name": "",
+      "bodyCount": 15
+    },
+    {
+      "name": "1 x 2 2.54mm Shunt",
+      "bodyCount": 8
+    },
+    {
+      "name": "2.5mm Hex Key",
+      "bodyCount": 1
+    },
+    {
+      "name": "20mm x 20mm x 1000mm Extrusion",
+      "bodyCount": 1
+    },
+    {
+      "name": "25mm Wood Screw",
+      "bodyCount": 37
+    },
+    {
+      "name": "2mm Hex Key",
+      "bodyCount": 1
+    },
+    {
+      "name": "3/4\" Rubber Gasket",
+      "bodyCount": 4
+    },
+    {
+      "name": "5mm to 8mm Shaft Coupler",
+      "bodyCount": 1
+    },
+    {
+      "name": "75mm Horizontal Motor Housing",
+      "bodyCount": 3
+    },
+    {
+      "name": "75mm Wood Screw",
+      "bodyCount": 10
+    },
+    {
+      "name": "80mm Vertical Motor Housing",
+      "bodyCount": 1
+    },
+    {
+      "name": "90 Degree Barb",
+      "bodyCount": 1
+    },
+    {
+      "name": "Cable Carrier End 1",
+      "bodyCount": 3
+    },
+    {
+      "name": "Cable Carrier End 2",
+      "bodyCount": 3
+    },
+    {
+      "name": "Cable Carrier Link",
+      "bodyCount": 202
+    },
+    {
+      "name": "Cable Carrier Support",
+      "bodyCount": 2
+    },
+    {
+      "name": "Cable Carrier Tab",
+      "bodyCount": 122
+    },
+    {
+      "name": "Camera Calibration Backing",
+      "bodyCount": 1
+    },
+    {
+      "name": "Electronics Box",
+      "bodyCount": 1
+    },
+    {
+      "name": "Electronics Box Gasket",
+      "bodyCount": 1
+    },
+    {
+      "name": "Electronics Box Latch",
+      "bodyCount": 2
+    },
+    {
+      "name": "Electronics Box Lid",
+      "bodyCount": 1
+    },
+    {
+      "name": "Encoder Base",
+      "bodyCount": 4
+    },
+    {
+      "name": "Encoder Cable - X1",
+      "bodyCount": 1
+    },
+    {
+      "name": "Encoder Cable - X2",
+      "bodyCount": 1
+    },
+    {
+      "name": "Encoder Cable - Y",
+      "bodyCount": 1
+    },
+    {
+      "name": "Encoder Cable - ZY",
+      "bodyCount": 1
+    },
+    {
+      "name": "Extension Cord",
+      "bodyCount": 1
+    },
+    {
+      "name": "Flathead Wood Screw",
+      "bodyCount": 2
+    },
+    {
+      "name": "Garden Faucet",
+      "bodyCount": 1
+    },
+    {
+      "name": "Garden Hose",
+      "bodyCount": 1
+    },
+    {
+      "name": "Getting Started + Calibration Card",
+      "bodyCount": 1
+    },
+    {
+      "name": "Horizontal Cable Carrier Support Extrusion",
+      "bodyCount": 4
+    },
+    {
+      "name": "LED Pin Header",
+      "bodyCount": 10
+    },
+    {
+      "name": "Long Board",
+      "bodyCount": 2
+    },
+    {
+      "name": "Luer Lock Needle Cover",
+      "bodyCount": 6
+    },
+    {
+      "name": "M10 x 100mm Lag Screw",
+      "bodyCount": 20
+    },
+    {
+      "name": "M10 x 40mm Washer",
+      "bodyCount": 20
+    },
+    {
+      "name": "M3 Brass Insert",
+      "bodyCount": 2
+    },
+    {
+      "name": "M3 Setscrew",
+      "bodyCount": 6
+    },
+    {
+      "name": "M3 x 12mm Socket Head Screw",
+      "bodyCount": 2
+    },
+    {
+      "name": "M5 Shim",
+      "bodyCount": 20
+    },
+    {
+      "name": "Main Carton",
+      "bodyCount": 1
+    },
+    {
+      "name": "MicroSD Card",
+      "bodyCount": 1
+    },
+    {
+      "name": "MicroSD Card Case",
+      "bodyCount": 1
+    },
+    {
+      "name": "MicroSD to SD Card Adapter",
+      "bodyCount": 1
+    },
+    {
+      "name": "Motor Cable - X1",
+      "bodyCount": 1
+    },
+    {
+      "name": "Motor Cable - X2",
+      "bodyCount": 1
+    },
+    {
+      "name": "Motor Cable - Y",
+      "bodyCount": 1
+    },
+    {
+      "name": "Motor Cable - ZY",
+      "bodyCount": 1
+    },
+    {
+      "name": "NEMA 17 Stepper Motor",
+      "bodyCount": 4
+    },
+    {
+      "name": "O-Ring (7.5mm ID, modeled as 8mm)",
+      "bodyCount": 3
+    },
+    {
+      "name": "Outlet Box",
+      "bodyCount": 1
+    },
+    {
+      "name": "Pi Power Cable",
+      "bodyCount": 1
+    },
+    {
+      "name": "Pipe",
+      "bodyCount": 1
+    },
+    {
+      "name": "Plastic Bag",
+      "bodyCount": 1
+    },
+    {
+      "name": "Polystrap",
+      "bodyCount": 4
+    },
+    {
+      "name": "Post",
+      "bodyCount": 6
+    },
+    {
+      "name": "Push Button - Red",
+      "bodyCount": 1
+    },
+    {
+      "name": "Push Button - White",
+      "bodyCount": 1
+    },
+    {
+      "name": "Push Button - Yellow",
+      "bodyCount": 1
+    },
+    {
+      "name": "Raspberry Pi 4B",
+      "bodyCount": 1
+    },
+    {
+      "name": "Rotary Encoder",
+      "bodyCount": 4
+    },
+    {
+      "name": "Rotary Tool Motor (500TB-12560)",
+      "bodyCount": 1
+    },
+    {
+      "name": "Seeder Brass Insert",
+      "bodyCount": 1
+    },
+    {
+      "name": "Short Board",
+      "bodyCount": 2
+    },
+    {
+      "name": "Soil",
+      "bodyCount": 1
+    },
+    {
+      "name": "Solenoid Mount",
+      "bodyCount": 1
+    },
+    {
+      "name": "Supergland Half",
+      "bodyCount": 2
+    },
+    {
+      "name": "Tool Magnet",
+      "bodyCount": 12
+    },
+    {
+      "name": "UTM Cable - Y",
+      "bodyCount": 1
+    },
+    {
+      "name": "UTM Cable - Z",
+      "bodyCount": 1
+    },
+    {
+      "name": "UTM Magnet",
+      "bodyCount": 3
+    },
+    {
+      "name": "Utilities Post",
+      "bodyCount": 1
+    },
+    {
+      "name": "Vacuum Pump Cable - Y",
+      "bodyCount": 1
+    },
+    {
+      "name": "Vacuum Tube - Z, 0.15m",
+      "bodyCount": 1
+    },
+    {
+      "name": "Vacuum Tube - Z, 0.95m",
+      "bodyCount": 1
+    },
+    {
+      "name": "Water Tube (X)",
+      "bodyCount": 1
+    },
+    {
+      "name": "Water Tube (Y)",
+      "bodyCount": 1
+    },
+    {
+      "name": "Water Tube (Z)",
+      "bodyCount": 1
+    },
+    {
+      "name": "X-Axis Belt",
+      "bodyCount": 2
+    },
+    {
+      "name": "X-Axis CC Mount",
+      "bodyCount": 1
+    },
+    {
+      "name": "Y-Axis Belt",
+      "bodyCount": 1
+    },
+    {
+      "name": "ZZ Encoder Cable",
+      "bodyCount": 1
+    },
+    {
+      "name": "ZZ Motor Cable",
+      "bodyCount": 1
+    }
+  ],
+  "completeReconciliation": false,
+  "completeOrderClaimAllowed": false
+}

@@ -1,0 +1,1593 @@
+{
+  "schemaVersion": 1,
+  "revision": "FarmBot Genesis v1.8 Production Run 1",
+  "scope": "Display appearance only; original geometry and engineering downloads remain unchanged",
+  "sourceCommit": "44e0fa24d4a538dfa1255a4e89308ccabf3abaeb",
+  "sourceCadUrl": "https://cad.onshape.com/documents/6626b842adca229e69544ad1/v/29ff27176ad028c3b865f257/e/460407715c4d7785c8d45098",
+  "referenceRenderUrl": "https://genesis.farm.bot/v1.8/assembly/_images/assembled_gantry.png",
+  "fallback": "Retain original imported CAD material for unresolved identities or unsupported finishes",
+  "manufacturingPaintCodesSpecified": false,
+  "profiles": {
+    "silver-clear-anodized": {
+      "displayColorSRGB": [
+        0.8,
+        0.82,
+        0.84
+      ],
+      "metalness": 0.75,
+      "roughness": 0.48,
+      "documentedFinish": "Silver/clear anodized aluminum",
+      "displayParametersMeasured": false
+    },
+    "gray-abs": {
+      "displayColorSRGB": [
+        0.6039215922,
+        0.6470588446,
+        0.6862745285
+      ],
+      "metalness": 0,
+      "roughness": 0.73,
+      "documentedFinish": "Gray UV stabilized ABS",
+      "displayParametersMeasured": false,
+      "paletteSource": "Official CAD baseColorFactor of gray plastic material4, used as a visual RGB display target"
+    },
+    "black-polymer": {
+      "displayColorSRGB": [
+        0.1,
+        0.11,
+        0.12
+      ],
+      "metalness": 0,
+      "roughness": 0.8,
+      "documentedFinish": "Black nylon, rubber, plastic or cable exterior as specified per source",
+      "displayParametersMeasured": false
+    },
+    "black-anodized": {
+      "displayColorSRGB": [
+        0.14,
+        0.15,
+        0.16
+      ],
+      "metalness": 0.68,
+      "roughness": 0.55,
+      "documentedFinish": "Black anodized aluminum",
+      "displayParametersMeasured": false
+    },
+    "white-abs": {
+      "displayColorSRGB": [
+        0.9,
+        0.9,
+        0.9
+      ],
+      "metalness": 0,
+      "roughness": 0.69,
+      "documentedFinish": "White UV stabilized ABS",
+      "displayParametersMeasured": false
+    },
+    "cad-supporting-context": {
+      "reinterpretSourceRGBAsSRGB": true,
+      "metalness": 0,
+      "roughness": 0.9,
+      "documentedFinish": "Reference CAD illustration color, not a manufactured kit finish",
+      "displayParametersMeasured": false
+    }
+  },
+  "rules": [
+    {
+      "id": "belt-sleeve",
+      "partIds": [
+        "belt-sleeve"
+      ],
+      "exactCadNames": [
+        "Belt Sleeve"
+      ],
+      "profile": "silver-clear-anodized",
+      "evidence": {
+        "documentUrl": "https://genesis.farm.bot/v1.8/bom/drivetrain/belt-sleeve.html",
+        "pinnedSourceUrl": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/drivetrain/belt-sleeve.md",
+        "sourceSha256": "e38c3a88ac0c279dc31dca962b5cf1a4a7e634c25eb7cb4e6be1a377918765d1",
+        "specs": {
+          "material": "Aluminum",
+          "Surface finish": "Sand blasted and clear anodized"
+        }
+      },
+      "finishConfidence": "documented",
+      "exactDisplayColorConfidence": "illustrative-no-paint-code-specified"
+    },
+    {
+      "id": "gantry-column",
+      "partIds": [
+        "gantry-column"
+      ],
+      "exactCadNames": [
+        "Gantry Column"
+      ],
+      "profile": "silver-clear-anodized",
+      "evidence": {
+        "documentUrl": "https://genesis.farm.bot/v1.8/bom/extrusions/gantry-column.html",
+        "pinnedSourceUrl": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/extrusions/gantry-column.md",
+        "sourceSha256": "0353715ec194cf48007c43f194ceaf135261a0969cc19667a8188e2ed1f38cd2",
+        "specs": {
+          "length": "500mm",
+          "profile": "Custom, 20mm x 60mm V-Slot compatible",
+          "material": "6063-T5 Aluminum",
+          "surface treatment": "Sand blasted and clear anodized"
+        }
+      },
+      "finishConfidence": "documented",
+      "exactDisplayColorConfidence": "illustrative-no-paint-code-specified"
+    },
+    {
+      "id": "gantry-main-beam--1",
+      "partIds": [
+        "gantry-main-beam--1"
+      ],
+      "exactCadNames": [
+        "Gantry Main Beam"
+      ],
+      "profile": "silver-clear-anodized",
+      "evidence": {
+        "documentUrl": "https://genesis.farm.bot/v1.8/bom/extrusions/gantry-main-beam.html",
+        "pinnedSourceUrl": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/extrusions/gantry-main-beam.md",
+        "sourceSha256": "edbd582a746783ad36770502a1c319f827a60111f37b6fdacb987d59947923f4",
+        "specs": {
+          "length": "750mm",
+          "profile": "Custom, 20mm x 60mm V-Slot compatible",
+          "material": "6063-T5 Aluminum",
+          "surface treatment": "Sand blasted and clear anodized"
+        }
+      },
+      "finishConfidence": "documented",
+      "exactDisplayColorConfidence": "illustrative-no-paint-code-specified"
+    },
+    {
+      "id": "track-extrusion",
+      "partIds": [
+        "track-extrusion"
+      ],
+      "exactCadNames": [
+        "Track Extrusion"
+      ],
+      "profile": "silver-clear-anodized",
+      "evidence": {
+        "documentUrl": "https://genesis.farm.bot/v1.8/bom/extrusions/track-extrusion.html",
+        "pinnedSourceUrl": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/extrusions/track-extrusion.md",
+        "sourceSha256": "567c6e679047a07ea8880ea75b94633a8685ebda0696dc5d51e4b4256499a77b",
+        "specs": {
+          "length": "1000mm",
+          "profile": "Custom",
+          "material": "6063-T5 Aluminum",
+          "surface treatment": "Sand blasted and clear anodized"
+        }
+      },
+      "finishConfidence": "documented",
+      "exactDisplayColorConfidence": "illustrative-no-paint-code-specified"
+    },
+    {
+      "id": "z-axis-extrusion",
+      "partIds": [
+        "z-axis-extrusion"
+      ],
+      "exactCadNames": [
+        "20mm x 20mm x 1000mm Extrusion"
+      ],
+      "profile": "silver-clear-anodized",
+      "evidence": {
+        "documentUrl": "https://genesis.farm.bot/v1.8/bom/extrusions/z-axis-extrusion.html",
+        "pinnedSourceUrl": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/extrusions/z-axis-extrusion.md",
+        "sourceSha256": "371aebe0bbb2372c053f5f163ccc83b33de3ac98236d08670d24655631e5fa8f",
+        "specs": {
+          "length": "1000mm",
+          "profile": "20mm x 20mm V-Slot",
+          "material": "6063-T5 Aluminum",
+          "surface treatment": "Sand blasted and clear anodized"
+        }
+      },
+      "finishConfidence": "documented",
+      "exactDisplayColorConfidence": "illustrative-no-paint-code-specified"
+    },
+    {
+      "id": "cable-carrier-spacer-block-40mm",
+      "partIds": [
+        "cable-carrier-spacer-block-40mm"
+      ],
+      "exactCadNames": [
+        "40mm Cable Carrier Spacer Block"
+      ],
+      "profile": "gray-abs",
+      "evidence": {
+        "documentUrl": "https://genesis.farm.bot/v1.8/bom/plastic-parts/cable-carrier-spacer-block-40mm.html",
+        "pinnedSourceUrl": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/plastic-parts/cable-carrier-spacer-block-40mm.md",
+        "sourceSha256": "9d602d7f714c7573e6c60358e9de5bf151a5d5d9ed969bb18d060b3629be341b",
+        "specs": {
+          "material": "Gray UV stabilized ABS"
+        }
+      },
+      "finishConfidence": "documented",
+      "exactDisplayColorConfidence": "illustrative-no-paint-code-specified"
+    },
+    {
+      "id": "cable-carrier-support-vertical-40mm",
+      "partIds": [
+        "cable-carrier-support-vertical-40mm"
+      ],
+      "exactCadNames": [
+        "40mm Vertical Cable Carrier Support"
+      ],
+      "profile": "gray-abs",
+      "evidence": {
+        "documentUrl": "https://genesis.farm.bot/v1.8/bom/plastic-parts/cable-carrier-support-vertical-40mm.html",
+        "pinnedSourceUrl": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/plastic-parts/cable-carrier-support-vertical-40mm.md",
+        "sourceSha256": "64193207338d19781c6944af678b35b24063ba09c5e661c1c961290645932f3d",
+        "specs": {
+          "material": "Gray UV stabilized ABS"
+        }
+      },
+      "finishConfidence": "documented",
+      "exactDisplayColorConfidence": "illustrative-no-paint-code-specified"
+    },
+    {
+      "id": "camera-mount-half",
+      "partIds": [
+        "camera-mount-half"
+      ],
+      "exactCadNames": [
+        "Camera Mount Half"
+      ],
+      "profile": "gray-abs",
+      "evidence": {
+        "documentUrl": "https://genesis.farm.bot/v1.8/bom/plastic-parts/camera-mount-half.html",
+        "pinnedSourceUrl": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/plastic-parts/camera-mount-half.md",
+        "sourceSha256": "ee480d5f6a6a1652f06587ba96fcbcdb91002f35a735ff2e676878c5bcddbec9",
+        "specs": {
+          "material": "Gray UV stabilized ABS"
+        }
+      },
+      "finishConfidence": "documented",
+      "exactDisplayColorConfidence": "illustrative-no-paint-code-specified"
+    },
+    {
+      "id": "motor-housing-horizontal-75mm",
+      "partIds": [
+        "motor-housing-horizontal-75mm"
+      ],
+      "exactCadNames": [
+        "75mm Horizontal Motor Housing"
+      ],
+      "profile": "gray-abs",
+      "evidence": {
+        "documentUrl": "https://genesis.farm.bot/v1.8/bom/plastic-parts/motor-housing-horizontal-75mm.html",
+        "pinnedSourceUrl": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/plastic-parts/motor-housing-horizontal-75mm.md",
+        "sourceSha256": "d6c384218f49100c357bcd55fef8a23cf398c43b99633379c91df21d0e8e5de4",
+        "specs": {
+          "material": "Gray UV stabilized ABS"
+        }
+      },
+      "finishConfidence": "documented",
+      "exactDisplayColorConfidence": "illustrative-no-paint-code-specified"
+    },
+    {
+      "id": "motor-housing-vertical-80mm",
+      "partIds": [
+        "motor-housing-vertical-80mm"
+      ],
+      "exactCadNames": [
+        "80mm Vertical Motor Housing"
+      ],
+      "profile": "gray-abs",
+      "evidence": {
+        "documentUrl": "https://genesis.farm.bot/v1.8/bom/plastic-parts/motor-housing-vertical-80mm.html",
+        "pinnedSourceUrl": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/plastic-parts/motor-housing-vertical-80mm.md",
+        "sourceSha256": "d5f0a4ea983a40a29f08f056290fca7ad2ad5e99b615b9f61f2faa228cdd5054",
+        "specs": {
+          "material": "Gray UV stabilized ABS"
+        }
+      },
+      "finishConfidence": "documented",
+      "exactDisplayColorConfidence": "illustrative-no-paint-code-specified"
+    },
+    {
+      "id": "rotary-tool-bottom",
+      "partIds": [
+        "rotary-tool-bottom"
+      ],
+      "exactCadNames": [
+        "Rotary Tool Bottom"
+      ],
+      "profile": "gray-abs",
+      "evidence": {
+        "documentUrl": "https://genesis.farm.bot/v1.8/bom/plastic-parts/rotary-tool-bottom.html",
+        "pinnedSourceUrl": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/plastic-parts/rotary-tool-bottom.md",
+        "sourceSha256": "b92658403872d41bd7a241bb588b38b2226ada4da4619ce2f5994f2279cc871b",
+        "specs": {
+          "material": "Gray UV stabilized ABS"
+        }
+      },
+      "finishConfidence": "documented",
+      "exactDisplayColorConfidence": "illustrative-no-paint-code-specified"
+    },
+    {
+      "id": "rotary-tool-top",
+      "partIds": [
+        "rotary-tool-top"
+      ],
+      "exactCadNames": [
+        "Rotary Tool Top"
+      ],
+      "profile": "gray-abs",
+      "evidence": {
+        "documentUrl": "https://genesis.farm.bot/v1.8/bom/plastic-parts/rotary-tool-top.html",
+        "pinnedSourceUrl": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/plastic-parts/rotary-tool-top.md",
+        "sourceSha256": "6875d38bbdf122d20bb267b953791e44b4e6197bae8fca6004f2f38b067a78e8",
+        "specs": {
+          "material": "Gray UV stabilized ABS"
+        }
+      },
+      "finishConfidence": "documented",
+      "exactDisplayColorConfidence": "illustrative-no-paint-code-specified"
+    },
+    {
+      "id": "seed-bin",
+      "partIds": [
+        "seed-bin"
+      ],
+      "exactCadNames": [
+        "Seed Bin"
+      ],
+      "profile": "gray-abs",
+      "evidence": {
+        "documentUrl": "https://genesis.farm.bot/v1.8/bom/plastic-parts/seed-bin.html",
+        "pinnedSourceUrl": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/plastic-parts/seed-bin.md",
+        "sourceSha256": "236169549f152dee570ed0702b0e2116b4de0b146fdb9c5911a701cd2ff644e3",
+        "specs": {
+          "material": "Gray UV stabilized ABS"
+        }
+      },
+      "finishConfidence": "documented",
+      "exactDisplayColorConfidence": "illustrative-no-paint-code-specified"
+    },
+    {
+      "id": "seed-tray",
+      "partIds": [
+        "seed-tray"
+      ],
+      "exactCadNames": [
+        "Seed Tray"
+      ],
+      "profile": "gray-abs",
+      "evidence": {
+        "documentUrl": "https://genesis.farm.bot/v1.8/bom/plastic-parts/seed-tray.html",
+        "pinnedSourceUrl": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/plastic-parts/seed-tray.md",
+        "sourceSha256": "e2c25e00181dc88aba2d7e3b1ee6ef0ee918fe57ffdd84239acff89edaeeb7e8",
+        "specs": {
+          "material": "Gray UV stabilized ABS"
+        }
+      },
+      "finishConfidence": "documented",
+      "exactDisplayColorConfidence": "illustrative-no-paint-code-specified"
+    },
+    {
+      "id": "seed-trough-holder",
+      "partIds": [
+        "seed-trough-holder"
+      ],
+      "exactCadNames": [
+        "Seed Trough Holder"
+      ],
+      "profile": "gray-abs",
+      "evidence": {
+        "documentUrl": "https://genesis.farm.bot/v1.8/bom/plastic-parts/seed-trough-holder.html",
+        "pinnedSourceUrl": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/plastic-parts/seed-trough-holder.md",
+        "sourceSha256": "ba0a677c646366bae0654f34648fc628340d5c659808d8cc5fcc898d7271d9c6",
+        "specs": {
+          "material": "Gray UV stabilized ABS"
+        }
+      },
+      "finishConfidence": "documented",
+      "exactDisplayColorConfidence": "illustrative-no-paint-code-specified"
+    },
+    {
+      "id": "seed-trough",
+      "partIds": [
+        "seed-trough"
+      ],
+      "exactCadNames": [
+        "Seed Trough"
+      ],
+      "profile": "gray-abs",
+      "evidence": {
+        "documentUrl": "https://genesis.farm.bot/v1.8/bom/plastic-parts/seed-trough.html",
+        "pinnedSourceUrl": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/plastic-parts/seed-trough.md",
+        "sourceSha256": "e7737cf1c263c3d5ffe70bcdc88736a810b91ec088101491c6e9bc4c14c34fe0",
+        "specs": {
+          "material": "Gray UV stabilized ABS"
+        }
+      },
+      "finishConfidence": "documented",
+      "exactDisplayColorConfidence": "illustrative-no-paint-code-specified"
+    },
+    {
+      "id": "seeder",
+      "partIds": [
+        "seeder"
+      ],
+      "exactCadNames": [
+        "Seeder"
+      ],
+      "profile": "gray-abs",
+      "evidence": {
+        "documentUrl": "https://genesis.farm.bot/v1.8/bom/plastic-parts/seeder.html",
+        "pinnedSourceUrl": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/plastic-parts/seeder.md",
+        "sourceSha256": "1cfe6ac21a3f550b2fb9b4e1764bd1afcc08a3f9f0229374d4176d3b0e7dc679",
+        "specs": {
+          "material": "Gray UV stabilized ABS",
+          "brass insert": "M5 threads"
+        }
+      },
+      "finishConfidence": "documented",
+      "exactDisplayColorConfidence": "illustrative-no-paint-code-specified"
+    },
+    {
+      "id": "soil-sensor",
+      "partIds": [
+        "soil-sensor"
+      ],
+      "exactCadNames": [
+        "Soil Sensor"
+      ],
+      "profile": "gray-abs",
+      "evidence": {
+        "documentUrl": "https://genesis.farm.bot/v1.8/bom/plastic-parts/soil-sensor.html",
+        "pinnedSourceUrl": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/plastic-parts/soil-sensor.md",
+        "sourceSha256": "c0f9c345cdfc56294c17b58101faf01b09481234e441dd77a6eccce5316b21a8",
+        "specs": {
+          "material": "Gray UV stabilized ABS"
+        }
+      },
+      "finishConfidence": "documented",
+      "exactDisplayColorConfidence": "illustrative-no-paint-code-specified"
+    },
+    {
+      "id": "solenoid-valve-mount",
+      "partIds": [
+        "solenoid-valve-mount"
+      ],
+      "exactCadNames": [
+        "Solenoid Mount"
+      ],
+      "profile": "gray-abs",
+      "evidence": {
+        "documentUrl": "https://genesis.farm.bot/v1.8/bom/plastic-parts/solenoid-valve-mount.html",
+        "pinnedSourceUrl": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/plastic-parts/solenoid-valve-mount.md",
+        "sourceSha256": "a341b642ca65637ca7fe377ccbffaaf1639866f06b1fbb5d15d8bf85dec72009",
+        "specs": {
+          "material": "Gray UV stabilized ABS"
+        }
+      },
+      "finishConfidence": "documented",
+      "exactDisplayColorConfidence": "illustrative-no-paint-code-specified"
+    },
+    {
+      "id": "vacuum-pump-cover",
+      "partIds": [
+        "vacuum-pump-cover"
+      ],
+      "exactCadNames": [
+        "Vacuum Pump Cover"
+      ],
+      "profile": "gray-abs",
+      "evidence": {
+        "documentUrl": "https://genesis.farm.bot/v1.8/bom/plastic-parts/vacuum-pump-cover.html",
+        "pinnedSourceUrl": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/plastic-parts/vacuum-pump-cover.md",
+        "sourceSha256": "f44e1ed866c0c483dfe9ff06f04807c997f82cdc79e77710e25b4bad9db00a9a",
+        "specs": {
+          "material": "Gray UV stabilized ABS"
+        }
+      },
+      "finishConfidence": "documented",
+      "exactDisplayColorConfidence": "illustrative-no-paint-code-specified"
+    },
+    {
+      "id": "watering-nozzle-bottom",
+      "partIds": [
+        "watering-nozzle-bottom"
+      ],
+      "exactCadNames": [
+        "Watering Nozzle Bottom"
+      ],
+      "profile": "gray-abs",
+      "evidence": {
+        "documentUrl": "https://genesis.farm.bot/v1.8/bom/plastic-parts/watering-nozzle-bottom.html",
+        "pinnedSourceUrl": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/plastic-parts/watering-nozzle-bottom.md",
+        "sourceSha256": "9d5f2904b2c5a89126864dd83831355b2548dae11444a7b9cd70c97bb6ea0df4",
+        "specs": {
+          "material": "Gray UV stabilized ABS"
+        }
+      },
+      "finishConfidence": "documented",
+      "exactDisplayColorConfidence": "illustrative-no-paint-code-specified"
+    },
+    {
+      "id": "watering-nozzle-top",
+      "partIds": [
+        "watering-nozzle-top"
+      ],
+      "exactCadNames": [
+        "Watering Nozzle Top"
+      ],
+      "profile": "gray-abs",
+      "evidence": {
+        "documentUrl": "https://genesis.farm.bot/v1.8/bom/plastic-parts/watering-nozzle-top.html",
+        "pinnedSourceUrl": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/plastic-parts/watering-nozzle-top.md",
+        "sourceSha256": "e739fd3cb053c10559240ed78a425536adec7c81824b170003b2644a9da34e32",
+        "specs": {
+          "material": "Gray UV stabilized ABS"
+        }
+      },
+      "finishConfidence": "documented",
+      "exactDisplayColorConfidence": "illustrative-no-paint-code-specified"
+    },
+    {
+      "id": "belt-clip",
+      "partIds": [
+        "belt-clip"
+      ],
+      "exactCadNames": [
+        "Belt Clip - Slim"
+      ],
+      "profile": "silver-clear-anodized",
+      "evidence": {
+        "documentUrl": "https://genesis.farm.bot/v1.8/bom/plates-and-brackets/belt-clip.html",
+        "pinnedSourceUrl": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/plates-and-brackets/belt-clip.md",
+        "sourceSha256": "0b5d1573b4d0b14dd0ad8f9449b7e3f1e67cf7ca47bd471dd3eb455f2dbec8e3",
+        "specs": {
+          "thickness": "5mm",
+          "material": "6061 Aluminum",
+          "surface treatments": "Tumble polished<br>Sand blasted<br>Clear anodized"
+        }
+      },
+      "finishConfidence": "documented",
+      "exactDisplayColorConfidence": "illustrative-no-paint-code-specified"
+    },
+    {
+      "id": "cable-carrier-mount-60mm",
+      "partIds": [
+        "cable-carrier-mount-60mm"
+      ],
+      "exactCadNames": [
+        "60mm Cable Carrier Mount"
+      ],
+      "profile": "silver-clear-anodized",
+      "evidence": {
+        "documentUrl": "https://genesis.farm.bot/v1.8/bom/plates-and-brackets/cable-carrier-mount-60mm.html",
+        "pinnedSourceUrl": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/plates-and-brackets/cable-carrier-mount-60mm.md",
+        "sourceSha256": "8f7992cf6a644b151a7f714d880a49b5cc654c9d6cfb258b40e2ba167d134216",
+        "specs": {
+          "material": "Machined 6061 Aluminum",
+          "surface treatments": "Tumble polished<br>Sandblasted<br>Clear anodized"
+        }
+      },
+      "finishConfidence": "documented",
+      "exactDisplayColorConfidence": "illustrative-no-paint-code-specified"
+    },
+    {
+      "id": "cable-carrier-mount-x-axis",
+      "partIds": [
+        "cable-carrier-mount-x-axis"
+      ],
+      "exactCadNames": [
+        "X-Axis CC Mount"
+      ],
+      "profile": "silver-clear-anodized",
+      "evidence": {
+        "documentUrl": "https://genesis.farm.bot/v1.8/bom/plates-and-brackets/cable-carrier-mount-x-axis.html",
+        "pinnedSourceUrl": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/plates-and-brackets/cable-carrier-mount-x-axis.md",
+        "sourceSha256": "aa3f420e781d147380d3491607647cd78a4aedb5792ad14d86dc6a3bda140243",
+        "specs": {
+          "material": "Machined 6061 Aluminum",
+          "surface treatments": "Tumble polished<br>Sandblasted<br>Clear anodized"
+        }
+      },
+      "finishConfidence": "documented",
+      "exactDisplayColorConfidence": "illustrative-no-paint-code-specified"
+    },
+    {
+      "id": "cross-slide-plate",
+      "partIds": [
+        "cross-slide-plate"
+      ],
+      "exactCadNames": [
+        "Cross-Slide Plate"
+      ],
+      "profile": "silver-clear-anodized",
+      "evidence": {
+        "documentUrl": "https://genesis.farm.bot/v1.8/bom/plates-and-brackets/cross-slide-plate.html",
+        "pinnedSourceUrl": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/plates-and-brackets/cross-slide-plate.md",
+        "sourceSha256": "82585fe839eeed6c29344bcb4dec5538b601d0bbf6179846702ca68d9edc9888",
+        "specs": {
+          "thickness": "5mm",
+          "material": "6061 Aluminum",
+          "surface treatments": "Tumble polished<br>Sand blasted<br>Clear anodized"
+        }
+      },
+      "finishConfidence": "documented",
+      "exactDisplayColorConfidence": "illustrative-no-paint-code-specified"
+    },
+    {
+      "id": "gantry-corner-bracket-left",
+      "partIds": [
+        "gantry-corner-bracket-left"
+      ],
+      "exactCadNames": [
+        "Left Gantry Corner Bracket"
+      ],
+      "profile": "silver-clear-anodized",
+      "evidence": {
+        "documentUrl": "https://genesis.farm.bot/v1.8/bom/plates-and-brackets/gantry-corner-bracket-left.html",
+        "pinnedSourceUrl": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/plates-and-brackets/gantry-corner-bracket-left.md",
+        "sourceSha256": "58825a46abeb48bafe1f574f6b32e2ec8d6821638f11bd388857088d5efd8ce7",
+        "specs": {
+          "thickness": "5mm",
+          "material": "5052 Aluminum",
+          "surface treatments": "Tumble polished<br>Sand blasted<br>Clear anodized"
+        }
+      },
+      "finishConfidence": "documented",
+      "exactDisplayColorConfidence": "illustrative-no-paint-code-specified"
+    },
+    {
+      "id": "gantry-corner-bracket-right",
+      "partIds": [
+        "gantry-corner-bracket-right"
+      ],
+      "exactCadNames": [
+        "Right Gantry Corner Bracket"
+      ],
+      "profile": "silver-clear-anodized",
+      "evidence": {
+        "documentUrl": "https://genesis.farm.bot/v1.8/bom/plates-and-brackets/gantry-corner-bracket-right.html",
+        "pinnedSourceUrl": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/plates-and-brackets/gantry-corner-bracket-right.md",
+        "sourceSha256": "8a3e6fd0d1c09c26698be86b9b212ce5e018e0b0ed3502268b9403aabe60b015",
+        "specs": {
+          "thickness": "5mm",
+          "material": "5052 Aluminum",
+          "surface treatments": "Tumble polished<br>Sand blasted<br>Clear anodized"
+        }
+      },
+      "finishConfidence": "documented",
+      "exactDisplayColorConfidence": "illustrative-no-paint-code-specified"
+    },
+    {
+      "id": "gantry-joining-bar",
+      "partIds": [
+        "gantry-joining-bar"
+      ],
+      "exactCadNames": [
+        "Gantry Joining Bar"
+      ],
+      "profile": "silver-clear-anodized",
+      "evidence": {
+        "documentUrl": "https://genesis.farm.bot/v1.8/bom/plates-and-brackets/gantry-joining-bar.html",
+        "pinnedSourceUrl": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/plates-and-brackets/gantry-joining-bar.md",
+        "sourceSha256": "f4fc3c1e6755180cf17fee49d0f4f46e67d5898280f2ad647b67925c86214ca8",
+        "specs": {
+          "material": "6061 Aluminum",
+          "surface treatments": "Tumble polished<br>Sand blasted<br>Clear anodized"
+        }
+      },
+      "finishConfidence": "documented",
+      "exactDisplayColorConfidence": "illustrative-no-paint-code-specified"
+    },
+    {
+      "id": "gantry-wheel-plate",
+      "partIds": [
+        "gantry-wheel-plate"
+      ],
+      "exactCadNames": [
+        "Gantry Wheel Plate"
+      ],
+      "profile": "silver-clear-anodized",
+      "evidence": {
+        "documentUrl": "https://genesis.farm.bot/v1.8/bom/plates-and-brackets/gantry-wheel-plate.html",
+        "pinnedSourceUrl": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/plates-and-brackets/gantry-wheel-plate.md",
+        "sourceSha256": "87c0855a568633953eceae678a3a5ecb57d3dbad0dce21a488c6a6ae8b1cebd2",
+        "specs": {
+          "thickness": "5mm",
+          "material": "6061 Aluminum",
+          "surface treatments": "Tumble polished<br>Sand blasted<br>Clear anodized"
+        }
+      },
+      "finishConfidence": "documented",
+      "exactDisplayColorConfidence": "illustrative-no-paint-code-specified"
+    },
+    {
+      "id": "seed-trough-holder-mount",
+      "partIds": [
+        "seed-trough-holder-mount"
+      ],
+      "exactCadNames": [
+        "Seed Trough Holder Mount Plate"
+      ],
+      "profile": "silver-clear-anodized",
+      "evidence": {
+        "documentUrl": "https://genesis.farm.bot/v1.8/bom/plates-and-brackets/seed-trough-holder-mount.html",
+        "pinnedSourceUrl": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/plates-and-brackets/seed-trough-holder-mount.md",
+        "sourceSha256": "f7a6a5aafdb52c3e095c5904873ec142b0b8a379856a0676e19290cb180e8523",
+        "specs": {
+          "thickness": "5mm",
+          "material": "6061 Aluminum",
+          "surface treatments": "Tumble polished<br>Sand blasted<br>Clear anodized"
+        }
+      },
+      "finishConfidence": "documented",
+      "exactDisplayColorConfidence": "illustrative-no-paint-code-specified"
+    },
+    {
+      "id": "toolbay-3-slot",
+      "partIds": [
+        "toolbay-3-slot"
+      ],
+      "exactCadNames": [
+        "3-Slot Toolbay"
+      ],
+      "profile": "black-anodized",
+      "evidence": {
+        "documentUrl": "https://genesis.farm.bot/v1.8/bom/plates-and-brackets/toolbay-3-slot.html",
+        "pinnedSourceUrl": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/plates-and-brackets/toolbay-3-slot.md",
+        "sourceSha256": "d2cf24eaa028fe61d65f497737b989ae895332090ddbd102563edc62ca13c9a6",
+        "specs": {
+          "thickness": "5mm",
+          "material": "5052 Aluminum",
+          "surface treatments": "Tumble polished<br>Sand blasted<br>Black anodized<br>Laser engraved logo"
+        }
+      },
+      "finishConfidence": "documented",
+      "exactDisplayColorConfidence": "illustrative-no-paint-code-specified",
+      "eligibleSourceMaterialNames": [
+        "0.180392_0.180392_0.180392_0.000000_0.000000"
+      ]
+    },
+    {
+      "id": "vacuum-pump-mount",
+      "partIds": [
+        "vacuum-pump-mount"
+      ],
+      "exactCadNames": [
+        "Vacuum Pump Mount"
+      ],
+      "profile": "silver-clear-anodized",
+      "evidence": {
+        "documentUrl": "https://genesis.farm.bot/v1.8/bom/plates-and-brackets/vacuum-pump-mount.html",
+        "pinnedSourceUrl": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/plates-and-brackets/vacuum-pump-mount.md",
+        "sourceSha256": "fc2b141eca5602359b1b975faa81d151daddd605edf7acbf6ff7f59648909008",
+        "specs": {
+          "thickness": "5mm",
+          "material": "6061 Aluminum",
+          "surface treatments": "Tumble polished<br>Sand blasted<br>Clear anodized"
+        }
+      },
+      "finishConfidence": "documented",
+      "exactDisplayColorConfidence": "illustrative-no-paint-code-specified"
+    },
+    {
+      "id": "z-axis-hardstop",
+      "partIds": [
+        "z-axis-hardstop"
+      ],
+      "exactCadNames": [
+        "Z-Axis Hardstop"
+      ],
+      "profile": "silver-clear-anodized",
+      "evidence": {
+        "documentUrl": "https://genesis.farm.bot/v1.8/bom/plates-and-brackets/z-axis-hardstop.html",
+        "pinnedSourceUrl": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/plates-and-brackets/z-axis-hardstop.md",
+        "sourceSha256": "4b9cce89e87beeec08acfb8c9e379c1ae8ba7068321f4c73940f92477295caea",
+        "specs": {
+          "thickness": "5mm",
+          "material": "6061 Aluminum",
+          "surface treatments": "Tumble polished<br>Sand blasted<br>Clear anodized"
+        }
+      },
+      "finishConfidence": "documented",
+      "exactDisplayColorConfidence": "illustrative-no-paint-code-specified"
+    },
+    {
+      "id": "z-axis-motor-mount",
+      "partIds": [
+        "z-axis-motor-mount"
+      ],
+      "exactCadNames": [
+        "Z-Axis Motor Mount"
+      ],
+      "profile": "silver-clear-anodized",
+      "evidence": {
+        "documentUrl": "https://genesis.farm.bot/v1.8/bom/plates-and-brackets/z-axis-motor-mount.html",
+        "pinnedSourceUrl": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/plates-and-brackets/z-axis-motor-mount.md",
+        "sourceSha256": "c0b1bc91e356d0661cdf52c9e0d834039603deaab9cacb96e0283d088627fec5",
+        "specs": {
+          "material": "Machined 6061 Aluminum",
+          "surface treatments": "Tumble polished<br>Sandblasted<br>Clear anodized"
+        }
+      },
+      "finishConfidence": "documented",
+      "exactDisplayColorConfidence": "illustrative-no-paint-code-specified"
+    },
+    {
+      "id": "electronics-box--1",
+      "partIds": [
+        "electronics-box--1"
+      ],
+      "exactCadNames": [
+        "Electronics Box"
+      ],
+      "profile": "white-abs",
+      "evidence": {
+        "documentUrl": "https://genesis.farm.bot/v1.8/bom/electronics-and-wiring/electronics-box.html",
+        "pinnedSourceUrl": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/electronics-and-wiring/electronics-box.md",
+        "sourceSha256": "aad475ad42bf43eaff8d57d99dc01edbd987c8218f1edc381c29c8e16d10c797",
+        "specs": {
+          "materials": "UV stabilized ABS<br>Gasket and Supergland - Rubber<br>Screws and Nuts - Stainless steel",
+          "rainproof?": true,
+          "colors": "White",
+          "cover type": "Hinged with latches",
+          "hinge type": "M3 x 35mm screws with locknuts"
+        }
+      },
+      "finishConfidence": "documented",
+      "exactDisplayColorConfidence": "illustrative-no-paint-code-specified"
+    },
+    {
+      "id": "electronics-box--3",
+      "partIds": [
+        "electronics-box--3"
+      ],
+      "exactCadNames": [
+        "Electronics Box Gasket"
+      ],
+      "profile": "black-polymer",
+      "evidence": {
+        "documentUrl": "https://genesis.farm.bot/v1.8/bom/electronics-and-wiring/electronics-box.html",
+        "pinnedSourceUrl": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/electronics-and-wiring/electronics-box.md",
+        "sourceSha256": "aad475ad42bf43eaff8d57d99dc01edbd987c8218f1edc381c29c8e16d10c797",
+        "specs": {
+          "materials": "UV stabilized ABS<br>Gasket and Supergland - Rubber<br>Screws and Nuts - Stainless steel",
+          "rainproof?": true,
+          "colors": "Black",
+          "cover type": "Hinged with latches",
+          "hinge type": "M3 x 35mm screws with locknuts"
+        }
+      },
+      "finishConfidence": "documented",
+      "exactDisplayColorConfidence": "illustrative-no-paint-code-specified"
+    },
+    {
+      "id": "electronics-box--4",
+      "partIds": [
+        "electronics-box--4"
+      ],
+      "exactCadNames": [
+        "Electronics Box Latch"
+      ],
+      "profile": "black-polymer",
+      "evidence": {
+        "documentUrl": "https://genesis.farm.bot/v1.8/bom/electronics-and-wiring/electronics-box.html",
+        "pinnedSourceUrl": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/electronics-and-wiring/electronics-box.md",
+        "sourceSha256": "aad475ad42bf43eaff8d57d99dc01edbd987c8218f1edc381c29c8e16d10c797",
+        "specs": {
+          "materials": "UV stabilized ABS<br>Gasket and Supergland - Rubber<br>Screws and Nuts - Stainless steel",
+          "rainproof?": true,
+          "colors": "Black",
+          "cover type": "Hinged with latches",
+          "hinge type": "M3 x 35mm screws with locknuts"
+        }
+      },
+      "finishConfidence": "documented",
+      "exactDisplayColorConfidence": "illustrative-no-paint-code-specified"
+    },
+    {
+      "id": "supergland",
+      "partIds": [
+        "supergland"
+      ],
+      "exactCadNames": [
+        "Supergland Half"
+      ],
+      "profile": "black-polymer",
+      "evidence": {
+        "documentUrl": "https://genesis.farm.bot/v1.8/bom/electronics-and-wiring/supergland.html",
+        "pinnedSourceUrl": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/electronics-and-wiring/supergland.md",
+        "sourceSha256": "b8e0b38130bd2e0e2bb1aa09cde54b0342243fb00764a399eac74262fa33a308",
+        "specs": {
+          "color": "Black"
+        }
+      },
+      "finishConfidence": "documented",
+      "exactDisplayColorConfidence": "illustrative-no-paint-code-specified"
+    },
+    {
+      "id": "push-button-o-ring",
+      "partIds": [
+        "push-button-o-ring"
+      ],
+      "exactCadNames": [
+        "Push Button O-Ring"
+      ],
+      "profile": "black-polymer",
+      "evidence": {
+        "documentUrl": "https://genesis.farm.bot/v1.8/bom/electronics-and-wiring/push-button-o-ring.html",
+        "pinnedSourceUrl": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/electronics-and-wiring/push-button-o-ring.md",
+        "sourceSha256": "1c264dd9e2eb0d88e2cfb5fd86342af02e12a32065c61d3718378f8847e7ced4",
+        "specs": {
+          "color": "Black",
+          "material": "Buna-N"
+        }
+      },
+      "finishConfidence": "documented",
+      "exactDisplayColorConfidence": "illustrative-no-paint-code-specified"
+    },
+    {
+      "id": "belt-clip-dampener",
+      "partIds": [
+        "belt-clip-dampener"
+      ],
+      "exactCadNames": [
+        "Belt Clip Dampener"
+      ],
+      "profile": "black-polymer",
+      "evidence": {
+        "documentUrl": "https://genesis.farm.bot/v1.8/bom/drivetrain/belt-clip-dampener.html",
+        "pinnedSourceUrl": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/drivetrain/belt-clip-dampener.md",
+        "sourceSha256": "608d0f1c5a31cd6220a6df637c070441f363316cd55a81d0819dfbf62ad3bb51",
+        "specs": {
+          "material": "Buna-N",
+          "id": "12mm",
+          "thickness": "1.5mm",
+          "color": "Black"
+        }
+      },
+      "finishConfidence": "documented",
+      "exactDisplayColorConfidence": "illustrative-no-paint-code-specified"
+    },
+    {
+      "id": "rotary-tool-chuck",
+      "partIds": [
+        "rotary-tool-chuck"
+      ],
+      "exactCadNames": [
+        "Rotary Tool Chuck"
+      ],
+      "profile": "black-polymer",
+      "evidence": {
+        "documentUrl": "https://genesis.farm.bot/v1.8/bom/fasteners-and-hardware/rotary-tool-chuck.html",
+        "pinnedSourceUrl": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/fasteners-and-hardware/rotary-tool-chuck.md",
+        "sourceSha256": "c0775dfee4694f32c7b8fb11c92ca3c8e65f99d1dabf7f213393cdc51d72e53f",
+        "specs": {
+          "threads": "M8 x 0.75mm",
+          "color": "Black"
+        }
+      },
+      "finishConfidence": "documented",
+      "exactDisplayColorConfidence": "illustrative-no-paint-code-specified"
+    },
+    {
+      "id": "rotary-tool-trimmer",
+      "partIds": [
+        "rotary-tool-trimmer"
+      ],
+      "exactCadNames": [
+        "Rotary Tool Trimmer"
+      ],
+      "profile": "black-polymer",
+      "evidence": {
+        "documentUrl": "https://genesis.farm.bot/v1.8/bom/fasteners-and-hardware/rotary-tool-trimmer.html",
+        "pinnedSourceUrl": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/fasteners-and-hardware/rotary-tool-trimmer.md",
+        "sourceSha256": "329ed6292c73ff361d0bbacff5ebf676426cd5be137726a6669289ccef80e63f",
+        "specs": {
+          "material": "Nylon",
+          "color": "Black",
+          "length": "60mm",
+          "width": "3mm"
+        }
+      },
+      "finishConfidence": "documented",
+      "exactDisplayColorConfidence": "illustrative-no-paint-code-specified"
+    },
+    {
+      "id": "zip-tie-200mm",
+      "partIds": [
+        "zip-tie-200mm"
+      ],
+      "exactCadNames": [
+        "200mm Zip Tie"
+      ],
+      "profile": "black-polymer",
+      "evidence": {
+        "documentUrl": "https://genesis.farm.bot/v1.8/bom/fasteners-and-hardware/zip-tie-200mm.html",
+        "pinnedSourceUrl": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/fasteners-and-hardware/zip-tie-200mm.md",
+        "sourceSha256": "c674d3c29a9cc6064c183f9ca2e5dc30adfa1a3871fe597c9a260b5bf9215723",
+        "specs": {
+          "material": "Nylon",
+          "color": "Black",
+          "length": "200mm"
+        }
+      },
+      "finishConfidence": "documented",
+      "exactDisplayColorConfidence": "illustrative-no-paint-code-specified"
+    },
+    {
+      "id": "o-ring",
+      "partIds": [
+        "o-ring"
+      ],
+      "exactCadNames": [
+        "O-Ring (7.5mm ID, modeled as 8mm)"
+      ],
+      "profile": "black-polymer",
+      "evidence": {
+        "documentUrl": "https://genesis.farm.bot/v1.8/bom/tubing/o-ring.html",
+        "pinnedSourceUrl": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/tubing/o-ring.md",
+        "sourceSha256": "d3d9288222e652dcfbf75fd14fe70e8b112f6a4dfb9bdb2dd3f418500338fa6b",
+        "specs": {
+          "material": "Viton",
+          "durometer": "A70 (Medium)",
+          "outer diameter": "10.5mm",
+          "inner diameter": "7.65mm",
+          "thickness": "1.78mm",
+          "temperature range": "-30° to 212° F",
+          "color": "Black"
+        }
+      },
+      "finishConfidence": "documented",
+      "exactDisplayColorConfidence": "illustrative-no-paint-code-specified"
+    },
+    {
+      "id": "pressure-regulator",
+      "partIds": [
+        "pressure-regulator"
+      ],
+      "exactCadNames": [
+        "Pressure Regulator"
+      ],
+      "profile": "black-polymer",
+      "evidence": {
+        "documentUrl": "https://genesis.farm.bot/v1.8/bom/tubing/pressure-regulator.html",
+        "pinnedSourceUrl": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/tubing/pressure-regulator.md",
+        "sourceSha256": "c8ede1024095bc8045bec565868d02a2ff6018d1852219d7705eee1f8bcb64ad",
+        "specs": {
+          "material": "UV resistant plastic",
+          "inlet": "3/4\" female pipe thread (NPT)",
+          "outlet": "3/4\" male pipe thread (NPT)",
+          "color": "Black",
+          "outer diameter": "1.25 inches (31.75mm)",
+          "outlet pressure": "15 PSI (103 kpa, 1.02 bar)",
+          "max input pressure": "100 PSI (688 kpa, 6.88 bar)",
+          "rubber gasket?": "Included"
+        }
+      },
+      "finishConfidence": "documented",
+      "exactDisplayColorConfidence": "illustrative-no-paint-code-specified"
+    },
+    {
+      "id": "carrier-component-finish",
+      "partIds": [],
+      "exactCadNames": [
+        "Cable Carrier Link",
+        "Cable Carrier Tab",
+        "Cable Carrier End 1",
+        "Cable Carrier End 2"
+      ],
+      "profile": "black-polymer",
+      "evidence": [
+        {
+          "documentUrl": "https://genesis.farm.bot/v1.8/bom/electronics-and-wiring/cable-carrier-x-axis.html",
+          "pinnedSourceUrl": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/electronics-and-wiring/cable-carrier-x-axis.md",
+          "sourceSha256": "5d637f9edf5211b6ebfb022b4415b89b656c37386c68345468a8f30fa78b6bc0",
+          "material": "Black Nylon PA66"
+        },
+        {
+          "documentUrl": "https://genesis.farm.bot/v1.8/bom/electronics-and-wiring/cable-carrier-y-axis.html",
+          "pinnedSourceUrl": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/electronics-and-wiring/cable-carrier-y-axis.md",
+          "sourceSha256": "9998e82df9c6da75153d4dc460714ff328f612f768eab5428edba83d4441d5c2",
+          "material": "Black Nylon PA66"
+        },
+        {
+          "documentUrl": "https://genesis.farm.bot/v1.8/bom/electronics-and-wiring/cable-carrier-z-axis.html",
+          "pinnedSourceUrl": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/electronics-and-wiring/cable-carrier-z-axis.md",
+          "sourceSha256": "bc133383420f9cc2579c4e9e4b6f7bc039f7cafe0e813c128d8055e6c2c15784",
+          "material": "Black Nylon PA66"
+        }
+      ],
+      "finishConfidence": "documented-subcomponent-of-source-carrier",
+      "exactDisplayColorConfidence": "illustrative-no-paint-code-specified"
+    },
+    {
+      "id": "motor-cable--1",
+      "partIds": [
+        "motor-cable--1"
+      ],
+      "exactCadNames": [
+        "Motor Cable - X1"
+      ],
+      "profile": "black-polymer",
+      "evidence": {
+        "documentUrl": "https://genesis.farm.bot/v1.8/bom/electronics-and-wiring/motor-cable.html",
+        "pinnedSourceUrl": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/electronics-and-wiring/motor-cable.md",
+        "sourceSha256": "ea944e427744393c4e0d65e0a0dc6dd979d0e813afd8491892159673e1b4cc7a",
+        "specs": {
+          "length": "0.7m",
+          "Cores": 4,
+          "Gauge": 18,
+          "Motor connector": "6 pin connector (only 4 pins used)",
+          "Intermediate connector": "4-pin waterproof screw together 90 degree connectors. (female connector on the Y-Axis sections, male connector on the Z-Axis section)",
+          "Farmduino connector": "2.54mm pitch 4-pin connector with locking tab (<a href=\"https://www.molex.com/molex/products/part-detail/crimp_housings/0050579404\">Molex Part 50579404</a>)",
+          "Outer color": "Black",
+          "Inner Colors": "Black, Red, Yellow, White",
+          "Label": "X1"
+        }
+      },
+      "finishConfidence": "documented",
+      "exactDisplayColorConfidence": "illustrative-no-paint-code-specified",
+      "eligibleSourceMaterialNames": [
+        "0.301961_0.301961_0.301961_0.000000_0.000000",
+        "0.258824_0.262745_0.262745_0.000000_0.000000",
+        "0.262745_0.262745_0.262745_0.000000_0.000000",
+        "0.156863_0.152941_0.152941_0.000000_0.000000",
+        "0.156863_0.156863_0.156863_0.000000_0.000000",
+        "0.152941_0.152941_0.156863_0.000000_0.000000"
+      ]
+    },
+    {
+      "id": "motor-cable--2",
+      "partIds": [
+        "motor-cable--2"
+      ],
+      "exactCadNames": [
+        "Motor Cable - X2"
+      ],
+      "profile": "black-polymer",
+      "evidence": {
+        "documentUrl": "https://genesis.farm.bot/v1.8/bom/electronics-and-wiring/motor-cable.html",
+        "pinnedSourceUrl": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/electronics-and-wiring/motor-cable.md",
+        "sourceSha256": "ea944e427744393c4e0d65e0a0dc6dd979d0e813afd8491892159673e1b4cc7a",
+        "specs": {
+          "length": "2.3m",
+          "Cores": 4,
+          "Gauge": 18,
+          "Motor connector": "6 pin connector (only 4 pins used)",
+          "Intermediate connector": "4-pin waterproof screw together 90 degree connectors. (female connector on the Y-Axis sections, male connector on the Z-Axis section)",
+          "Farmduino connector": "2.54mm pitch 4-pin connector with locking tab (<a href=\"https://www.molex.com/molex/products/part-detail/crimp_housings/0050579404\">Molex Part 50579404</a>)",
+          "Outer color": "Black",
+          "Inner Colors": "Black, Red, Yellow, White",
+          "Label": "X2"
+        }
+      },
+      "finishConfidence": "documented",
+      "exactDisplayColorConfidence": "illustrative-no-paint-code-specified",
+      "eligibleSourceMaterialNames": [
+        "0.301961_0.301961_0.301961_0.000000_0.000000",
+        "0.258824_0.262745_0.262745_0.000000_0.000000",
+        "0.262745_0.262745_0.262745_0.000000_0.000000",
+        "0.156863_0.152941_0.152941_0.000000_0.000000",
+        "0.156863_0.156863_0.156863_0.000000_0.000000",
+        "0.152941_0.152941_0.156863_0.000000_0.000000"
+      ]
+    },
+    {
+      "id": "motor-cable--3",
+      "partIds": [
+        "motor-cable--3"
+      ],
+      "exactCadNames": [
+        "Motor Cable - Y"
+      ],
+      "profile": "black-polymer",
+      "evidence": {
+        "documentUrl": "https://genesis.farm.bot/v1.8/bom/electronics-and-wiring/motor-cable.html",
+        "pinnedSourceUrl": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/electronics-and-wiring/motor-cable.md",
+        "sourceSha256": "ea944e427744393c4e0d65e0a0dc6dd979d0e813afd8491892159673e1b4cc7a",
+        "specs": {
+          "length": "2.7m",
+          "Cores": 4,
+          "Gauge": 18,
+          "Motor connector": "6 pin connector (only 4 pins used)",
+          "Intermediate connector": "4-pin waterproof screw together 90 degree connectors. (female connector on the Y-Axis sections, male connector on the Z-Axis section)",
+          "Farmduino connector": "2.54mm pitch 4-pin connector with locking tab (<a href=\"https://www.molex.com/molex/products/part-detail/crimp_housings/0050579404\">Molex Part 50579404</a>)",
+          "Outer color": "Black",
+          "Inner Colors": "Black, Red, Yellow, White",
+          "Label": "Y"
+        }
+      },
+      "finishConfidence": "documented",
+      "exactDisplayColorConfidence": "illustrative-no-paint-code-specified",
+      "eligibleSourceMaterialNames": [
+        "0.301961_0.301961_0.301961_0.000000_0.000000",
+        "0.258824_0.262745_0.262745_0.000000_0.000000",
+        "0.262745_0.262745_0.262745_0.000000_0.000000",
+        "0.156863_0.152941_0.152941_0.000000_0.000000",
+        "0.156863_0.156863_0.156863_0.000000_0.000000",
+        "0.152941_0.152941_0.156863_0.000000_0.000000"
+      ]
+    },
+    {
+      "id": "motor-cable--4",
+      "partIds": [
+        "motor-cable--4"
+      ],
+      "exactCadNames": [
+        "Motor Cable - ZY"
+      ],
+      "profile": "black-polymer",
+      "evidence": {
+        "documentUrl": "https://genesis.farm.bot/v1.8/bom/electronics-and-wiring/motor-cable.html",
+        "pinnedSourceUrl": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/electronics-and-wiring/motor-cable.md",
+        "sourceSha256": "ea944e427744393c4e0d65e0a0dc6dd979d0e813afd8491892159673e1b4cc7a",
+        "specs": {
+          "length": "2.6m",
+          "Cores": 4,
+          "Gauge": 18,
+          "Motor connector": "6 pin connector (only 4 pins used)",
+          "Intermediate connector": "4-pin waterproof screw together 90 degree connectors. (female connector on the Y-Axis sections, male connector on the Z-Axis section)",
+          "Farmduino connector": "2.54mm pitch 4-pin connector with locking tab (<a href=\"https://www.molex.com/molex/products/part-detail/crimp_housings/0050579404\">Molex Part 50579404</a>)",
+          "Outer color": "Black",
+          "Inner Colors": "Black, Red, Yellow, White",
+          "Label": "ZY"
+        }
+      },
+      "finishConfidence": "documented",
+      "exactDisplayColorConfidence": "illustrative-no-paint-code-specified",
+      "eligibleSourceMaterialNames": [
+        "0.301961_0.301961_0.301961_0.000000_0.000000",
+        "0.258824_0.262745_0.262745_0.000000_0.000000",
+        "0.262745_0.262745_0.262745_0.000000_0.000000",
+        "0.156863_0.152941_0.152941_0.000000_0.000000",
+        "0.156863_0.156863_0.156863_0.000000_0.000000",
+        "0.152941_0.152941_0.156863_0.000000_0.000000"
+      ]
+    },
+    {
+      "id": "encoder-cable--1",
+      "partIds": [
+        "encoder-cable--1"
+      ],
+      "exactCadNames": [
+        "Encoder Cable - X1"
+      ],
+      "profile": "black-polymer",
+      "evidence": {
+        "documentUrl": "https://genesis.farm.bot/v1.8/bom/electronics-and-wiring/encoder-cable.html",
+        "pinnedSourceUrl": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/electronics-and-wiring/encoder-cable.md",
+        "sourceSha256": "dcb7873ec56c9a6c0352deb2f92ec0849e95e6101340fbf33b36f018de5b1dce",
+        "specs": {
+          "length": "0.7m",
+          "Cores": 7,
+          "Gauge": 20,
+          "Encoder connector": "8 pin connector",
+          "Intermediate connector": "7-pin waterproof screw together 90 degree connectors. (female connector on the Y-Axis sections, male connector on the Z-Axis section)",
+          "Farmduino connector": "2.54mm pitch 7-pin connector with locking tab (<a href=\"https://www.molex.com/molex/products/part-detail/crimp_housings/0050579407\">Molex Part 50579407</a>)",
+          "Outer color": "Black",
+          "Label": "X1"
+        }
+      },
+      "finishConfidence": "documented",
+      "exactDisplayColorConfidence": "illustrative-no-paint-code-specified",
+      "eligibleSourceMaterialNames": [
+        "0.301961_0.301961_0.301961_0.000000_0.000000",
+        "0.258824_0.262745_0.262745_0.000000_0.000000",
+        "0.262745_0.262745_0.262745_0.000000_0.000000",
+        "0.156863_0.152941_0.152941_0.000000_0.000000",
+        "0.156863_0.156863_0.156863_0.000000_0.000000",
+        "0.152941_0.152941_0.156863_0.000000_0.000000"
+      ]
+    },
+    {
+      "id": "encoder-cable--2",
+      "partIds": [
+        "encoder-cable--2"
+      ],
+      "exactCadNames": [
+        "Encoder Cable - X2"
+      ],
+      "profile": "black-polymer",
+      "evidence": {
+        "documentUrl": "https://genesis.farm.bot/v1.8/bom/electronics-and-wiring/encoder-cable.html",
+        "pinnedSourceUrl": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/electronics-and-wiring/encoder-cable.md",
+        "sourceSha256": "dcb7873ec56c9a6c0352deb2f92ec0849e95e6101340fbf33b36f018de5b1dce",
+        "specs": {
+          "length": "2.3m",
+          "Cores": 7,
+          "Gauge": 20,
+          "Encoder connector": "8 pin connector",
+          "Intermediate connector": "7-pin waterproof screw together 90 degree connectors. (female connector on the Y-Axis sections, male connector on the Z-Axis section)",
+          "Farmduino connector": "2.54mm pitch 7-pin connector with locking tab (<a href=\"https://www.molex.com/molex/products/part-detail/crimp_housings/0050579407\">Molex Part 50579407</a>)",
+          "Outer color": "Black",
+          "Label": "X2"
+        }
+      },
+      "finishConfidence": "documented",
+      "exactDisplayColorConfidence": "illustrative-no-paint-code-specified",
+      "eligibleSourceMaterialNames": [
+        "0.301961_0.301961_0.301961_0.000000_0.000000",
+        "0.258824_0.262745_0.262745_0.000000_0.000000",
+        "0.262745_0.262745_0.262745_0.000000_0.000000",
+        "0.156863_0.152941_0.152941_0.000000_0.000000",
+        "0.156863_0.156863_0.156863_0.000000_0.000000",
+        "0.152941_0.152941_0.156863_0.000000_0.000000"
+      ]
+    },
+    {
+      "id": "encoder-cable--3",
+      "partIds": [
+        "encoder-cable--3"
+      ],
+      "exactCadNames": [
+        "Encoder Cable - Y"
+      ],
+      "profile": "black-polymer",
+      "evidence": {
+        "documentUrl": "https://genesis.farm.bot/v1.8/bom/electronics-and-wiring/encoder-cable.html",
+        "pinnedSourceUrl": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/electronics-and-wiring/encoder-cable.md",
+        "sourceSha256": "dcb7873ec56c9a6c0352deb2f92ec0849e95e6101340fbf33b36f018de5b1dce",
+        "specs": {
+          "length": "2.7m",
+          "Cores": 7,
+          "Gauge": 20,
+          "Encoder connector": "8 pin connector",
+          "Intermediate connector": "7-pin waterproof screw together 90 degree connectors. (female connector on the Y-Axis sections, male connector on the Z-Axis section)",
+          "Farmduino connector": "2.54mm pitch 7-pin connector with locking tab (<a href=\"https://www.molex.com/molex/products/part-detail/crimp_housings/0050579407\">Molex Part 50579407</a>)",
+          "Outer color": "Black",
+          "Label": "Y"
+        }
+      },
+      "finishConfidence": "documented",
+      "exactDisplayColorConfidence": "illustrative-no-paint-code-specified",
+      "eligibleSourceMaterialNames": [
+        "0.301961_0.301961_0.301961_0.000000_0.000000",
+        "0.258824_0.262745_0.262745_0.000000_0.000000",
+        "0.262745_0.262745_0.262745_0.000000_0.000000",
+        "0.156863_0.152941_0.152941_0.000000_0.000000",
+        "0.156863_0.156863_0.156863_0.000000_0.000000",
+        "0.152941_0.152941_0.156863_0.000000_0.000000"
+      ]
+    },
+    {
+      "id": "encoder-cable--4",
+      "partIds": [
+        "encoder-cable--4"
+      ],
+      "exactCadNames": [
+        "Encoder Cable - ZY"
+      ],
+      "profile": "black-polymer",
+      "evidence": {
+        "documentUrl": "https://genesis.farm.bot/v1.8/bom/electronics-and-wiring/encoder-cable.html",
+        "pinnedSourceUrl": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/electronics-and-wiring/encoder-cable.md",
+        "sourceSha256": "dcb7873ec56c9a6c0352deb2f92ec0849e95e6101340fbf33b36f018de5b1dce",
+        "specs": {
+          "length": "2.6m",
+          "Cores": 7,
+          "Gauge": 20,
+          "Encoder connector": "8 pin connector",
+          "Intermediate connector": "7-pin waterproof screw together 90 degree connectors. (female connector on the Y-Axis sections, male connector on the Z-Axis section)",
+          "Farmduino connector": "2.54mm pitch 7-pin connector with locking tab (<a href=\"https://www.molex.com/molex/products/part-detail/crimp_housings/0050579407\">Molex Part 50579407</a>)",
+          "Outer color": "Black",
+          "Label": "ZY"
+        }
+      },
+      "finishConfidence": "documented",
+      "exactDisplayColorConfidence": "illustrative-no-paint-code-specified",
+      "eligibleSourceMaterialNames": [
+        "0.301961_0.301961_0.301961_0.000000_0.000000",
+        "0.258824_0.262745_0.262745_0.000000_0.000000",
+        "0.262745_0.262745_0.262745_0.000000_0.000000",
+        "0.156863_0.152941_0.152941_0.000000_0.000000",
+        "0.156863_0.156863_0.156863_0.000000_0.000000",
+        "0.152941_0.152941_0.156863_0.000000_0.000000"
+      ]
+    },
+    {
+      "id": "utm-cable-y--1",
+      "partIds": [
+        "utm-cable-y--1"
+      ],
+      "exactCadNames": [
+        "UTM Cable - Y"
+      ],
+      "profile": "black-polymer",
+      "evidence": {
+        "documentUrl": "https://genesis.farm.bot/v1.8/bom/electronics-and-wiring/utm-cable-y.html",
+        "pinnedSourceUrl": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/electronics-and-wiring/utm-cable-y.md",
+        "sourceSha256": "a3a5f9a35bc6e88956cf2c952ac5388287dad45c04e33072fc1381ccdd1047a4",
+        "specs": {
+          "Number of Wires": 12,
+          "Wire Colors": "All different",
+          "Shielded?": true,
+          "Wire Gauge": 24,
+          "length": "2.6m",
+          "outer diameter": "8mm",
+          "Outer color": "Black",
+          "Shroud": "Included black silicone rubber",
+          "Farmduino connector": "Black 12-pin connector (<a href=\"https://www.molex.com/molex/products/part-detail/crimp_housings/0430251200\">Molex Part 430251200</a>)",
+          "Intermediate connectors": "12-pin waterproof screw together 90 degree connectors. (female connector on the Y-Axis sections, male connector on the Z-Axis section)",
+          "UTM connectors": "2x3 2.54mm pitch plug (yellow shrinkwrap)"
+        }
+      },
+      "finishConfidence": "documented",
+      "exactDisplayColorConfidence": "illustrative-no-paint-code-specified",
+      "eligibleSourceMaterialNames": [
+        "0.301961_0.301961_0.301961_0.000000_0.000000",
+        "0.258824_0.262745_0.262745_0.000000_0.000000",
+        "0.262745_0.262745_0.262745_0.000000_0.000000",
+        "0.156863_0.152941_0.152941_0.000000_0.000000",
+        "0.156863_0.156863_0.156863_0.000000_0.000000",
+        "0.152941_0.152941_0.156863_0.000000_0.000000"
+      ]
+    },
+    {
+      "id": "utm-cable-z",
+      "partIds": [
+        "utm-cable-z"
+      ],
+      "exactCadNames": [
+        "UTM Cable - Z"
+      ],
+      "profile": "black-polymer",
+      "evidence": {
+        "documentUrl": "https://genesis.farm.bot/v1.8/bom/electronics-and-wiring/utm-cable-z.html",
+        "pinnedSourceUrl": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/electronics-and-wiring/utm-cable-z.md",
+        "sourceSha256": "e9923ceef6283121adf3fac769a322aa8d0b67b495b467cc9e57b3e753f15fad",
+        "specs": {
+          "Number of Wires": 12,
+          "Wire Colors": "All different",
+          "Shielded?": true,
+          "Wire Gauge": 24,
+          "length": "0.9m",
+          "outer diameter": "8mm",
+          "Outer color": "Black",
+          "Shroud": "Included black silicone rubber",
+          "Farmduino connector": "Black 12-pin connector (<a href=\"https://www.molex.com/molex/products/part-detail/crimp_housings/0430251200\">Molex Part 430251200</a>)",
+          "Intermediate connectors": "12-pin waterproof screw together 90 degree connectors. (female connector on the Y-Axis sections, male connector on the Z-Axis section)",
+          "UTM connectors": "2x3 2.54mm pitch plug (yellow shrinkwrap)|2x4 2.54mm pitch plug (black shrinkwrap)"
+        }
+      },
+      "finishConfidence": "documented",
+      "exactDisplayColorConfidence": "illustrative-no-paint-code-specified",
+      "eligibleSourceMaterialNames": [
+        "0.301961_0.301961_0.301961_0.000000_0.000000",
+        "0.258824_0.262745_0.262745_0.000000_0.000000",
+        "0.262745_0.262745_0.262745_0.000000_0.000000",
+        "0.156863_0.152941_0.152941_0.000000_0.000000",
+        "0.156863_0.156863_0.156863_0.000000_0.000000",
+        "0.152941_0.152941_0.156863_0.000000_0.000000"
+      ]
+    },
+    {
+      "id": "vacuum-pump-cable-y--1",
+      "partIds": [
+        "vacuum-pump-cable-y--1"
+      ],
+      "exactCadNames": [
+        "Vacuum Pump Cable - Y"
+      ],
+      "profile": "black-polymer",
+      "evidence": {
+        "documentUrl": "https://genesis.farm.bot/v1.8/bom/electronics-and-wiring/vacuum-pump-cable-y.html",
+        "pinnedSourceUrl": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/electronics-and-wiring/vacuum-pump-cable-y.md",
+        "sourceSha256": "7e6f27272ca827d6a46cee37b3196028fbee9d54dac3a4589d72b35687e57824",
+        "specs": {
+          "cable": "Shielded 22AWG-2C",
+          "lengths": "2.6m",
+          "rated voltage": "300V",
+          "inner colors": "Red and black",
+          "outer color": "Black",
+          "heat shrink label": "VAC",
+          "end 1": "<a href='https://www.molex.com/molex/products/part-detail/crimp_housings/0050579403'>50579403</a>",
+          "end 2": "<a href='https://www.molex.com/molex/products/part-detail/crimp_housings/0050579403'>50579403</a>"
+        }
+      },
+      "finishConfidence": "documented",
+      "exactDisplayColorConfidence": "illustrative-no-paint-code-specified",
+      "eligibleSourceMaterialNames": [
+        "0.301961_0.301961_0.301961_0.000000_0.000000",
+        "0.258824_0.262745_0.262745_0.000000_0.000000",
+        "0.262745_0.262745_0.262745_0.000000_0.000000",
+        "0.156863_0.152941_0.152941_0.000000_0.000000",
+        "0.156863_0.156863_0.156863_0.000000_0.000000",
+        "0.152941_0.152941_0.156863_0.000000_0.000000"
+      ]
+    },
+    {
+      "id": "solenoid-valve-cable",
+      "partIds": [
+        "solenoid-valve-cable"
+      ],
+      "exactCadNames": [
+        "Solenoid Valve Cable"
+      ],
+      "profile": "black-polymer",
+      "evidence": {
+        "documentUrl": "https://genesis.farm.bot/v1.8/bom/electronics-and-wiring/solenoid-valve-cable.html",
+        "pinnedSourceUrl": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/electronics-and-wiring/solenoid-valve-cable.md",
+        "sourceSha256": "f3dcc016f8a0b060225a5812e2965449a8c1aa3a8955faf06ff1bebc21d9cf16",
+        "specs": {
+          "cable": "22AWG-2C",
+          "length": "0.5m",
+          "rated voltage": "300V DC",
+          "inner colors": "Red and black",
+          "outer color": "Black",
+          "heatshrink label": "H2O",
+          "connector 1": "Black 2-pin plug (<a href=\"https://www.molex.com/molex/products/part-detail/crimp_housings/0050579402\">Molex Part 50579402</a>)",
+          "connector 2": "Two 1/4\" female shielded quick-connect terminals"
+        }
+      },
+      "finishConfidence": "documented",
+      "exactDisplayColorConfidence": "illustrative-no-paint-code-specified",
+      "eligibleSourceMaterialNames": [
+        "0.301961_0.301961_0.301961_0.000000_0.000000",
+        "0.258824_0.262745_0.262745_0.000000_0.000000",
+        "0.262745_0.262745_0.262745_0.000000_0.000000",
+        "0.156863_0.152941_0.152941_0.000000_0.000000",
+        "0.156863_0.156863_0.156863_0.000000_0.000000",
+        "0.152941_0.152941_0.156863_0.000000_0.000000"
+      ]
+    },
+    {
+      "id": "power-supply-cable--1",
+      "partIds": [
+        "power-supply-cable--1"
+      ],
+      "exactCadNames": [
+        "Power Supply Cable"
+      ],
+      "profile": "black-polymer",
+      "evidence": {
+        "documentUrl": "https://genesis.farm.bot/v1.8/bom/electronics-and-wiring/power-supply-cable.html",
+        "pinnedSourceUrl": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/electronics-and-wiring/power-supply-cable.md",
+        "sourceSha256": "40e25ccc1da1ea6ca7542fe2def891940628431f3a578512b433be5c39b5847a",
+        "specs": {
+          "cable": "18AWG-3C",
+          "cable color": "Black",
+          "connector 1": "3-pin waterproof screw-together connector",
+          "connector 2": "3-pin black connector (<a href=\"https://www.molex.com/molex/products/part-detail/crimp_housings/2004561213\">Molex Part 2004561213</a>)",
+          "length": "2.5m"
+        }
+      },
+      "finishConfidence": "documented",
+      "exactDisplayColorConfidence": "illustrative-no-paint-code-specified",
+      "eligibleSourceMaterialNames": [
+        "0.301961_0.301961_0.301961_0.000000_0.000000",
+        "0.258824_0.262745_0.262745_0.000000_0.000000",
+        "0.262745_0.262745_0.262745_0.000000_0.000000",
+        "0.156863_0.152941_0.152941_0.000000_0.000000",
+        "0.156863_0.156863_0.156863_0.000000_0.000000",
+        "0.152941_0.152941_0.156863_0.000000_0.000000"
+      ]
+    },
+    {
+      "id": "supporting-context-cad-colors",
+      "partIds": [],
+      "exactCadNames": [
+        "Long Board",
+        "Short Board",
+        "Post",
+        "Utilities Post",
+        "Soil"
+      ],
+      "profile": "cad-supporting-context",
+      "evidence": {
+        "referenceRenderUrl": "https://genesis.farm.bot/v1.8/assembly/_images/assembled_gantry.png",
+        "sha256": "b040a30bf7281bf7498450eaa1bb90d073c6c01ee0455b87705de390805c91c7",
+        "paletteSource": "Retained original CAD material RGB"
+      },
+      "finishConfidence": "official-illustration-only",
+      "exactDisplayColorConfidence": "visual-reference-not-physical-material-spec"
+    }
+  ],
+  "unresolved": {
+    "electronics-box-lid": "Documented frosted clear; preserve original CAD transparency because thickness/transmission were not supplied.",
+    "v-wheels": "Documented clear polycarbonate, not black; preserve original CAD appearance.",
+    "pcb-and-buttons": "Mixed material faces and colored electrical features remain original; avoid flattening boards or button rims to one color.",
+    "uncertain-body-identities": "No guessed alias or fuzzy name matching."
+  },
+  "referenceRenderPinnedSourceUrl": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/assembly/_images/assembled_gantry.png",
+  "referenceRenderGitBlobSha1": "d381a7bd144927a665b479f616e812b2cbcd861e"
+}

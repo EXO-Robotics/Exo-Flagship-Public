@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "filename": "farmbot-genesis.glb",
+  "mimeType": "model/gltf-binary",
+  "bytes": 56498636,
+  "sha256": "8ff533f07be517290b297b100aa701c8267a62d6d8f071d01d611047cf0af34e",
+  "chunkBytes": 8388608,
+  "chunks": [
+    {
+      "url": "farmbot-genesis/chunk-0000.bin.gz",
+      "bytes": 8388608,
+      "sha256": "fce42193341c47de6333295d2fc303674a2d503fbe8266a9d3ea20c528a73ff6",
+      "encoding": "gzip",
+      "transportBytes": 4124365,
+      "transportSha256": "8b6bd71f8329b248c9c4cc009251aa627676b4ee3545b9da3f5796e84ba23714"
+    },
+    {
+      "url": "farmbot-genesis/chunk-0001.bin.gz",
+      "bytes": 8388608,
+      "sha256": "bb2b13de6d7023822c974ced32babf44fcf2f10701afaa7f1f9f088963bd4fb4",
+      "encoding": "gzip",
+      "transportBytes": 5567083,
+      "transportSha256": "a243f7c891903b9774ea930a11fc79247f1737695f32e2ba5c1498af2e110860"
+    },
+    {
+      "url": "farmbot-genesis/chunk-0002.bin.gz",
+      "bytes": 8388608,
+      "sha256": "2bac67069321bfd77c54b1e719f4e682cb42753ee0fb2260085b3763191b76e1",
+      "encoding": "gzip",
+      "transportBytes": 5568994,
+      "transportSha256": "eee21252f64fd51b7e086aa89787e842597626719c019e825f9008aa94ba843b"
+    },
+    {
+      "url": "farmbot-genesis/chunk-0003.bin.gz",
+      "bytes": 8388608,
+      "sha256": "e6b1efd251394f7cad43987dc5d968228b2bc29af338c82f9e4b65595fdf7d2f",
+      "encoding": "gzip",
+      "transportBytes": 5938086,
+      "transportSha256": "a55bc0623bda6d67adbb2944e8061259530ad83621317694e51a894df87920fe"
+    },
+    {
+      "url": "farmbot-genesis/chunk-0004.bin.gz",
+      "bytes": 8388608,
+      "sha256": "74539f4daa059d09be5434b2261dd2df2c27146d907a73d0c40cbc05a4d870be",
+      "encoding": "gzip",
+      "transportBytes": 5881215,
+      "transportSha256": "743afb10a3df9d945bd604a8f11fe4c88edfe103610771693afaa898f9e29400"
+    },
+    {
+      "url": "farmbot-genesis/chunk-0005.bin.gz",
+      "bytes": 8388608,
+      "sha256": "b5ee541cad195fcfc4168a60eee7cc6fbf87d5b0574fd1b81e3aaa1c6f313209",
+      "encoding": "gzip",
+      "transportBytes": 5325522,
+      "transportSha256": "2e45fff61d81fc3ecedcd4f20ff1c16e06633b816bdabad8b108bc8628993f50"
+    },
+    {
+      "url": "farmbot-genesis/chunk-0006.bin.gz",
+      "bytes": 6166988,
+      "sha256": "080a48488058b2a34a0ef1c900d669866f0e13b866cdf0f3d60771e2115338f5",
+      "encoding": "gzip",
+      "transportBytes": 3871549,
+      "transportSha256": "8eba97f05fe00ab6c6fa35078c69a951cb47f2ef4106fe1c41acf6222e1d84a9"
+    }
+  ],
+  "sourceRevision": "v1.8 Production Run 1",
+  "sourceUrl": "https://cad.onshape.com/documents/6626b842adca229e69544ad1/v/29ff27176ad028c3b865f257/e/460407715c4d7785c8d45098",
+  "delivery": "Lossless gzip per chunk; unpacked original bytes and SHA-256 unchanged."
+}

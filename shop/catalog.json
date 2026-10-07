@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "machines": [
+    {
+      "id": "farmbot",
+      "title": "FarmBot Genesis v1.8",
+      "category": "Open farm robotics",
+      "revision": "Genesis v1.8 · Standard",
+      "route": "/farmbot.html",
+      "geometryStatus": "Published source CAD",
+      "coverage": "195 documented BOM entries. CAD reconciliation and revision differences remain explicit.",
+      "parts": 281,
+      "sales": 34,
+      "prices": 33,
+      "gaps": 43,
+      "image": null
+    }
+  ],
+  "indexChunks": [
+    "/shop/index-000.json"
+  ],
+  "parts": 281,
+  "verifiedSalesPages": 34,
+  "verifiedValues": 33,
+  "pricePolicy": "Published prices are dated and exclude shipping/taxes unless the offer says otherwise. Unverified exact-part values stay unknown."
+}

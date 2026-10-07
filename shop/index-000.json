@@ -1,0 +1,4812 @@
+[
+  {
+    "id": "bearing",
+    "machineId": "farmbot",
+    "name": "Bearing",
+    "assembly": "Drivetrain",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "verified-product",
+    "value": {
+      "amount": 0.5,
+      "currency": "USD",
+      "basis": "one replacement bearing; excludes shipping and tax",
+      "status": "verified-price",
+      "unitEquivalent": false
+    },
+    "quantity": 40
+  },
+  {
+    "id": "belt-clip-dampener",
+    "machineId": "farmbot",
+    "name": "Belt Clip Dampener",
+    "assembly": "Drivetrain",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "verified-product",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "quote-required",
+      "basis": "Matching public product exists, but price and purchasing pack size require supplier login or quote."
+    },
+    "quantity": 6
+  },
+  {
+    "id": "belt-sleeve",
+    "machineId": "farmbot",
+    "name": "Belt Sleeve",
+    "assembly": "Drivetrain",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "Supplier offer prices are verified for their products; a value for this exact catalog component remains unresolved until the compatibility caveat is cleared."
+    },
+    "quantity": 6
+  },
+  {
+    "id": "belt--1",
+    "machineId": "farmbot",
+    "name": "Belt — 1.7m",
+    "assembly": "Drivetrain",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "no-sales-page",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No exact belt size and cross-section offer was qualified; documentary DIY estimates are not retail values."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "belt--2",
+    "machineId": "farmbot",
+    "name": "Belt — 3.2m",
+    "assembly": "Drivetrain",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "no-sales-page",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No exact belt size and cross-section offer was qualified; documentary DIY estimates are not retail values."
+    },
+    "quantity": 0
+  },
+  {
+    "id": "belt--3",
+    "machineId": "farmbot",
+    "name": "Belt — 4.5m",
+    "assembly": "Drivetrain",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "no-sales-page",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No exact belt size and cross-section offer was qualified; documentary DIY estimates are not retail values."
+    },
+    "quantity": 2
+  },
+  {
+    "id": "belt--4",
+    "machineId": "farmbot",
+    "name": "Belt — 7.5m",
+    "assembly": "Drivetrain",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "no-sales-page",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No exact belt size and cross-section offer was qualified; documentary DIY estimates are not retail values."
+    },
+    "quantity": 0
+  },
+  {
+    "id": "leadscrew-block",
+    "machineId": "farmbot",
+    "name": "Leadscrew Block",
+    "assembly": "Drivetrain",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "Supplier offer prices are verified for their products; a value for this exact catalog component remains unresolved until the compatibility caveat is cleared."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "leadscrew",
+    "machineId": "farmbot",
+    "name": "Leadscrew",
+    "assembly": "Drivetrain",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "verified-product",
+    "value": {
+      "amount": 35,
+      "currency": "USD",
+      "basis": "one leadscrew; excludes shipping and tax",
+      "status": "verified-price",
+      "unitEquivalent": false
+    },
+    "quantity": 1
+  },
+  {
+    "id": "precision-shim",
+    "machineId": "farmbot",
+    "name": "M5 Precision Shim",
+    "assembly": "Drivetrain",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "verified-product",
+    "value": {
+      "amount": 0.38,
+      "currency": "USD",
+      "basis": "one stainless precision shim; excludes shipping and tax",
+      "status": "verified-price",
+      "unitEquivalent": false
+    },
+    "quantity": 20
+  },
+  {
+    "id": "pulley",
+    "machineId": "farmbot",
+    "name": "Pulley",
+    "assembly": "Drivetrain",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "Supplier offer prices are verified for their products; a value for this exact catalog component remains unresolved until the compatibility caveat is cleared."
+    },
+    "quantity": 3
+  },
+  {
+    "id": "shaft-coupler",
+    "machineId": "farmbot",
+    "name": "Shaft Coupler",
+    "assembly": "Drivetrain",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "Supplier offer prices are verified for their products; a value for this exact catalog component remains unresolved until the compatibility caveat is cleared."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "v-wheel",
+    "machineId": "farmbot",
+    "name": "V-Wheel",
+    "assembly": "Drivetrain",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "Supplier offer prices are verified for their products; a value for this exact catalog component remains unresolved until the compatibility caveat is cleared."
+    },
+    "quantity": 20
+  },
+  {
+    "id": "cable-carrier-x-axis--1",
+    "machineId": "farmbot",
+    "name": "X-Axis Cable Carrier — 1.6m",
+    "assembly": "Electronics and Wiring",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "no-sales-page",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current retail price for this exact documented part."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "cable-carrier-x-axis--2",
+    "machineId": "farmbot",
+    "name": "X-Axis Cable Carrier — 3.1m",
+    "assembly": "Electronics and Wiring",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "no-sales-page",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current retail price for this exact documented part."
+    },
+    "quantity": 0
+  },
+  {
+    "id": "cable-carrier-y-axis--1",
+    "machineId": "farmbot",
+    "name": "Y-Axis Cable Carrier — 1.7m",
+    "assembly": "Electronics and Wiring",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current retail price for this exact documented part."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "cable-carrier-y-axis--2",
+    "machineId": "farmbot",
+    "name": "Y-Axis Cable Carrier — 3.2m",
+    "assembly": "Electronics and Wiring",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current retail price for this exact documented part."
+    },
+    "quantity": 0
+  },
+  {
+    "id": "cable-carrier-z-axis",
+    "machineId": "farmbot",
+    "name": "Z-Axis Cable Carrier",
+    "assembly": "Electronics and Wiring",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current retail price for this exact documented part."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "camera-cable--1",
+    "machineId": "farmbot",
+    "name": "Camera Cable — 2.6m",
+    "assembly": "Electronics and Wiring",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current retail price for this exact documented part."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "camera-cable--2",
+    "machineId": "farmbot",
+    "name": "Camera Cable — 4.1m",
+    "assembly": "Electronics and Wiring",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current retail price for this exact documented part."
+    },
+    "quantity": 0
+  },
+  {
+    "id": "camera-calibration-card",
+    "machineId": "farmbot",
+    "name": "Camera Calibration Card",
+    "assembly": "Electronics and Wiring",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "verified-product",
+    "value": {
+      "amount": 1,
+      "currency": "USD",
+      "status": "verified-price",
+      "basis": "One exact matched retail part; excludes tax, delivery, and duties.",
+      "unitEquivalent": false
+    },
+    "quantity": 1
+  },
+  {
+    "id": "camera",
+    "machineId": "farmbot",
+    "name": "Camera",
+    "assembly": "Electronics and Wiring",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "verified-product",
+    "value": {
+      "amount": 65,
+      "currency": "USD",
+      "status": "verified-price",
+      "unitEquivalent": false,
+      "basis": "One official FarmBot replacement camera; current public retailer catalog lists USD 65 excluding tax and shipping. Source revision B and optical specs are not verified by retailer."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "electronics-box--1",
+    "machineId": "farmbot",
+    "name": "Electronics Box — Box",
+    "assembly": "Electronics and Wiring",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "fabrication-required",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "quote-required",
+      "basis": "Custom/captive source part: supplier quotation or source CAD fabrication is required; no price was invented."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "electronics-box--2",
+    "machineId": "farmbot",
+    "name": "Electronics Box — Lid",
+    "assembly": "Electronics and Wiring",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "fabrication-required",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "quote-required",
+      "basis": "Custom/captive source part: supplier quotation or source CAD fabrication is required; no price was invented."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "electronics-box--3",
+    "machineId": "farmbot",
+    "name": "Electronics Box — Gasket",
+    "assembly": "Electronics and Wiring",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "fabrication-required",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "quote-required",
+      "basis": "Custom/captive source part: supplier quotation or source CAD fabrication is required; no price was invented."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "electronics-box--4",
+    "machineId": "farmbot",
+    "name": "Electronics Box — Latch",
+    "assembly": "Electronics and Wiring",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "fabrication-required",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "quote-required",
+      "basis": "Custom/captive source part: supplier quotation or source CAD fabrication is required; no price was invented."
+    },
+    "quantity": 2
+  },
+  {
+    "id": "encoder-cable--1",
+    "machineId": "farmbot",
+    "name": "Encoder Cable — X1, 0.7m",
+    "assembly": "Electronics and Wiring",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "verified-product",
+    "value": {
+      "amount": 20,
+      "currency": "USD",
+      "status": "verified-price",
+      "basis": "One exact matched retail part; excludes tax, delivery, and duties.",
+      "unitEquivalent": false
+    },
+    "quantity": 1
+  },
+  {
+    "id": "encoder-cable--2",
+    "machineId": "farmbot",
+    "name": "Encoder Cable — X2, 2.3m",
+    "assembly": "Electronics and Wiring",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "verified-product",
+    "value": {
+      "amount": 23,
+      "currency": "USD",
+      "status": "verified-price",
+      "basis": "One exact matched retail part; excludes tax, delivery, and duties.",
+      "unitEquivalent": false
+    },
+    "quantity": 1
+  },
+  {
+    "id": "encoder-cable--3",
+    "machineId": "farmbot",
+    "name": "Encoder Cable — Y, 2.7m",
+    "assembly": "Electronics and Wiring",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "verified-product",
+    "value": {
+      "amount": 25,
+      "currency": "USD",
+      "status": "verified-price",
+      "basis": "One exact matched retail part; excludes tax, delivery, and duties.",
+      "unitEquivalent": false
+    },
+    "quantity": 1
+  },
+  {
+    "id": "encoder-cable--4",
+    "machineId": "farmbot",
+    "name": "Encoder Cable — ZY, 2.6m",
+    "assembly": "Electronics and Wiring",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current retail price for this exact documented part."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "encoder-cable--5",
+    "machineId": "farmbot",
+    "name": "Encoder Cable — X2, 3.8m",
+    "assembly": "Electronics and Wiring",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "no-sales-page",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current retail price for this exact documented part."
+    },
+    "quantity": 0
+  },
+  {
+    "id": "encoder-cable--6",
+    "machineId": "farmbot",
+    "name": "Encoder Cable — Y, 4.2m",
+    "assembly": "Electronics and Wiring",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "no-sales-page",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current retail price for this exact documented part."
+    },
+    "quantity": 0
+  },
+  {
+    "id": "encoder-cable--7",
+    "machineId": "farmbot",
+    "name": "Encoder Cable — ZY, 4.1m",
+    "assembly": "Electronics and Wiring",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "no-sales-page",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current retail price for this exact documented part."
+    },
+    "quantity": 0
+  },
+  {
+    "id": "encoder-cable--8",
+    "machineId": "farmbot",
+    "name": "Encoder Cable — ZZ, 1.8m",
+    "assembly": "Electronics and Wiring",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current retail price for this exact documented part."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "encoder",
+    "machineId": "farmbot",
+    "name": "Encoder",
+    "assembly": "Electronics and Wiring",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current retail price for this exact documented part."
+    },
+    "quantity": 4
+  },
+  {
+    "id": "farmduino-data-cable",
+    "machineId": "farmbot",
+    "name": "Farmduino Data Cable",
+    "assembly": "Electronics and Wiring",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current retail price for this exact documented part."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "farmduino",
+    "machineId": "farmbot",
+    "name": "Farmduino",
+    "assembly": "Electronics and Wiring",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current retail price for this exact documented part."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "fuse",
+    "machineId": "farmbot",
+    "name": "Fuse",
+    "assembly": "Electronics and Wiring",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current retail price for this exact documented part."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "jumper-link",
+    "machineId": "farmbot",
+    "name": "Jumper Link",
+    "assembly": "Electronics and Wiring",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "fabrication-required",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "quote-required",
+      "basis": "Custom/captive source part: supplier quotation or source CAD fabrication is required; no price was invented."
+    },
+    "quantity": 4
+  },
+  {
+    "id": "led-strip--1",
+    "machineId": "farmbot",
+    "name": "LED Strip — 1.2m",
+    "assembly": "Electronics and Wiring",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "no-sales-page",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current retail price for this exact documented part."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "led-strip--2",
+    "machineId": "farmbot",
+    "name": "LED Strip — 2.7m",
+    "assembly": "Electronics and Wiring",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "no-sales-page",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current retail price for this exact documented part."
+    },
+    "quantity": 0
+  },
+  {
+    "id": "micro-sd-card-adapter",
+    "machineId": "farmbot",
+    "name": "Micro SD Card Adapter",
+    "assembly": "Electronics and Wiring",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "no-sales-page",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current retail price for this exact documented part."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "micro-sd-card",
+    "machineId": "farmbot",
+    "name": "Micro SD Card",
+    "assembly": "Electronics and Wiring",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current retail price for this exact documented part."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "motor-cable--1",
+    "machineId": "farmbot",
+    "name": "Motor Cable — X1, 0.7m",
+    "assembly": "Electronics and Wiring",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current retail price for this exact documented part."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "motor-cable--2",
+    "machineId": "farmbot",
+    "name": "Motor Cable — X2, 2.3m",
+    "assembly": "Electronics and Wiring",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current retail price for this exact documented part."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "motor-cable--3",
+    "machineId": "farmbot",
+    "name": "Motor Cable — Y, 2.7m",
+    "assembly": "Electronics and Wiring",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current retail price for this exact documented part."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "motor-cable--4",
+    "machineId": "farmbot",
+    "name": "Motor Cable — ZY, 2.6m",
+    "assembly": "Electronics and Wiring",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current retail price for this exact documented part."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "motor-cable--5",
+    "machineId": "farmbot",
+    "name": "Motor Cable — X2, 3.8m",
+    "assembly": "Electronics and Wiring",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "no-sales-page",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current retail price for this exact documented part."
+    },
+    "quantity": 0
+  },
+  {
+    "id": "motor-cable--6",
+    "machineId": "farmbot",
+    "name": "Motor Cable — Y, 4.2m",
+    "assembly": "Electronics and Wiring",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "no-sales-page",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current retail price for this exact documented part."
+    },
+    "quantity": 0
+  },
+  {
+    "id": "motor-cable--7",
+    "machineId": "farmbot",
+    "name": "Motor Cable — ZY, 4.1m",
+    "assembly": "Electronics and Wiring",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "no-sales-page",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current retail price for this exact documented part."
+    },
+    "quantity": 0
+  },
+  {
+    "id": "motor-cable--8",
+    "machineId": "farmbot",
+    "name": "Motor Cable — ZZ, 1.8m",
+    "assembly": "Electronics and Wiring",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current retail price for this exact documented part."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "motor",
+    "machineId": "farmbot",
+    "name": "Motor",
+    "assembly": "Electronics and Wiring",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current retail price for this exact documented part."
+    },
+    "quantity": 4
+  },
+  {
+    "id": "pi-adapter-board",
+    "machineId": "farmbot",
+    "name": "Pi Adapter Board",
+    "assembly": "Electronics and Wiring",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current retail price for this exact documented part."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "pogo-pin-jam-nut",
+    "machineId": "farmbot",
+    "name": "Pogo Pin Jam Nut",
+    "assembly": "Electronics and Wiring",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current retail price for this exact documented part."
+    },
+    "quantity": 24
+  },
+  {
+    "id": "pogo-pin",
+    "machineId": "farmbot",
+    "name": "Pogo Pin",
+    "assembly": "Electronics and Wiring",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current retail price for this exact documented part."
+    },
+    "quantity": 12
+  },
+  {
+    "id": "power-cord-protector",
+    "machineId": "farmbot",
+    "name": "Power Cord Protector",
+    "assembly": "Electronics and Wiring",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current retail price for this exact documented part."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "power-supply-cable--1",
+    "machineId": "farmbot",
+    "name": "Power Supply Cable — 2.5m",
+    "assembly": "Electronics and Wiring",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current retail price for this exact documented part."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "power-supply-cable--2",
+    "machineId": "farmbot",
+    "name": "Power Supply Cable — 4m",
+    "assembly": "Electronics and Wiring",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current retail price for this exact documented part."
+    },
+    "quantity": 0
+  },
+  {
+    "id": "power-supply",
+    "machineId": "farmbot",
+    "name": "Power Supply",
+    "assembly": "Electronics and Wiring",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current retail price for this exact documented part."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "push-button-nut",
+    "machineId": "farmbot",
+    "name": "Push Button Nut",
+    "assembly": "Electronics and Wiring",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current retail price for this exact documented part."
+    },
+    "quantity": 3
+  },
+  {
+    "id": "push-button-o-ring",
+    "machineId": "farmbot",
+    "name": "Push Button O-Ring",
+    "assembly": "Electronics and Wiring",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current retail price for this exact documented part."
+    },
+    "quantity": 3
+  },
+  {
+    "id": "push-button-red",
+    "machineId": "farmbot",
+    "name": "Red Push Button",
+    "assembly": "Electronics and Wiring",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "verified-product",
+    "value": {
+      "amount": 4.5,
+      "currency": "USD",
+      "status": "verified-price",
+      "basis": "One exact matched retail part; excludes tax, delivery, and duties.",
+      "unitEquivalent": false
+    },
+    "quantity": 1
+  },
+  {
+    "id": "push-button-white",
+    "machineId": "farmbot",
+    "name": "White Push Button",
+    "assembly": "Electronics and Wiring",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "verified-product",
+    "value": {
+      "amount": 4.5,
+      "currency": "USD",
+      "status": "verified-price",
+      "basis": "One exact matched retail part; excludes tax, delivery, and duties.",
+      "unitEquivalent": false
+    },
+    "quantity": 1
+  },
+  {
+    "id": "push-button-wiring-harness",
+    "machineId": "farmbot",
+    "name": "Push Button Wiring Harness",
+    "assembly": "Electronics and Wiring",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current retail price for this exact documented part."
+    },
+    "quantity": 3
+  },
+  {
+    "id": "push-button-yellow",
+    "machineId": "farmbot",
+    "name": "Yellow Push Button",
+    "assembly": "Electronics and Wiring",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "verified-product",
+    "value": {
+      "amount": 4.5,
+      "currency": "USD",
+      "status": "verified-price",
+      "basis": "One exact matched retail part; excludes tax, delivery, and duties.",
+      "unitEquivalent": false
+    },
+    "quantity": 1
+  },
+  {
+    "id": "raspberry-pi-power-cable",
+    "machineId": "farmbot",
+    "name": "Raspberry Pi Power Cable",
+    "assembly": "Electronics and Wiring",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current retail price for this exact documented part."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "raspberry-pi",
+    "machineId": "farmbot",
+    "name": "Raspberry Pi",
+    "assembly": "Electronics and Wiring",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "verified-product",
+    "value": {
+      "amount": 45,
+      "currency": "USD",
+      "status": "verified-price",
+      "basis": "One exact matched retail part; excludes tax, delivery, and duties.",
+      "unitEquivalent": false
+    },
+    "quantity": 1
+  },
+  {
+    "id": "rotary-tool-motor",
+    "machineId": "farmbot",
+    "name": "Rotary Tool Motor",
+    "assembly": "Electronics and Wiring",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current retail price for this exact documented part."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "rotary-tool-pcb",
+    "machineId": "farmbot",
+    "name": "Rotary Tool PCB",
+    "assembly": "Electronics and Wiring",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current retail price for this exact documented part."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "rtc-battery",
+    "machineId": "farmbot",
+    "name": "Realtime Clock Battery",
+    "assembly": "Electronics and Wiring",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "verified-product",
+    "value": {
+      "amount": 1.06,
+      "currency": "USD",
+      "status": "verified-price",
+      "basis": "One CR1220 battery at retail quantity 1; excludes tax, shipping and tariff.",
+      "unitEquivalent": false
+    },
+    "quantity": 1
+  },
+  {
+    "id": "shunt",
+    "machineId": "farmbot",
+    "name": "Shunt",
+    "assembly": "Electronics and Wiring",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current retail price for this exact documented part."
+    },
+    "quantity": 8
+  },
+  {
+    "id": "soil-sensor-pcb",
+    "machineId": "farmbot",
+    "name": "Soil Sensor PCB",
+    "assembly": "Electronics and Wiring",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current retail price for this exact documented part."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "solenoid-valve-cable",
+    "machineId": "farmbot",
+    "name": "Solenoid Valve Cable",
+    "assembly": "Electronics and Wiring",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current retail price for this exact documented part."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "solenoid-valve",
+    "machineId": "farmbot",
+    "name": "Solenoid Valve",
+    "assembly": "Electronics and Wiring",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "verified-product",
+    "value": {
+      "amount": 15,
+      "currency": "USD",
+      "status": "verified-price",
+      "basis": "One exact matched retail part; excludes tax, delivery, and duties.",
+      "unitEquivalent": false
+    },
+    "quantity": 1
+  },
+  {
+    "id": "supergland",
+    "machineId": "farmbot",
+    "name": "Supergland",
+    "assembly": "Electronics and Wiring",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "fabrication-required",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "quote-required",
+      "basis": "Custom/captive source part: supplier quotation or source CAD fabrication is required; no price was invented."
+    },
+    "quantity": 2
+  },
+  {
+    "id": "utm-cable-y--1",
+    "machineId": "farmbot",
+    "name": "Y UTM Cable — 2.6m",
+    "assembly": "Electronics and Wiring",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current retail price for this exact documented part."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "utm-cable-y--2",
+    "machineId": "farmbot",
+    "name": "Y UTM Cable — 4.1m",
+    "assembly": "Electronics and Wiring",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current retail price for this exact documented part."
+    },
+    "quantity": 0
+  },
+  {
+    "id": "utm-cable-z",
+    "machineId": "farmbot",
+    "name": "Z UTM Cable",
+    "assembly": "Electronics and Wiring",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current retail price for this exact documented part."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "utm-pcb",
+    "machineId": "farmbot",
+    "name": "UTM PCB",
+    "assembly": "Electronics and Wiring",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "fabrication-required",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "quote-required",
+      "basis": "Custom/captive source part: supplier quotation or source CAD fabrication is required; no price was invented."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "vacuum-pump-cable-y--1",
+    "machineId": "farmbot",
+    "name": "Y Vacuum Pump Cable — 2.6m",
+    "assembly": "Electronics and Wiring",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current retail price for this exact documented part."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "vacuum-pump-cable-y--2",
+    "machineId": "farmbot",
+    "name": "Y Vacuum Pump Cable — 4.1m",
+    "assembly": "Electronics and Wiring",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current retail price for this exact documented part."
+    },
+    "quantity": 0
+  },
+  {
+    "id": "vacuum-pump",
+    "machineId": "farmbot",
+    "name": "Vacuum Pump",
+    "assembly": "Electronics and Wiring",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "verified-product",
+    "value": {
+      "amount": 40,
+      "currency": "USD",
+      "status": "verified-price",
+      "basis": "One exact matched retail part; excludes tax, delivery, and duties.",
+      "unitEquivalent": false
+    },
+    "quantity": 1
+  },
+  {
+    "id": "gantry-column",
+    "machineId": "farmbot",
+    "name": "Gantry Column",
+    "assembly": "Extrusions",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "fabrication-required",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "quote-required",
+      "basis": "Custom v1.8 extrusion profile/revision has no qualified public retail offer in the inspected official catalog. Obtain a manufacturer quote using the source CAD, drawing and material specification."
+    },
+    "quantity": 2
+  },
+  {
+    "id": "gantry-main-beam--1",
+    "machineId": "farmbot",
+    "name": "Gantry Main Beam — 750mm",
+    "assembly": "Extrusions",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "fabrication-required",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "quote-required",
+      "basis": "Custom v1.8 extrusion profile/revision has no qualified public retail offer in the inspected official catalog. Obtain a manufacturer quote using the source CAD, drawing and material specification."
+    },
+    "quantity": 2
+  },
+  {
+    "id": "gantry-main-beam--2",
+    "machineId": "farmbot",
+    "name": "Gantry Main Beam — 1000mm",
+    "assembly": "Extrusions",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "fabrication-required",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "quote-required",
+      "basis": "Custom v1.8 extrusion profile/revision has no qualified public retail offer in the inspected official catalog. Obtain a manufacturer quote using the source CAD, drawing and material specification."
+    },
+    "quantity": 0
+  },
+  {
+    "id": "track-extrusion",
+    "machineId": "farmbot",
+    "name": "Track Extrusion",
+    "assembly": "Extrusions",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "fabrication-required",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "quote-required",
+      "basis": "Custom v1.8 extrusion profile/revision has no qualified public retail offer in the inspected official catalog. Obtain a manufacturer quote using the source CAD, drawing and material specification."
+    },
+    "quantity": 6
+  },
+  {
+    "id": "z-axis-extrusion",
+    "machineId": "farmbot",
+    "name": "Z-Axis Extrusion",
+    "assembly": "Extrusions",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "verified-product",
+    "value": {
+      "amount": 20,
+      "currency": "USD",
+      "basis": "one Z-axis extrusion; excludes shipping and tax",
+      "status": "verified-price",
+      "unitEquivalent": false
+    },
+    "quantity": 1
+  },
+  {
+    "id": "allen-key-2-5mm",
+    "machineId": "farmbot",
+    "name": "2.5mm Allen Key",
+    "assembly": "Fasteners and Hardware",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "no-sales-page",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current price for this exact documented part."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "allen-key-2mm",
+    "machineId": "farmbot",
+    "name": "2mm Allen Key",
+    "assembly": "Fasteners and Hardware",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "no-sales-page",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current price for this exact documented part."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "bit-t10",
+    "machineId": "farmbot",
+    "name": "T10 Bit",
+    "assembly": "Fasteners and Hardware",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "no-sales-page",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current price for this exact documented part."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "bit-t25",
+    "machineId": "farmbot",
+    "name": "T25 Bit",
+    "assembly": "Fasteners and Hardware",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "no-sales-page",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current price for this exact documented part."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "eccentric-spacer",
+    "machineId": "farmbot",
+    "name": "Eccentric Spacer",
+    "assembly": "Fasteners and Hardware",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current price for this exact documented part."
+    },
+    "quantity": 9
+  },
+  {
+    "id": "flathead-wood-screw-t10",
+    "machineId": "farmbot",
+    "name": "T10 Flathead Wood Screw",
+    "assembly": "Fasteners and Hardware",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "no-sales-page",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current price for this exact documented part."
+    },
+    "quantity": 2
+  },
+  {
+    "id": "hex-driver-3mm",
+    "machineId": "farmbot",
+    "name": "3mm Hex Driver",
+    "assembly": "Fasteners and Hardware",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current price for this exact documented part."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "m2-5-screw-4mm",
+    "machineId": "farmbot",
+    "name": "M2.5 x 4mm Screw",
+    "assembly": "Fasteners and Hardware",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "verified-product",
+    "value": {
+      "amount": 0.09,
+      "currency": "USD",
+      "status": "verified-price",
+      "basis": "Supplier single-piece reference price; recorded 2026-10-02T13:12:49.839211+00:00. Dated reference; cached information may be stale. Final retailer price, shipping, and taxes may differ.",
+      "unitEquivalent": false
+    },
+    "quantity": 8
+  },
+  {
+    "id": "m2-5-screw-6mm",
+    "machineId": "farmbot",
+    "name": "M2.5 x 6mm Screw",
+    "assembly": "Fasteners and Hardware",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "verified-product",
+    "value": {
+      "amount": 0.09,
+      "currency": "USD",
+      "status": "verified-price",
+      "basis": "Supplier single-piece reference price; recorded 2026-10-02T13:12:49.839211+00:00. Dated reference; cached information may be stale. Final retailer price, shipping, and taxes may differ.",
+      "unitEquivalent": false
+    },
+    "quantity": 2
+  },
+  {
+    "id": "m3-flat-head-screw-16mm",
+    "machineId": "farmbot",
+    "name": "M3 x 16mm Flat Head Screw",
+    "assembly": "Fasteners and Hardware",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "verified-product",
+    "value": {
+      "amount": 0.09,
+      "currency": "USD",
+      "status": "verified-price",
+      "basis": "Supplier single-piece reference price; recorded 2026-10-02T13:12:49.839211+00:00. Dated reference; cached information may be stale. Final retailer price, shipping, and taxes may differ.",
+      "unitEquivalent": false
+    },
+    "quantity": 2
+  },
+  {
+    "id": "m3-locknut",
+    "machineId": "farmbot",
+    "name": "M3 Locknut",
+    "assembly": "Fasteners and Hardware",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "verified-product",
+    "value": {
+      "amount": 0.1,
+      "currency": "USD",
+      "status": "verified-price",
+      "basis": "Unit equivalent from M3 Locknuts — (Pack of 10): 1.0 USD / 10. Actual purchase is the listed pack or variant; supplier checkout sets final price, shipping, and taxes.",
+      "unitEquivalent": true
+    },
+    "quantity": 23
+  },
+  {
+    "id": "m3-screw-10mm",
+    "machineId": "farmbot",
+    "name": "M3 x 10mm Screw",
+    "assembly": "Fasteners and Hardware",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "verified-product",
+    "value": {
+      "amount": 0.204,
+      "currency": "GBP",
+      "status": "verified-price",
+      "basis": "1.02 GBP excluding VAT / 5-piece sachet, verified in the retailer browser on 2026-10-02T13:10:32.909Z. Unit equivalent only; actual purchase is a sachet. Final shipping/taxes/price are set by retailer.",
+      "unitEquivalent": true
+    },
+    "quantity": 4
+  },
+  {
+    "id": "m3-screw-12mm",
+    "machineId": "farmbot",
+    "name": "M3 x 12mm Screw",
+    "assembly": "Fasteners and Hardware",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "verified-product",
+    "value": {
+      "amount": 0.3225,
+      "currency": "GBP",
+      "status": "verified-price",
+      "basis": "1.29 GBP excluding VAT / 4-piece sachet, verified in the retailer browser on 2026-10-02T13:10:41.916Z. Unit equivalent only; actual purchase is a sachet. Final shipping/taxes/price are set by retailer.",
+      "unitEquivalent": true
+    },
+    "quantity": 31
+  },
+  {
+    "id": "m3-screw-35mm",
+    "machineId": "farmbot",
+    "name": "M3 x 35mm Screw",
+    "assembly": "Fasteners and Hardware",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "verified-product",
+    "value": {
+      "amount": 1.105,
+      "currency": "GBP",
+      "status": "verified-price",
+      "basis": "2.21 GBP excluding VAT / 2-piece sachet, verified in the retailer browser on 2026-10-02T13:10:50.818Z. Unit equivalent only; actual purchase is a sachet. Final shipping/taxes/price are set by retailer.",
+      "unitEquivalent": true
+    },
+    "quantity": 4
+  },
+  {
+    "id": "m3-setscrew-4mm",
+    "machineId": "farmbot",
+    "name": "M3 x 4mm Setscrew",
+    "assembly": "Fasteners and Hardware",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current price for this exact documented part."
+    },
+    "quantity": 6
+  },
+  {
+    "id": "m4-setscrew-4mm",
+    "machineId": "farmbot",
+    "name": "M4 x 4mm Setscrew",
+    "assembly": "Fasteners and Hardware",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current price for this exact documented part."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "m5-flange-locknut",
+    "machineId": "farmbot",
+    "name": "M5 Flange Locknut",
+    "assembly": "Fasteners and Hardware",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current price for this exact documented part."
+    },
+    "quantity": 53
+  },
+  {
+    "id": "m5-flat-head-screw-16mm",
+    "machineId": "farmbot",
+    "name": "M5 x 16mm Flat Head Screw",
+    "assembly": "Fasteners and Hardware",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "verified-product",
+    "value": {
+      "amount": 0.22,
+      "currency": "USD",
+      "status": "verified-price",
+      "basis": "Supplier single-piece reference price; recorded 2026-10-02T13:12:49.839211+00:00. Dated reference; cached information may be stale. Final retailer price, shipping, and taxes may differ.",
+      "unitEquivalent": false
+    },
+    "quantity": 3
+  },
+  {
+    "id": "m5-screw-10mm",
+    "machineId": "farmbot",
+    "name": "M5 x 10mm Screw",
+    "assembly": "Fasteners and Hardware",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "verified-product",
+    "value": {
+      "amount": 0.12,
+      "currency": "USD",
+      "status": "verified-price",
+      "basis": "Supplier single-piece reference price; recorded 2026-10-02T13:12:49.839211+00:00. Dated reference; cached information may be stale. Final retailer price, shipping, and taxes may differ.",
+      "unitEquivalent": false
+    },
+    "quantity": 53
+  },
+  {
+    "id": "m5-screw-12mm",
+    "machineId": "farmbot",
+    "name": "M5 x 12mm Screw",
+    "assembly": "Fasteners and Hardware",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "verified-product",
+    "value": {
+      "amount": 0.13,
+      "currency": "USD",
+      "status": "verified-price",
+      "basis": "Supplier single-piece reference price; recorded 2026-10-02T13:12:49.839211+00:00. Dated reference; cached information may be stale. Final retailer price, shipping, and taxes may differ.",
+      "unitEquivalent": false
+    },
+    "quantity": 8
+  },
+  {
+    "id": "m5-screw-16mm",
+    "machineId": "farmbot",
+    "name": "M5 x 16mm Screw",
+    "assembly": "Fasteners and Hardware",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "verified-product",
+    "value": {
+      "amount": 0.14,
+      "currency": "USD",
+      "status": "verified-price",
+      "basis": "Supplier single-piece reference price; recorded 2026-10-02T13:12:49.839211+00:00. Dated reference; cached information may be stale. Final retailer price, shipping, and taxes may differ.",
+      "unitEquivalent": false
+    },
+    "quantity": 20
+  },
+  {
+    "id": "m5-screw-20mm",
+    "machineId": "farmbot",
+    "name": "M5 x 20mm Screw",
+    "assembly": "Fasteners and Hardware",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "verified-product",
+    "value": {
+      "amount": 0.18,
+      "currency": "USD",
+      "status": "verified-price",
+      "basis": "Supplier single-piece reference price; recorded 2026-10-02T13:12:49.839211+00:00. Dated reference; cached information may be stale. Final retailer price, shipping, and taxes may differ.",
+      "unitEquivalent": false
+    },
+    "quantity": 11
+  },
+  {
+    "id": "m5-screw-25mm",
+    "machineId": "farmbot",
+    "name": "M5 x 25mm Screw",
+    "assembly": "Fasteners and Hardware",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "verified-product",
+    "value": {
+      "amount": 0.21,
+      "currency": "USD",
+      "status": "verified-price",
+      "basis": "Supplier single-piece reference price; recorded 2026-10-02T13:12:49.839211+00:00. Dated reference; cached information may be stale. Final retailer price, shipping, and taxes may differ.",
+      "unitEquivalent": false
+    },
+    "quantity": 4
+  },
+  {
+    "id": "m5-screw-30mm",
+    "machineId": "farmbot",
+    "name": "M5 x 30mm Screw",
+    "assembly": "Fasteners and Hardware",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "verified-product",
+    "value": {
+      "amount": 0.26,
+      "currency": "USD",
+      "status": "verified-price",
+      "basis": "Supplier single-piece reference price; recorded 2026-10-02T13:12:49.839211+00:00. Dated reference; cached information may be stale. Final retailer price, shipping, and taxes may differ.",
+      "unitEquivalent": false
+    },
+    "quantity": 25
+  },
+  {
+    "id": "m5-setscrew-4mm",
+    "machineId": "farmbot",
+    "name": "M5 x 4mm Setscrew",
+    "assembly": "Fasteners and Hardware",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "no-sales-page",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current price for this exact documented part."
+    },
+    "quantity": 25
+  },
+  {
+    "id": "magnet-countersunk",
+    "machineId": "farmbot",
+    "name": "Countersunk Magnet",
+    "assembly": "Fasteners and Hardware",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current price for this exact documented part."
+    },
+    "quantity": 3
+  },
+  {
+    "id": "magnet-standard",
+    "machineId": "farmbot",
+    "name": "Standard Magnet",
+    "assembly": "Fasteners and Hardware",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current price for this exact documented part."
+    },
+    "quantity": 12
+  },
+  {
+    "id": "nut-bar-10mm",
+    "machineId": "farmbot",
+    "name": "10mm Nut Bar",
+    "assembly": "Fasteners and Hardware",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current price for this exact documented part."
+    },
+    "quantity": 12
+  },
+  {
+    "id": "nut-bar-160mm",
+    "machineId": "farmbot",
+    "name": "160mm Nut Bar",
+    "assembly": "Fasteners and Hardware",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "fabrication-required",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "quote-required",
+      "basis": "No exact retail product identified; manufacturing quote requires the original CAD revision, material and finishing specification."
+    },
+    "quantity": 3
+  },
+  {
+    "id": "nut-bar-20mm",
+    "machineId": "farmbot",
+    "name": "20mm Nut Bar",
+    "assembly": "Fasteners and Hardware",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current price for this exact documented part."
+    },
+    "quantity": 6
+  },
+  {
+    "id": "nut-bar-40mm",
+    "machineId": "farmbot",
+    "name": "40mm Nut Bar",
+    "assembly": "Fasteners and Hardware",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current price for this exact documented part."
+    },
+    "quantity": 19
+  },
+  {
+    "id": "nut-bar-60mm",
+    "machineId": "farmbot",
+    "name": "60mm Nut Bar",
+    "assembly": "Fasteners and Hardware",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current price for this exact documented part."
+    },
+    "quantity": 4
+  },
+  {
+    "id": "rotary-tool-chuck-adapter",
+    "machineId": "farmbot",
+    "name": "Rotary Tool Chuck Adapter",
+    "assembly": "Fasteners and Hardware",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current price for this exact documented part."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "rotary-tool-chuck",
+    "machineId": "farmbot",
+    "name": "Rotary Tool Chuck",
+    "assembly": "Fasteners and Hardware",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current price for this exact documented part."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "rotary-tool-m5-shaft-adapter",
+    "machineId": "farmbot",
+    "name": "Rotary Tool M5 Shaft Adapter",
+    "assembly": "Fasteners and Hardware",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current price for this exact documented part."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "rotary-tool-shaft-extension",
+    "machineId": "farmbot",
+    "name": "Rotary Tool Shaft Extension",
+    "assembly": "Fasteners and Hardware",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current price for this exact documented part."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "rotary-tool-trimmer-mount",
+    "machineId": "farmbot",
+    "name": "Rotary Tool Trimmer Mount",
+    "assembly": "Fasteners and Hardware",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current price for this exact documented part."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "rotary-tool-trimmer",
+    "machineId": "farmbot",
+    "name": "Rotary Tool Trimmer",
+    "assembly": "Fasteners and Hardware",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current price for this exact documented part."
+    },
+    "quantity": 30
+  },
+  {
+    "id": "standard-spacer",
+    "machineId": "farmbot",
+    "name": "Standard Spacer",
+    "assembly": "Fasteners and Hardware",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current price for this exact documented part."
+    },
+    "quantity": 11
+  },
+  {
+    "id": "wood-screw-t25",
+    "machineId": "farmbot",
+    "name": "T25 Wood Screw",
+    "assembly": "Fasteners and Hardware",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "no-sales-page",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current price for this exact documented part."
+    },
+    "quantity": 35
+  },
+  {
+    "id": "wrench-8mm",
+    "machineId": "farmbot",
+    "name": "8mm Wrench",
+    "assembly": "Fasteners and Hardware",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "verified-product",
+    "value": {
+      "amount": 1,
+      "currency": "USD",
+      "status": "verified-price",
+      "basis": "Unit equivalent from Assembly Tools — 8mm Small Wrench: 1.0 USD / 1. Actual purchase is the listed pack or variant; supplier checkout sets final price, shipping, and taxes.",
+      "unitEquivalent": true
+    },
+    "quantity": 1
+  },
+  {
+    "id": "zip-tie-200mm",
+    "machineId": "farmbot",
+    "name": "200mm Zip Tie",
+    "assembly": "Fasteners and Hardware",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "verified-product",
+    "value": {
+      "amount": 0.2,
+      "currency": "USD",
+      "status": "verified-price",
+      "basis": "Unit equivalent from Zip Ties — 200mm (pack of 5): 1.0 USD / 5. Actual purchase is the listed pack or variant; supplier checkout sets final price, shipping, and taxes.",
+      "unitEquivalent": true
+    },
+    "quantity": 4
+  },
+  {
+    "id": "cable-carrier-spacer-block-40mm",
+    "machineId": "farmbot",
+    "name": "40mm Cable Carrier Spacer Block",
+    "assembly": "Plastic Parts",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current price for this exact documented part."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "cable-carrier-support-horizontal-40mm-extruded",
+    "machineId": "farmbot",
+    "name": "Extruded 40mm Horizontal Cable Carrier Support",
+    "assembly": "Plastic Parts",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "fabrication-required",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "quote-required",
+      "basis": "No exact retail product identified; manufacturing quote requires the original CAD revision, material and finishing specification."
+    },
+    "quantity": 3
+  },
+  {
+    "id": "cable-carrier-support-vertical-40mm-extruded",
+    "machineId": "farmbot",
+    "name": "Extruded 40mm Vertical Cable Carrier Support",
+    "assembly": "Plastic Parts",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "fabrication-required",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "quote-required",
+      "basis": "No exact retail product identified; manufacturing quote requires the original CAD revision, material and finishing specification."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "cable-carrier-support-vertical-40mm",
+    "machineId": "farmbot",
+    "name": "40mm Vertical Cable Carrier Support",
+    "assembly": "Plastic Parts",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current price for this exact documented part."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "camera-mount-half",
+    "machineId": "farmbot",
+    "name": "Camera Mount Half",
+    "assembly": "Plastic Parts",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current price for this exact documented part."
+    },
+    "quantity": 2
+  },
+  {
+    "id": "motor-housing-horizontal-75mm",
+    "machineId": "farmbot",
+    "name": "Horizontal Motor Housing",
+    "assembly": "Plastic Parts",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current price for this exact documented part."
+    },
+    "quantity": 3
+  },
+  {
+    "id": "motor-housing-vertical-80mm",
+    "machineId": "farmbot",
+    "name": "Vertical Motor Housing",
+    "assembly": "Plastic Parts",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current price for this exact documented part."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "rotary-tool-bottom",
+    "machineId": "farmbot",
+    "name": "Rotary Tool Bottom",
+    "assembly": "Plastic Parts",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current price for this exact documented part."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "rotary-tool-top",
+    "machineId": "farmbot",
+    "name": "Rotary Tool Top",
+    "assembly": "Plastic Parts",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current price for this exact documented part."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "seed-bin",
+    "machineId": "farmbot",
+    "name": "Seed Bin",
+    "assembly": "Plastic Parts",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current price for this exact documented part."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "seed-tray",
+    "machineId": "farmbot",
+    "name": "Seed Tray",
+    "assembly": "Plastic Parts",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current price for this exact documented part."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "seed-trough-holder",
+    "machineId": "farmbot",
+    "name": "Seed Trough Holder",
+    "assembly": "Plastic Parts",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current price for this exact documented part."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "seed-trough",
+    "machineId": "farmbot",
+    "name": "Seed Trough",
+    "assembly": "Plastic Parts",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current price for this exact documented part."
+    },
+    "quantity": 2
+  },
+  {
+    "id": "seeder",
+    "machineId": "farmbot",
+    "name": "Seeder",
+    "assembly": "Plastic Parts",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current price for this exact documented part."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "soil-sensor",
+    "machineId": "farmbot",
+    "name": "Soil Sensor",
+    "assembly": "Plastic Parts",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current price for this exact documented part."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "solenoid-valve-mount",
+    "machineId": "farmbot",
+    "name": "Solenoid Valve Mount",
+    "assembly": "Plastic Parts",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "fabrication-required",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "quote-required",
+      "basis": "No exact retail product identified; manufacturing quote requires the original CAD revision, material and finishing specification."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "utm",
+    "machineId": "farmbot",
+    "name": "UTM",
+    "assembly": "Plastic Parts",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current price for this exact documented part."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "vacuum-pump-cover",
+    "machineId": "farmbot",
+    "name": "Vacuum Pump Cover",
+    "assembly": "Plastic Parts",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current price for this exact documented part."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "watering-nozzle-bottom",
+    "machineId": "farmbot",
+    "name": "Watering Nozzle Bottom",
+    "assembly": "Plastic Parts",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current price for this exact documented part."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "watering-nozzle-top",
+    "machineId": "farmbot",
+    "name": "Watering Nozzle Top",
+    "assembly": "Plastic Parts",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current price for this exact documented part."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "belt-clip",
+    "machineId": "farmbot",
+    "name": "Belt Clip",
+    "assembly": "Plates and Brackets",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current price for this exact documented part."
+    },
+    "quantity": 6
+  },
+  {
+    "id": "cable-carrier-mount-60mm",
+    "machineId": "farmbot",
+    "name": "60mm Cable Carrier Mount",
+    "assembly": "Plates and Brackets",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current price for this exact documented part."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "cable-carrier-mount-x-axis",
+    "machineId": "farmbot",
+    "name": "X-Axis Cable Carrier Mount",
+    "assembly": "Plates and Brackets",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "fabrication-required",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "quote-required",
+      "basis": "No exact retail product identified; manufacturing quote requires the original CAD revision, material and finishing specification."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "cross-slide-plate",
+    "machineId": "farmbot",
+    "name": "Cross-Slide Plate",
+    "assembly": "Plates and Brackets",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current price for this exact documented part."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "gantry-corner-bracket-left",
+    "machineId": "farmbot",
+    "name": "Left Gantry Corner Bracket",
+    "assembly": "Plates and Brackets",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current price for this exact documented part."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "gantry-corner-bracket-right",
+    "machineId": "farmbot",
+    "name": "Right Gantry Corner Bracket",
+    "assembly": "Plates and Brackets",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current price for this exact documented part."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "gantry-joining-bar",
+    "machineId": "farmbot",
+    "name": "Gantry Joining Bar",
+    "assembly": "Plates and Brackets",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current price for this exact documented part."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "gantry-wheel-plate",
+    "machineId": "farmbot",
+    "name": "Gantry Wheel Plate",
+    "assembly": "Plates and Brackets",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current price for this exact documented part."
+    },
+    "quantity": 2
+  },
+  {
+    "id": "seed-trough-holder-mount",
+    "machineId": "farmbot",
+    "name": "Seed Trough Holder Mount",
+    "assembly": "Plates and Brackets",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current price for this exact documented part."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "toolbay-3-slot",
+    "machineId": "farmbot",
+    "name": "3-Slot Toolbay",
+    "assembly": "Plates and Brackets",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current price for this exact documented part."
+    },
+    "quantity": 2
+  },
+  {
+    "id": "vacuum-pump-mount",
+    "machineId": "farmbot",
+    "name": "Vacuum Pump Mount",
+    "assembly": "Plates and Brackets",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current price for this exact documented part."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "z-axis-hardstop",
+    "machineId": "farmbot",
+    "name": "Z-Axis Hardstop",
+    "assembly": "Plates and Brackets",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current price for this exact documented part."
+    },
+    "quantity": 2
+  },
+  {
+    "id": "z-axis-motor-mount",
+    "machineId": "farmbot",
+    "name": "Z-Axis Motor Mount",
+    "assembly": "Plates and Brackets",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "fabrication-required",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "quote-required",
+      "basis": "No exact retail product identified; manufacturing quote requires the original CAD revision, material and finishing specification."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "90-degree-barb",
+    "machineId": "farmbot",
+    "name": "90-Degree Barb",
+    "assembly": "Tubing",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current retail price for this exact documented part."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "garden-hose-to-barb-adapter",
+    "machineId": "farmbot",
+    "name": "Garden Hose to Barb Adapter",
+    "assembly": "Tubing",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current retail price for this exact documented part."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "inline-air-filter",
+    "machineId": "farmbot",
+    "name": "Inline Air Filter",
+    "assembly": "Tubing",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current retail price for this exact documented part."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "luer-lock-adapter",
+    "machineId": "farmbot",
+    "name": "Luer Lock Adapter",
+    "assembly": "Tubing",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "verified-product",
+    "value": {
+      "amount": 7,
+      "currency": "USD",
+      "status": "verified-price",
+      "basis": "One exact matched retail part; excludes tax, delivery, and duties.",
+      "unitEquivalent": false
+    },
+    "quantity": 1
+  },
+  {
+    "id": "luer-lock-needle-16-gauge",
+    "machineId": "farmbot",
+    "name": "16 Gauge Luer Lock Needle",
+    "assembly": "Tubing",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current retail price for this exact documented part."
+    },
+    "quantity": 3
+  },
+  {
+    "id": "luer-lock-needle-19-gauge",
+    "machineId": "farmbot",
+    "name": "19 Gauge Luer Lock Needle",
+    "assembly": "Tubing",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current retail price for this exact documented part."
+    },
+    "quantity": 3
+  },
+  {
+    "id": "m5-barb",
+    "machineId": "farmbot",
+    "name": "M5 Barb",
+    "assembly": "Tubing",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "fabrication-required",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "quote-required",
+      "basis": "Custom/captive source part: supplier quotation or source CAD fabrication is required; no price was invented."
+    },
+    "quantity": 3
+  },
+  {
+    "id": "npt-to-barb-adapter",
+    "machineId": "farmbot",
+    "name": "NPT to Barb Adapter",
+    "assembly": "Tubing",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current retail price for this exact documented part."
+    },
+    "quantity": 2
+  },
+  {
+    "id": "o-ring",
+    "machineId": "farmbot",
+    "name": "O-Ring",
+    "assembly": "Tubing",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current retail price for this exact documented part."
+    },
+    "quantity": 3
+  },
+  {
+    "id": "pressure-regulator",
+    "machineId": "farmbot",
+    "name": "Pressure Regulator",
+    "assembly": "Tubing",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current retail price for this exact documented part."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "rubber-gasket",
+    "machineId": "farmbot",
+    "name": "Rubber Gasket",
+    "assembly": "Tubing",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current retail price for this exact documented part."
+    },
+    "quantity": 4
+  },
+  {
+    "id": "tube-vacuum--1",
+    "machineId": "farmbot",
+    "name": "Vacuum Tube — 0.95m (Vacuum, Z-Axis, all bots)",
+    "assembly": "Tubing",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current retail price for this exact documented part."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "tube-vacuum--2",
+    "machineId": "farmbot",
+    "name": "Vacuum Tube — 0.15m (Vacuum, Cross-Slide, all bots)",
+    "assembly": "Tubing",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current retail price for this exact documented part."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "tube-water--1",
+    "machineId": "farmbot",
+    "name": "Water Tube — 0.95m (Water, Z-axis)",
+    "assembly": "Tubing",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current retail price for this exact documented part."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "tube-water--2",
+    "machineId": "farmbot",
+    "name": "Water Tube — 2.1m (Water, Y-axis)",
+    "assembly": "Tubing",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current retail price for this exact documented part."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "tube-water--3",
+    "machineId": "farmbot",
+    "name": "Water Tube — 2.5m (Water, X-axis)",
+    "assembly": "Tubing",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current retail price for this exact documented part."
+    },
+    "quantity": 1
+  },
+  {
+    "id": "tube-water--4",
+    "machineId": "farmbot",
+    "name": "Water Tube — 3.6m (Water, Y-axis)",
+    "assembly": "Tubing",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current retail price for this exact documented part."
+    },
+    "quantity": 0
+  },
+  {
+    "id": "tube-water--5",
+    "machineId": "farmbot",
+    "name": "Water Tube — 4.0m (Water, X-axis)",
+    "assembly": "Tubing",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "source-linked-unverified",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current retail price for this exact documented part."
+    },
+    "quantity": 0
+  },
+  {
+    "id": "packaging--main-carton",
+    "machineId": "farmbot",
+    "name": "Main Carton",
+    "assembly": "Packaging",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current price for this exact documented part."
+    },
+    "quantity": null
+  },
+  {
+    "id": "packaging--main-carton-tray-insert",
+    "machineId": "farmbot",
+    "name": "Main Carton Tray Insert",
+    "assembly": "Packaging",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current price for this exact documented part."
+    },
+    "quantity": null
+  },
+  {
+    "id": "packaging--main-carton-fill",
+    "machineId": "farmbot",
+    "name": "Main Carton Fill",
+    "assembly": "Packaging",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current price for this exact documented part."
+    },
+    "quantity": null
+  },
+  {
+    "id": "packaging--main-carton-edge-protectors",
+    "machineId": "farmbot",
+    "name": "Main Carton Edge Protectors",
+    "assembly": "Packaging",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current price for this exact documented part."
+    },
+    "quantity": null
+  },
+  {
+    "id": "packaging--main-carton-polystrapping",
+    "machineId": "farmbot",
+    "name": "Main Carton Polystrapping",
+    "assembly": "Packaging",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current price for this exact documented part."
+    },
+    "quantity": null
+  },
+  {
+    "id": "packaging--extrusion-kit-genesis",
+    "machineId": "farmbot",
+    "name": "Extrusion Kit - Genesis",
+    "assembly": "Packaging",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current price for this exact documented part."
+    },
+    "quantity": null
+  },
+  {
+    "id": "packaging--extrusion-kit-genesis-xl",
+    "machineId": "farmbot",
+    "name": "Extrusion Kit - Genesis (XL)",
+    "assembly": "Packaging",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current price for this exact documented part."
+    },
+    "quantity": null
+  },
+  {
+    "id": "packaging--extrusion-kit-wrapping",
+    "machineId": "farmbot",
+    "name": "Extrusion Kit Wrapping",
+    "assembly": "Packaging",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current price for this exact documented part."
+    },
+    "quantity": null
+  },
+  {
+    "id": "packaging--extrusion-kit-end-stops",
+    "machineId": "farmbot",
+    "name": "Extrusion Kit End Stops",
+    "assembly": "Packaging",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current price for this exact documented part."
+    },
+    "quantity": null
+  },
+  {
+    "id": "packaging--extrusion-kit-fill",
+    "machineId": "farmbot",
+    "name": "Extrusion Kit Fill",
+    "assembly": "Packaging",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current price for this exact documented part."
+    },
+    "quantity": null
+  },
+  {
+    "id": "packaging--extrusion-kit-edge-protectors",
+    "machineId": "farmbot",
+    "name": "Extrusion Kit Edge Protectors",
+    "assembly": "Packaging",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current price for this exact documented part."
+    },
+    "quantity": null
+  },
+  {
+    "id": "packaging--extrusion-kit-polystrapping",
+    "machineId": "farmbot",
+    "name": "Extrusion Kit Polystrapping",
+    "assembly": "Packaging",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current price for this exact documented part."
+    },
+    "quantity": null
+  },
+  {
+    "id": "packaging--hardware-kit-box",
+    "machineId": "farmbot",
+    "name": "Hardware Kit Box",
+    "assembly": "Packaging",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current price for this exact documented part."
+    },
+    "quantity": null
+  },
+  {
+    "id": "packaging--press-to-seal-bag",
+    "machineId": "farmbot",
+    "name": "Press-to-Seal Bag",
+    "assembly": "Packaging",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current price for this exact documented part."
+    },
+    "quantity": null
+  },
+  {
+    "id": "packaging--100-recycled-50lb-kraft-paper",
+    "machineId": "farmbot",
+    "name": "100% Recycled 50lb Kraft Paper",
+    "assembly": "Packaging",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current price for this exact documented part."
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-000",
+    "machineId": "farmbot",
+    "name": "Unnamed source CAD bodies",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-001",
+    "machineId": "farmbot",
+    "name": "1 x 2 2.54mm Shunt",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-002",
+    "machineId": "farmbot",
+    "name": "2.5mm Hex Key",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-003",
+    "machineId": "farmbot",
+    "name": "20mm x 20mm x 1000mm Extrusion",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-004",
+    "machineId": "farmbot",
+    "name": "25mm Wood Screw",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-005",
+    "machineId": "farmbot",
+    "name": "2mm Hex Key",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-006",
+    "machineId": "farmbot",
+    "name": "3/4\" Rubber Gasket",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-007",
+    "machineId": "farmbot",
+    "name": "5mm to 8mm Shaft Coupler",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-008",
+    "machineId": "farmbot",
+    "name": "75mm Horizontal Motor Housing",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-009",
+    "machineId": "farmbot",
+    "name": "75mm Wood Screw",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-010",
+    "machineId": "farmbot",
+    "name": "80mm Vertical Motor Housing",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-011",
+    "machineId": "farmbot",
+    "name": "90 Degree Barb",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-012",
+    "machineId": "farmbot",
+    "name": "Cable Carrier End 1",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-013",
+    "machineId": "farmbot",
+    "name": "Cable Carrier End 2",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-014",
+    "machineId": "farmbot",
+    "name": "Cable Carrier Link",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-015",
+    "machineId": "farmbot",
+    "name": "Cable Carrier Support",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-016",
+    "machineId": "farmbot",
+    "name": "Cable Carrier Tab",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-017",
+    "machineId": "farmbot",
+    "name": "Camera Calibration Backing",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-018",
+    "machineId": "farmbot",
+    "name": "Electronics Box",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-019",
+    "machineId": "farmbot",
+    "name": "Electronics Box Gasket",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-020",
+    "machineId": "farmbot",
+    "name": "Electronics Box Latch",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-021",
+    "machineId": "farmbot",
+    "name": "Electronics Box Lid",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-022",
+    "machineId": "farmbot",
+    "name": "Encoder Base",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-023",
+    "machineId": "farmbot",
+    "name": "Encoder Cable - X1",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-024",
+    "machineId": "farmbot",
+    "name": "Encoder Cable - X2",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-025",
+    "machineId": "farmbot",
+    "name": "Encoder Cable - Y",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-026",
+    "machineId": "farmbot",
+    "name": "Encoder Cable - ZY",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-027",
+    "machineId": "farmbot",
+    "name": "Extension Cord",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-028",
+    "machineId": "farmbot",
+    "name": "Flathead Wood Screw",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-029",
+    "machineId": "farmbot",
+    "name": "Garden Faucet",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-030",
+    "machineId": "farmbot",
+    "name": "Garden Hose",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-031",
+    "machineId": "farmbot",
+    "name": "Getting Started + Calibration Card",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-032",
+    "machineId": "farmbot",
+    "name": "Horizontal Cable Carrier Support Extrusion",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-033",
+    "machineId": "farmbot",
+    "name": "LED Pin Header",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-034",
+    "machineId": "farmbot",
+    "name": "Long Board",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-035",
+    "machineId": "farmbot",
+    "name": "Luer Lock Needle Cover",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-036",
+    "machineId": "farmbot",
+    "name": "M10 x 100mm Lag Screw",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-037",
+    "machineId": "farmbot",
+    "name": "M10 x 40mm Washer",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-038",
+    "machineId": "farmbot",
+    "name": "M3 Brass Insert",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-039",
+    "machineId": "farmbot",
+    "name": "M3 Setscrew",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-040",
+    "machineId": "farmbot",
+    "name": "M3 x 12mm Socket Head Screw",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-041",
+    "machineId": "farmbot",
+    "name": "M5 Shim",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-042",
+    "machineId": "farmbot",
+    "name": "Main Carton",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-043",
+    "machineId": "farmbot",
+    "name": "MicroSD Card",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-044",
+    "machineId": "farmbot",
+    "name": "MicroSD Card Case",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-045",
+    "machineId": "farmbot",
+    "name": "MicroSD to SD Card Adapter",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-046",
+    "machineId": "farmbot",
+    "name": "Motor Cable - X1",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-047",
+    "machineId": "farmbot",
+    "name": "Motor Cable - X2",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-048",
+    "machineId": "farmbot",
+    "name": "Motor Cable - Y",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-049",
+    "machineId": "farmbot",
+    "name": "Motor Cable - ZY",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-050",
+    "machineId": "farmbot",
+    "name": "NEMA 17 Stepper Motor",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-051",
+    "machineId": "farmbot",
+    "name": "O-Ring (7.5mm ID, modeled as 8mm)",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-052",
+    "machineId": "farmbot",
+    "name": "Outlet Box",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-053",
+    "machineId": "farmbot",
+    "name": "Pi Power Cable",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-054",
+    "machineId": "farmbot",
+    "name": "Pipe",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-055",
+    "machineId": "farmbot",
+    "name": "Plastic Bag",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-056",
+    "machineId": "farmbot",
+    "name": "Polystrap",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-057",
+    "machineId": "farmbot",
+    "name": "Post",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-058",
+    "machineId": "farmbot",
+    "name": "Push Button - Red",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-059",
+    "machineId": "farmbot",
+    "name": "Push Button - White",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-060",
+    "machineId": "farmbot",
+    "name": "Push Button - Yellow",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-061",
+    "machineId": "farmbot",
+    "name": "Raspberry Pi 4B",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-062",
+    "machineId": "farmbot",
+    "name": "Rotary Encoder",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-063",
+    "machineId": "farmbot",
+    "name": "Rotary Tool Motor (500TB-12560)",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-064",
+    "machineId": "farmbot",
+    "name": "Seeder Brass Insert",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-065",
+    "machineId": "farmbot",
+    "name": "Short Board",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-066",
+    "machineId": "farmbot",
+    "name": "Soil",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-067",
+    "machineId": "farmbot",
+    "name": "Solenoid Mount",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-068",
+    "machineId": "farmbot",
+    "name": "Supergland Half",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-069",
+    "machineId": "farmbot",
+    "name": "Tool Magnet",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-070",
+    "machineId": "farmbot",
+    "name": "UTM Cable - Y",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-071",
+    "machineId": "farmbot",
+    "name": "UTM Cable - Z",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-072",
+    "machineId": "farmbot",
+    "name": "UTM Magnet",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-073",
+    "machineId": "farmbot",
+    "name": "Utilities Post",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-074",
+    "machineId": "farmbot",
+    "name": "Vacuum Pump Cable - Y",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-075",
+    "machineId": "farmbot",
+    "name": "Vacuum Tube - Z, 0.15m",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-076",
+    "machineId": "farmbot",
+    "name": "Vacuum Tube - Z, 0.95m",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-077",
+    "machineId": "farmbot",
+    "name": "Water Tube (X)",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-078",
+    "machineId": "farmbot",
+    "name": "Water Tube (Y)",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-079",
+    "machineId": "farmbot",
+    "name": "Water Tube (Z)",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-080",
+    "machineId": "farmbot",
+    "name": "X-Axis Belt",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-081",
+    "machineId": "farmbot",
+    "name": "X-Axis CC Mount",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-082",
+    "machineId": "farmbot",
+    "name": "Y-Axis Belt",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-083",
+    "machineId": "farmbot",
+    "name": "ZZ Encoder Cable",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "farmbot-cad-unmatched-084",
+    "machineId": "farmbot",
+    "name": "ZZ Motor Cable",
+    "assembly": "Source CAD · BOM identity unmatched",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified exact-part retail price"
+    },
+    "quantity": null
+  },
+  {
+    "id": "source-required-blue-threadlocker",
+    "machineId": "farmbot",
+    "name": "Blue thread locker for the Rotary Tool M5 Shaft Adapter setscrew",
+    "assembly": "Assembly consumables",
+    "partNumber": null,
+    "sku": null,
+    "partNumberType": null,
+    "status": "identity-unresolved",
+    "value": {
+      "amount": null,
+      "currency": null,
+      "status": "price-unavailable",
+      "basis": "No verified current price for this exact documented part."
+    },
+    "quantity": null
+  }
+]

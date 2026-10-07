@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "profile": "farmbot-prospect-demo-v1",
+  "source": "FarmBot Genesis v1.8 Production Run 1 public design",
+  "sourceCADLicense": "CC0-1.0",
+  "documentationSnapshotLicense": "MIT",
+  "originalEXOSoftware": "Proprietary evaluation license; repository review, download/clone and unmodified local evaluation",
+  "delivered": [
+    "Required browser JavaScript",
+    "Public-source display CAD and service references",
+    "Customer review and license notices"
+  ],
+  "notIncluded": [
+    "Production tooling",
+    "Original engineering STEP",
+    "Private review records"
+  ],
+  "approval": "Independent reference demo; no OEM approval or replacement-fit approval is implied"
+}

@@ -1,0 +1,41 @@
+EXO FLAGSHIP — PROPRIETARY EVALUATION LICENSE
+Version 1.0 — October 7, 2026
+
+Copyright (c) 2026 EXO-Robotics. All rights reserved.
+
+SCOPE
+This license applies only to original material owned by EXO-Robotics in this
+package, including original application code, interface design and documentation.
+Separately licensed third-party software, FarmBot CAD and documentation retain
+their own terms, as listed in THIRD_PARTY_NOTICES.md. This license does not
+restrict rights granted by those upstream licenses.
+
+PERMITTED EVALUATION
+You may view this public repository, download or clone a copy, and run an
+unmodified copy locally to evaluate EXO's equipment-explorer demonstration,
+including evaluation for a potential commercial relationship with EXO.
+Browser/cache copies necessary to use an EXO-authorized hosted demo are permitted.
+Preserve this license and all applicable copyright and third-party notices.
+GitHub and its users retain the display, reproduction and native repository
+forking rights required by the applicable GitHub Terms of Service. Such rights
+do not grant permission to deploy or commercially reuse EXO original material.
+
+OTHER USES
+Modification, integration, redistribution outside the rights above, sublicensing,
+sale, public hosting, deployment, or other commercial exploitation of EXO
+original material require a separate written license from EXO-Robotics.
+This is a proprietary evaluation license, not an open-source license.
+
+THIRD-PARTY RIGHTS AND MARKS
+FarmBot source CAD and converted source geometry remain CC0. Retained MIT
+software and documentation notices govern those materials independently.
+No manufacturer sponsorship, endorsement, approved replacement fit, trademark
+license, or rights to separately licensed marketing assets are implied.
+Hosting-provider rights required by applicable terms and rights that cannot
+lawfully be restricted are not expanded or restricted by this license.
+
+DISCLAIMER
+The original EXO material is provided "AS IS", without warranties, including
+merchantability, fitness for a particular purpose, title, or non-infringement.
+To the maximum extent permitted by law, EXO-Robotics shall not be liable for
+claims, damages, or other liability arising from access to or use of the material.

@@ -1,0 +1,3293 @@
+{
+  "schemaVersion": 1,
+  "supplier": "FarmBot Inc official shop",
+  "retrievedAt": "2026-10-02T02:26:32.759356+00:00",
+  "sourceUrl": "https://farm.bot/products.json?limit=250",
+  "sourceSha256": "09c90e58d38eeffeee6f0e22d92044aa69fe3a78a4f023bffe3c91ead7405e7b",
+  "sourceProductCount": 135,
+  "stockSemantics": "Public supplier available boolean at snapshot; does not guarantee fulfillment or inventory quantity.",
+  "kit": {
+    "productId": 7266479013986,
+    "title": "FarmBot Genesis v1.8",
+    "handle": "farmbot-genesis-v1-8",
+    "url": "https://farm.bot/products/farmbot-genesis-v1-8",
+    "supplierUpdatedAt": "2026-10-01T19:23:25-07:00",
+    "variants": [
+      {
+        "variantId": 41596813934690,
+        "title": "Default Title",
+        "sku": "farmbot-genesis-v1-8",
+        "availableAtSnapshot": false,
+        "priceAtSnapshot": "5995.00",
+        "currency": "USD",
+        "option1": "Default Title",
+        "option2": null,
+        "option3": null
+      }
+    ],
+    "configuration": "standard",
+    "revision": "1.8",
+    "exactProductIdentityVerified": true,
+    "availableAtSnapshot": false,
+    "stockStatus": "sold-out-at-snapshot",
+    "checkoutIntegrated": false,
+    "stockReadbackSource": "official-product-page-and-public-feed"
+  },
+  "parts": [
+    {
+      "catalogId": "bearing",
+      "documentedRevision": null,
+      "documentedQuantity": 40,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [
+        {
+          "productId": 769005781090,
+          "title": "Bearings",
+          "handle": "bearings",
+          "url": "https://farm.bot/products/bearings",
+          "supplierUpdatedAt": "2026-10-01T19:23:25-07:00",
+          "variants": [
+            {
+              "variantId": 8234484301922,
+              "title": "Single Bearing",
+              "sku": "Bearing",
+              "availableAtSnapshot": true,
+              "priceAtSnapshot": "0.50",
+              "currency": "USD",
+              "option1": "Single Bearing",
+              "option2": null,
+              "option3": null
+            },
+            {
+              "variantId": 8234484334690,
+              "title": "Pack of 10 Bearings",
+              "sku": "Bearing",
+              "availableAtSnapshot": true,
+              "priceAtSnapshot": "5.00",
+              "currency": "USD",
+              "option1": "Pack of 10 Bearings",
+              "option2": null,
+              "option3": null
+            },
+            {
+              "variantId": 8234484367458,
+              "title": "Pack of 60 Bearings",
+              "sku": "Bearing",
+              "availableAtSnapshot": true,
+              "priceAtSnapshot": "30.00",
+              "currency": "USD",
+              "option1": "Pack of 60 Bearings",
+              "option2": null,
+              "option3": null
+            }
+          ],
+          "qualificationStatus": "public-specifications-match",
+          "revisionVerified": true,
+          "packagingUnitVerified": true
+        }
+      ],
+      "matchStatus": "public-specifications-match",
+      "qualificationNotes": "SS-625-2RS, stainless steel, 16mm OD, 5mm ID, 5mm thickness, and rubber seals agree. No revision specified in BOM. Pack sizes are distinct purchasing units; bearings are already pre-assembled in BOM wheels."
+    },
+    {
+      "catalogId": "belt-clip-dampener",
+      "documentedRevision": null,
+      "documentedQuantity": 6,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "belt-sleeve",
+      "documentedRevision": "A",
+      "documentedQuantity": 6,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "belt--1",
+      "documentedRevision": null,
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [
+        {
+          "productId": 769005879394,
+          "title": "GT2 Timing Belt",
+          "handle": "gt2-timing-belt",
+          "url": "https://farm.bot/products/gt2-timing-belt",
+          "supplierUpdatedAt": "2026-10-01T19:23:25-07:00",
+          "variants": [
+            {
+              "variantId": 41998475690082,
+              "title": "1.4m",
+              "sku": "1.4m GT2 Timing Belt",
+              "availableAtSnapshot": false,
+              "priceAtSnapshot": "3.00",
+              "currency": "USD",
+              "option1": "1.4m",
+              "option2": null,
+              "option3": null
+            },
+            {
+              "variantId": 8234484891746,
+              "title": "2m",
+              "sku": "2m GT2 Timing Belt",
+              "availableAtSnapshot": false,
+              "priceAtSnapshot": "5.00",
+              "currency": "USD",
+              "option1": "2m",
+              "option2": null,
+              "option3": null
+            },
+            {
+              "variantId": 41998480113762,
+              "title": "2.6m",
+              "sku": "2.6m GT2 Timing Belt",
+              "availableAtSnapshot": false,
+              "priceAtSnapshot": "7.50",
+              "currency": "USD",
+              "option1": "2.6m",
+              "option2": null,
+              "option3": null
+            },
+            {
+              "variantId": 8234484924514,
+              "title": "4.5m",
+              "sku": "4.5m GT2 Timing Belt",
+              "availableAtSnapshot": true,
+              "priceAtSnapshot": "30.00",
+              "currency": "USD",
+              "option1": "4.5m",
+              "option2": null,
+              "option3": null
+            },
+            {
+              "variantId": 15023361589346,
+              "title": "7.5m",
+              "sku": "7.5m GT2 Timing Belt",
+              "availableAtSnapshot": true,
+              "priceAtSnapshot": "50.00",
+              "currency": "USD",
+              "option1": "7.5m",
+              "option2": null,
+              "option3": null
+            }
+          ],
+          "qualificationStatus": "incompatible-published-specifications",
+          "revisionVerified": false,
+          "packagingUnitVerified": false
+        }
+      ],
+      "matchStatus": "incompatible-published-specifications",
+      "qualificationNotes": "No 1.7m purchasing variant. Supplier width 5mm and thickness 0.75mm differ from BOM width 5.8–6.0mm and thickness 1.25mm."
+    },
+    {
+      "catalogId": "belt--2",
+      "documentedRevision": null,
+      "documentedQuantity": 0,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [
+        {
+          "productId": 769005879394,
+          "title": "GT2 Timing Belt",
+          "handle": "gt2-timing-belt",
+          "url": "https://farm.bot/products/gt2-timing-belt",
+          "supplierUpdatedAt": "2026-10-01T19:23:25-07:00",
+          "variants": [
+            {
+              "variantId": 41998475690082,
+              "title": "1.4m",
+              "sku": "1.4m GT2 Timing Belt",
+              "availableAtSnapshot": false,
+              "priceAtSnapshot": "3.00",
+              "currency": "USD",
+              "option1": "1.4m",
+              "option2": null,
+              "option3": null
+            },
+            {
+              "variantId": 8234484891746,
+              "title": "2m",
+              "sku": "2m GT2 Timing Belt",
+              "availableAtSnapshot": false,
+              "priceAtSnapshot": "5.00",
+              "currency": "USD",
+              "option1": "2m",
+              "option2": null,
+              "option3": null
+            },
+            {
+              "variantId": 41998480113762,
+              "title": "2.6m",
+              "sku": "2.6m GT2 Timing Belt",
+              "availableAtSnapshot": false,
+              "priceAtSnapshot": "7.50",
+              "currency": "USD",
+              "option1": "2.6m",
+              "option2": null,
+              "option3": null
+            },
+            {
+              "variantId": 8234484924514,
+              "title": "4.5m",
+              "sku": "4.5m GT2 Timing Belt",
+              "availableAtSnapshot": true,
+              "priceAtSnapshot": "30.00",
+              "currency": "USD",
+              "option1": "4.5m",
+              "option2": null,
+              "option3": null
+            },
+            {
+              "variantId": 15023361589346,
+              "title": "7.5m",
+              "sku": "7.5m GT2 Timing Belt",
+              "availableAtSnapshot": true,
+              "priceAtSnapshot": "50.00",
+              "currency": "USD",
+              "option1": "7.5m",
+              "option2": null,
+              "option3": null
+            }
+          ],
+          "qualificationStatus": "incompatible-published-specifications",
+          "revisionVerified": false,
+          "packagingUnitVerified": false
+        }
+      ],
+      "matchStatus": "incompatible-published-specifications",
+      "qualificationNotes": "No 3.2m purchasing variant. Supplier width 5mm and thickness 0.75mm differ from BOM width 5.8–6.0mm and thickness 1.25mm."
+    },
+    {
+      "catalogId": "belt--3",
+      "documentedRevision": null,
+      "documentedQuantity": 2,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [
+        {
+          "productId": 769005879394,
+          "title": "GT2 Timing Belt",
+          "handle": "gt2-timing-belt",
+          "url": "https://farm.bot/products/gt2-timing-belt",
+          "supplierUpdatedAt": "2026-10-01T19:23:25-07:00",
+          "variants": [
+            {
+              "variantId": 41998475690082,
+              "title": "1.4m",
+              "sku": "1.4m GT2 Timing Belt",
+              "availableAtSnapshot": false,
+              "priceAtSnapshot": "3.00",
+              "currency": "USD",
+              "option1": "1.4m",
+              "option2": null,
+              "option3": null
+            },
+            {
+              "variantId": 8234484891746,
+              "title": "2m",
+              "sku": "2m GT2 Timing Belt",
+              "availableAtSnapshot": false,
+              "priceAtSnapshot": "5.00",
+              "currency": "USD",
+              "option1": "2m",
+              "option2": null,
+              "option3": null
+            },
+            {
+              "variantId": 41998480113762,
+              "title": "2.6m",
+              "sku": "2.6m GT2 Timing Belt",
+              "availableAtSnapshot": false,
+              "priceAtSnapshot": "7.50",
+              "currency": "USD",
+              "option1": "2.6m",
+              "option2": null,
+              "option3": null
+            },
+            {
+              "variantId": 8234484924514,
+              "title": "4.5m",
+              "sku": "4.5m GT2 Timing Belt",
+              "availableAtSnapshot": true,
+              "priceAtSnapshot": "30.00",
+              "currency": "USD",
+              "option1": "4.5m",
+              "option2": null,
+              "option3": null
+            },
+            {
+              "variantId": 15023361589346,
+              "title": "7.5m",
+              "sku": "7.5m GT2 Timing Belt",
+              "availableAtSnapshot": true,
+              "priceAtSnapshot": "50.00",
+              "currency": "USD",
+              "option1": "7.5m",
+              "option2": null,
+              "option3": null
+            }
+          ],
+          "qualificationStatus": "incompatible-published-specifications",
+          "revisionVerified": false,
+          "packagingUnitVerified": false
+        }
+      ],
+      "matchStatus": "incompatible-published-specifications",
+      "qualificationNotes": "A 4.5m length exists, but supplier width 5mm and thickness 0.75mm differ from BOM width 5.8–6.0mm and thickness 1.25mm. Length alone cannot qualify a replacement."
+    },
+    {
+      "catalogId": "belt--4",
+      "documentedRevision": null,
+      "documentedQuantity": 0,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [
+        {
+          "productId": 769005879394,
+          "title": "GT2 Timing Belt",
+          "handle": "gt2-timing-belt",
+          "url": "https://farm.bot/products/gt2-timing-belt",
+          "supplierUpdatedAt": "2026-10-01T19:23:25-07:00",
+          "variants": [
+            {
+              "variantId": 41998475690082,
+              "title": "1.4m",
+              "sku": "1.4m GT2 Timing Belt",
+              "availableAtSnapshot": false,
+              "priceAtSnapshot": "3.00",
+              "currency": "USD",
+              "option1": "1.4m",
+              "option2": null,
+              "option3": null
+            },
+            {
+              "variantId": 8234484891746,
+              "title": "2m",
+              "sku": "2m GT2 Timing Belt",
+              "availableAtSnapshot": false,
+              "priceAtSnapshot": "5.00",
+              "currency": "USD",
+              "option1": "2m",
+              "option2": null,
+              "option3": null
+            },
+            {
+              "variantId": 41998480113762,
+              "title": "2.6m",
+              "sku": "2.6m GT2 Timing Belt",
+              "availableAtSnapshot": false,
+              "priceAtSnapshot": "7.50",
+              "currency": "USD",
+              "option1": "2.6m",
+              "option2": null,
+              "option3": null
+            },
+            {
+              "variantId": 8234484924514,
+              "title": "4.5m",
+              "sku": "4.5m GT2 Timing Belt",
+              "availableAtSnapshot": true,
+              "priceAtSnapshot": "30.00",
+              "currency": "USD",
+              "option1": "4.5m",
+              "option2": null,
+              "option3": null
+            },
+            {
+              "variantId": 15023361589346,
+              "title": "7.5m",
+              "sku": "7.5m GT2 Timing Belt",
+              "availableAtSnapshot": true,
+              "priceAtSnapshot": "50.00",
+              "currency": "USD",
+              "option1": "7.5m",
+              "option2": null,
+              "option3": null
+            }
+          ],
+          "qualificationStatus": "incompatible-published-specifications",
+          "revisionVerified": false,
+          "packagingUnitVerified": false
+        }
+      ],
+      "matchStatus": "incompatible-published-specifications",
+      "qualificationNotes": "A 7.5m length exists, but supplier width 5mm and thickness 0.75mm differ from BOM width 5.8–6.0mm and thickness 1.25mm."
+    },
+    {
+      "catalogId": "leadscrew-block",
+      "documentedRevision": "B",
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "leadscrew",
+      "documentedRevision": null,
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [
+        {
+          "productId": 769007190114,
+          "title": "Leadscrew",
+          "handle": "leadscrew",
+          "url": "https://farm.bot/products/leadscrew",
+          "supplierUpdatedAt": "2026-10-01T19:23:25-07:00",
+          "variants": [
+            {
+              "variantId": 8234486661218,
+              "title": "Default Title",
+              "sku": "Leadscrew",
+              "availableAtSnapshot": false,
+              "priceAtSnapshot": "35.00",
+              "currency": "USD",
+              "option1": "Default Title",
+              "option2": null,
+              "option3": null
+            }
+          ],
+          "qualificationStatus": "public-specifications-match",
+          "revisionVerified": true,
+          "packagingUnitVerified": false
+        }
+      ],
+      "matchStatus": "public-specifications-match",
+      "qualificationNotes": "Stainless steel, 800mm length, 8mm diameter, Tr8*8-2p four-start threads, 2mm pitch, and 8mm lead agree. No revision specified in BOM. Supplier availability snapshot is false."
+    },
+    {
+      "catalogId": "precision-shim",
+      "documentedRevision": null,
+      "documentedQuantity": 20,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "pulley",
+      "documentedRevision": null,
+      "documentedQuantity": 3,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "shaft-coupler",
+      "documentedRevision": null,
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [
+        {
+          "productId": 6820217847906,
+          "title": "Shaft Coupler - 5mm to 8mm",
+          "handle": "shaft-coupler-5mm-to-8mm",
+          "url": "https://farm.bot/products/shaft-coupler-5mm-to-8mm",
+          "supplierUpdatedAt": "2026-10-01T19:23:25-07:00",
+          "variants": [
+            {
+              "variantId": 40183766286434,
+              "title": "Default Title",
+              "sku": "Shaft Coupler - 5mm to 8mm",
+              "availableAtSnapshot": true,
+              "priceAtSnapshot": "6.00",
+              "currency": "USD",
+              "option1": "Default Title",
+              "option2": null,
+              "option3": null
+            }
+          ],
+          "qualificationStatus": "partial-specifications-revision-unverified",
+          "revisionVerified": false,
+          "packagingUnitVerified": false
+        }
+      ],
+      "matchStatus": "partial-specifications-revision-unverified",
+      "qualificationNotes": "Supplier identifies aluminum, 5mm/8mm bores, but does not publish BOM 25mm length/20mm outer diameter/screw specs."
+    },
+    {
+      "catalogId": "v-wheel",
+      "documentedRevision": "B",
+      "documentedQuantity": 20,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [
+        {
+          "productId": 769005846626,
+          "title": "V-Wheels",
+          "handle": "v-wheels",
+          "url": "https://farm.bot/products/v-wheels",
+          "supplierUpdatedAt": "2026-10-01T19:23:25-07:00",
+          "variants": [
+            {
+              "variantId": 8234484826210,
+              "title": "Single Wheel",
+              "sku": "V-Wheels",
+              "availableAtSnapshot": false,
+              "priceAtSnapshot": "1.50",
+              "currency": "USD",
+              "option1": "Single Wheel",
+              "option2": null,
+              "option3": null
+            },
+            {
+              "variantId": 8234484858978,
+              "title": "Pack of 30 Wheels",
+              "sku": "V-Wheels",
+              "availableAtSnapshot": false,
+              "priceAtSnapshot": "20.00",
+              "currency": "USD",
+              "option1": "Pack of 30 Wheels",
+              "option2": null,
+              "option3": null
+            }
+          ],
+          "qualificationStatus": "specifications-match-revision-unverified",
+          "revisionVerified": false,
+          "packagingUnitVerified": false
+        }
+      ],
+      "matchStatus": "specifications-match-revision-unverified",
+      "qualificationNotes": "Clear polycarbonate, 23.9mm OD, 16mm ID, and 10.23mm thickness agree. BOM revision B is not published by supplier. These are bare wheels; assembled wheels have a separate supplier product."
+    },
+    {
+      "catalogId": "cable-carrier-x-axis--1",
+      "documentedRevision": null,
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "cable-carrier-x-axis--2",
+      "documentedRevision": null,
+      "documentedQuantity": 0,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "cable-carrier-y-axis--1",
+      "documentedRevision": null,
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "cable-carrier-y-axis--2",
+      "documentedRevision": null,
+      "documentedQuantity": 0,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "cable-carrier-z-axis",
+      "documentedRevision": null,
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "camera-cable--1",
+      "documentedRevision": "B",
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "camera-cable--2",
+      "documentedRevision": "B",
+      "documentedQuantity": 0,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "camera-calibration-card",
+      "documentedRevision": null,
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [
+        {
+          "productId": 4448688373858,
+          "title": "Camera Calibration Card",
+          "handle": "camera-calibration-card",
+          "url": "https://farm.bot/products/camera-calibration-card",
+          "supplierUpdatedAt": "2026-10-01T19:23:25-07:00",
+          "variants": [
+            {
+              "variantId": 31753044852834,
+              "title": "Default Title",
+              "sku": "Camera Calibration Card",
+              "availableAtSnapshot": false,
+              "priceAtSnapshot": "1.00",
+              "currency": "USD",
+              "option1": "Default Title",
+              "option2": null,
+              "option3": null
+            }
+          ],
+          "qualificationStatus": "part-title-match-specifications-unverified",
+          "revisionVerified": false,
+          "packagingUnitVerified": false
+        }
+      ],
+      "matchStatus": "part-title-match-specifications-unverified",
+      "qualificationNotes": "Exact title agrees, but source physical specifications/revision have not been checked against supplier."
+    },
+    {
+      "catalogId": "camera",
+      "documentedRevision": "B",
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "electronics-box--1",
+      "documentedRevision": "C",
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "electronics-box--2",
+      "documentedRevision": "A",
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "electronics-box--3",
+      "documentedRevision": "A",
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "electronics-box--4",
+      "documentedRevision": "A",
+      "documentedQuantity": 2,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "encoder-cable--1",
+      "documentedRevision": null,
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "encoder-cable--2",
+      "documentedRevision": null,
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "encoder-cable--3",
+      "documentedRevision": null,
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "encoder-cable--4",
+      "documentedRevision": null,
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "encoder-cable--5",
+      "documentedRevision": null,
+      "documentedQuantity": 0,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "encoder-cable--6",
+      "documentedRevision": null,
+      "documentedQuantity": 0,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "encoder-cable--7",
+      "documentedRevision": null,
+      "documentedQuantity": 0,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "encoder-cable--8",
+      "documentedRevision": null,
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "encoder",
+      "documentedRevision": null,
+      "documentedQuantity": 4,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "farmduino-data-cable",
+      "documentedRevision": "A",
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [
+        {
+          "productId": 769008631906,
+          "title": "Farmduino Data Cable",
+          "handle": "farmduino-data-cable",
+          "url": "https://farm.bot/products/farmduino-data-cable",
+          "supplierUpdatedAt": "2026-10-01T19:23:25-07:00",
+          "variants": [
+            {
+              "variantId": 8234488791138,
+              "title": "Default Title",
+              "sku": "Farmduino Data Cable",
+              "availableAtSnapshot": true,
+              "priceAtSnapshot": "5.00",
+              "currency": "USD",
+              "option1": "Default Title",
+              "option2": null,
+              "option3": null
+            }
+          ],
+          "qualificationStatus": "specifications-match-revision-unverified",
+          "revisionVerified": false,
+          "packagingUnitVerified": false
+        }
+      ],
+      "matchStatus": "specifications-match-revision-unverified",
+      "qualificationNotes": "All listed frontmatter specs agree: right-angle USB Type A/Type B, 150mm, black. BOM revision A is not published by supplier."
+    },
+    {
+      "catalogId": "farmduino",
+      "documentedRevision": "A",
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [
+        {
+          "productId": 6975287328866,
+          "title": "v1.7+ Farmduino",
+          "handle": "v1-7-farmduino",
+          "url": "https://farm.bot/products/v1-7-farmduino",
+          "supplierUpdatedAt": "2026-10-01T19:23:25-07:00",
+          "variants": [
+            {
+              "variantId": 40686268350562,
+              "title": "Default Title",
+              "sku": "farmduino-v1-7",
+              "availableAtSnapshot": true,
+              "priceAtSnapshot": "345.00",
+              "currency": "USD",
+              "option1": "Default Title",
+              "option2": null,
+              "option3": null
+            }
+          ],
+          "qualificationStatus": "revision-identity-contradiction",
+          "revisionVerified": false,
+          "packagingUnitVerified": false
+        }
+      ],
+      "matchStatus": "revision-identity-contradiction",
+      "qualificationNotes": "BOM internal part name says Farmduino v1.6 while current supplier product says v1.7+. Similar use does not establish interchangeability."
+    },
+    {
+      "catalogId": "fuse",
+      "documentedRevision": null,
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "jumper-link",
+      "documentedRevision": "A",
+      "documentedQuantity": 4,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "led-strip--1",
+      "documentedRevision": "C",
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "led-strip--2",
+      "documentedRevision": "C",
+      "documentedQuantity": 0,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "micro-sd-card-adapter",
+      "documentedRevision": null,
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "micro-sd-card",
+      "documentedRevision": null,
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "motor-cable--1",
+      "documentedRevision": null,
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "motor-cable--2",
+      "documentedRevision": null,
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "motor-cable--3",
+      "documentedRevision": null,
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "motor-cable--4",
+      "documentedRevision": null,
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "motor-cable--5",
+      "documentedRevision": null,
+      "documentedQuantity": 0,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "motor-cable--6",
+      "documentedRevision": null,
+      "documentedQuantity": 0,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "motor-cable--7",
+      "documentedRevision": null,
+      "documentedQuantity": 0,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "motor-cable--8",
+      "documentedRevision": null,
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "motor",
+      "documentedRevision": null,
+      "documentedQuantity": 4,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "pi-adapter-board",
+      "documentedRevision": "B",
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "pogo-pin-jam-nut",
+      "documentedRevision": null,
+      "documentedQuantity": 24,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "pogo-pin",
+      "documentedRevision": null,
+      "documentedQuantity": 12,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "power-cord-protector",
+      "documentedRevision": null,
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "power-supply-cable--1",
+      "documentedRevision": "C",
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [
+        {
+          "productId": 7527532822626,
+          "title": "Genesis v1.7+ 24V 100W Power Supply",
+          "handle": "genesis-v1-7-24v-100w-power-supply",
+          "url": "https://farm.bot/products/genesis-v1-7-24v-100w-power-supply",
+          "supplierUpdatedAt": "2026-10-01T19:23:25-07:00",
+          "variants": [
+            {
+              "variantId": 42638520057954,
+              "title": "2.5m",
+              "sku": null,
+              "availableAtSnapshot": true,
+              "priceAtSnapshot": "85.00",
+              "currency": "USD",
+              "option1": "2.5m",
+              "option2": null,
+              "option3": null
+            },
+            {
+              "variantId": 42638520090722,
+              "title": "4m",
+              "sku": null,
+              "availableAtSnapshot": true,
+              "priceAtSnapshot": "95.00",
+              "currency": "USD",
+              "option1": "4m",
+              "option2": null,
+              "option3": null
+            },
+            {
+              "variantId": 42638520123490,
+              "title": "No cable",
+              "sku": null,
+              "availableAtSnapshot": true,
+              "priceAtSnapshot": "60.00",
+              "currency": "USD",
+              "option1": "No cable",
+              "option2": null,
+              "option3": null
+            }
+          ],
+          "qualificationStatus": "bundle-variant-revision-unverified",
+          "revisionVerified": false,
+          "packagingUnitVerified": false
+        }
+      ],
+      "matchStatus": "bundle-variant-revision-unverified",
+      "qualificationNotes": "Supplier 2.5m cable bundle has matching length/18AWG-3C and connectors, but is bundled with a power supply. BOM revision C unverified. This cannot be purchased independently from this product without double-counting the power supply."
+    },
+    {
+      "catalogId": "power-supply-cable--2",
+      "documentedRevision": "C",
+      "documentedQuantity": 0,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [
+        {
+          "productId": 7527532822626,
+          "title": "Genesis v1.7+ 24V 100W Power Supply",
+          "handle": "genesis-v1-7-24v-100w-power-supply",
+          "url": "https://farm.bot/products/genesis-v1-7-24v-100w-power-supply",
+          "supplierUpdatedAt": "2026-10-01T19:23:25-07:00",
+          "variants": [
+            {
+              "variantId": 42638520057954,
+              "title": "2.5m",
+              "sku": null,
+              "availableAtSnapshot": true,
+              "priceAtSnapshot": "85.00",
+              "currency": "USD",
+              "option1": "2.5m",
+              "option2": null,
+              "option3": null
+            },
+            {
+              "variantId": 42638520090722,
+              "title": "4m",
+              "sku": null,
+              "availableAtSnapshot": true,
+              "priceAtSnapshot": "95.00",
+              "currency": "USD",
+              "option1": "4m",
+              "option2": null,
+              "option3": null
+            },
+            {
+              "variantId": 42638520123490,
+              "title": "No cable",
+              "sku": null,
+              "availableAtSnapshot": true,
+              "priceAtSnapshot": "60.00",
+              "currency": "USD",
+              "option1": "No cable",
+              "option2": null,
+              "option3": null
+            }
+          ],
+          "qualificationStatus": "bundle-variant-revision-unverified",
+          "revisionVerified": false,
+          "packagingUnitVerified": false
+        }
+      ],
+      "matchStatus": "bundle-variant-revision-unverified",
+      "qualificationNotes": "Supplier 4m cable bundle matches XL length but contains an extra power supply. BOM revision C unverified and row not in standard configuration."
+    },
+    {
+      "catalogId": "power-supply",
+      "documentedRevision": "B",
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [
+        {
+          "productId": 7527532822626,
+          "title": "Genesis v1.7+ 24V 100W Power Supply",
+          "handle": "genesis-v1-7-24v-100w-power-supply",
+          "url": "https://farm.bot/products/genesis-v1-7-24v-100w-power-supply",
+          "supplierUpdatedAt": "2026-10-01T19:23:25-07:00",
+          "variants": [
+            {
+              "variantId": 42638520057954,
+              "title": "2.5m",
+              "sku": null,
+              "availableAtSnapshot": true,
+              "priceAtSnapshot": "85.00",
+              "currency": "USD",
+              "option1": "2.5m",
+              "option2": null,
+              "option3": null
+            },
+            {
+              "variantId": 42638520090722,
+              "title": "4m",
+              "sku": null,
+              "availableAtSnapshot": true,
+              "priceAtSnapshot": "95.00",
+              "currency": "USD",
+              "option1": "4m",
+              "option2": null,
+              "option3": null
+            },
+            {
+              "variantId": 42638520123490,
+              "title": "No cable",
+              "sku": null,
+              "availableAtSnapshot": true,
+              "priceAtSnapshot": "60.00",
+              "currency": "USD",
+              "option1": "No cable",
+              "option2": null,
+              "option3": null
+            }
+          ],
+          "qualificationStatus": "specifications-match-revision-unverified",
+          "revisionVerified": false,
+          "packagingUnitVerified": false
+        }
+      ],
+      "matchStatus": "specifications-match-revision-unverified",
+      "qualificationNotes": "Supplier says v1.7+ compatibility and lists matching power/cable/connector/IP67 specifications. BOM revision B, Weho brand, and model qualification remain unverified. No-cable supplier variant is required to avoid double-counting separate BOM cable."
+    },
+    {
+      "catalogId": "push-button-nut",
+      "documentedRevision": null,
+      "documentedQuantity": 3,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "push-button-o-ring",
+      "documentedRevision": null,
+      "documentedQuantity": 3,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "push-button-red",
+      "documentedRevision": null,
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "push-button-white",
+      "documentedRevision": null,
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "push-button-wiring-harness",
+      "documentedRevision": null,
+      "documentedQuantity": 3,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "push-button-yellow",
+      "documentedRevision": null,
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "raspberry-pi-power-cable",
+      "documentedRevision": "C",
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "raspberry-pi",
+      "documentedRevision": null,
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "rotary-tool-motor",
+      "documentedRevision": "A",
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "rotary-tool-pcb",
+      "documentedRevision": "G",
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "rtc-battery",
+      "documentedRevision": null,
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "shunt",
+      "documentedRevision": null,
+      "documentedQuantity": 8,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "soil-sensor-pcb",
+      "documentedRevision": "A",
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "solenoid-valve-cable",
+      "documentedRevision": "B",
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "solenoid-valve",
+      "documentedRevision": null,
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "supergland",
+      "documentedRevision": "A",
+      "documentedQuantity": 2,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "utm-cable-y--1",
+      "documentedRevision": "A",
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [
+        {
+          "productId": 6712430919778,
+          "title": "Genesis v1.6+ UTM Cable",
+          "handle": "genesis-v1-6-utm-cable",
+          "url": "https://farm.bot/products/genesis-v1-6-utm-cable",
+          "supplierUpdatedAt": "2026-10-01T19:23:25-07:00",
+          "variants": [
+            {
+              "variantId": 39792156442722,
+              "title": "3.6m (Genesis)",
+              "sku": "genesis-v1-6-utm-cable",
+              "availableAtSnapshot": false,
+              "priceAtSnapshot": "40.00",
+              "currency": "USD",
+              "option1": "3.6m (Genesis)",
+              "option2": null,
+              "option3": null
+            },
+            {
+              "variantId": 39792156475490,
+              "title": "5.1m (Genesis XL)",
+              "sku": "genesis-v1-6-utm-cable-xl",
+              "availableAtSnapshot": true,
+              "priceAtSnapshot": "55.00",
+              "currency": "USD",
+              "option1": "5.1m (Genesis XL)",
+              "option2": null,
+              "option3": null
+            }
+          ],
+          "qualificationStatus": "incompatible-published-variant-length",
+          "revisionVerified": false,
+          "packagingUnitVerified": false
+        }
+      ],
+      "matchStatus": "incompatible-published-variant-length",
+      "qualificationNotes": "Supplier Genesis cable variant is 3.6m; v1.8 standard BOM is 2.6m. Do not substitute."
+    },
+    {
+      "catalogId": "utm-cable-y--2",
+      "documentedRevision": "A",
+      "documentedQuantity": 0,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [
+        {
+          "productId": 6712430919778,
+          "title": "Genesis v1.6+ UTM Cable",
+          "handle": "genesis-v1-6-utm-cable",
+          "url": "https://farm.bot/products/genesis-v1-6-utm-cable",
+          "supplierUpdatedAt": "2026-10-01T19:23:25-07:00",
+          "variants": [
+            {
+              "variantId": 39792156442722,
+              "title": "3.6m (Genesis)",
+              "sku": "genesis-v1-6-utm-cable",
+              "availableAtSnapshot": false,
+              "priceAtSnapshot": "40.00",
+              "currency": "USD",
+              "option1": "3.6m (Genesis)",
+              "option2": null,
+              "option3": null
+            },
+            {
+              "variantId": 39792156475490,
+              "title": "5.1m (Genesis XL)",
+              "sku": "genesis-v1-6-utm-cable-xl",
+              "availableAtSnapshot": true,
+              "priceAtSnapshot": "55.00",
+              "currency": "USD",
+              "option1": "5.1m (Genesis XL)",
+              "option2": null,
+              "option3": null
+            }
+          ],
+          "qualificationStatus": "incompatible-published-variant-length",
+          "revisionVerified": false,
+          "packagingUnitVerified": false
+        }
+      ],
+      "matchStatus": "incompatible-published-variant-length",
+      "qualificationNotes": "Supplier Genesis XL cable is 5.1m; v1.8 XL BOM is 4.1m."
+    },
+    {
+      "catalogId": "utm-cable-z",
+      "documentedRevision": "B",
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "utm-pcb",
+      "documentedRevision": "A",
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "vacuum-pump-cable-y--1",
+      "documentedRevision": "D",
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [
+        {
+          "productId": 6711996022882,
+          "title": "Genesis v1.6+ Vacuum Pump Cable",
+          "handle": "genesis-v1-6-vacuum-pump-cable",
+          "url": "https://farm.bot/products/genesis-v1-6-vacuum-pump-cable",
+          "supplierUpdatedAt": "2026-10-01T19:23:25-07:00",
+          "variants": [
+            {
+              "variantId": 39789634846818,
+              "title": "3.6m (Genesis) / 1",
+              "sku": "v1.6 Vacuum Pump Cable 3.6m (Genesis) / 1",
+              "availableAtSnapshot": false,
+              "priceAtSnapshot": "25.00",
+              "currency": "USD",
+              "option1": "3.6m (Genesis)",
+              "option2": "1",
+              "option3": null
+            },
+            {
+              "variantId": 40349063413858,
+              "title": "3.6m (Genesis) / 2",
+              "sku": "v1.6 Vacuum Pump Cable 3.6m (Genesis) / 2",
+              "availableAtSnapshot": true,
+              "priceAtSnapshot": "25.00",
+              "currency": "USD",
+              "option1": "3.6m (Genesis)",
+              "option2": "2",
+              "option3": null
+            },
+            {
+              "variantId": 40349063446626,
+              "title": "3.6m (Genesis) / 3",
+              "sku": "v1.6 Vacuum Pump Cable 3.6m (Genesis) / 3",
+              "availableAtSnapshot": true,
+              "priceAtSnapshot": "25.00",
+              "currency": "USD",
+              "option1": "3.6m (Genesis)",
+              "option2": "3",
+              "option3": null
+            },
+            {
+              "variantId": 39789634879586,
+              "title": "5.1m (Genesis XL) / 1",
+              "sku": "v1.6 Vacuum Pump Cable 5.1m (Genesis XL) / 1",
+              "availableAtSnapshot": true,
+              "priceAtSnapshot": "30.00",
+              "currency": "USD",
+              "option1": "5.1m (Genesis XL)",
+              "option2": "1",
+              "option3": null
+            },
+            {
+              "variantId": 40349063479394,
+              "title": "5.1m (Genesis XL) / 2",
+              "sku": "v1.6 Vacuum Pump Cable 5.1m (Genesis XL) / 2",
+              "availableAtSnapshot": true,
+              "priceAtSnapshot": "30.00",
+              "currency": "USD",
+              "option1": "5.1m (Genesis XL)",
+              "option2": "2",
+              "option3": null
+            },
+            {
+              "variantId": 40349063512162,
+              "title": "5.1m (Genesis XL) / 3",
+              "sku": "v1.6 Vacuum Pump Cable 5.1m (Genesis XL) / 3",
+              "availableAtSnapshot": true,
+              "priceAtSnapshot": "30.00",
+              "currency": "USD",
+              "option1": "5.1m (Genesis XL)",
+              "option2": "3",
+              "option3": null
+            }
+          ],
+          "qualificationStatus": "incompatible-published-variant-length",
+          "revisionVerified": false,
+          "packagingUnitVerified": false
+        }
+      ],
+      "matchStatus": "incompatible-published-variant-length",
+      "qualificationNotes": "Supplier standard cable is 3.6m; v1.8 BOM is 2.6m."
+    },
+    {
+      "catalogId": "vacuum-pump-cable-y--2",
+      "documentedRevision": "D",
+      "documentedQuantity": 0,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [
+        {
+          "productId": 6711996022882,
+          "title": "Genesis v1.6+ Vacuum Pump Cable",
+          "handle": "genesis-v1-6-vacuum-pump-cable",
+          "url": "https://farm.bot/products/genesis-v1-6-vacuum-pump-cable",
+          "supplierUpdatedAt": "2026-10-01T19:23:25-07:00",
+          "variants": [
+            {
+              "variantId": 39789634846818,
+              "title": "3.6m (Genesis) / 1",
+              "sku": "v1.6 Vacuum Pump Cable 3.6m (Genesis) / 1",
+              "availableAtSnapshot": false,
+              "priceAtSnapshot": "25.00",
+              "currency": "USD",
+              "option1": "3.6m (Genesis)",
+              "option2": "1",
+              "option3": null
+            },
+            {
+              "variantId": 40349063413858,
+              "title": "3.6m (Genesis) / 2",
+              "sku": "v1.6 Vacuum Pump Cable 3.6m (Genesis) / 2",
+              "availableAtSnapshot": true,
+              "priceAtSnapshot": "25.00",
+              "currency": "USD",
+              "option1": "3.6m (Genesis)",
+              "option2": "2",
+              "option3": null
+            },
+            {
+              "variantId": 40349063446626,
+              "title": "3.6m (Genesis) / 3",
+              "sku": "v1.6 Vacuum Pump Cable 3.6m (Genesis) / 3",
+              "availableAtSnapshot": true,
+              "priceAtSnapshot": "25.00",
+              "currency": "USD",
+              "option1": "3.6m (Genesis)",
+              "option2": "3",
+              "option3": null
+            },
+            {
+              "variantId": 39789634879586,
+              "title": "5.1m (Genesis XL) / 1",
+              "sku": "v1.6 Vacuum Pump Cable 5.1m (Genesis XL) / 1",
+              "availableAtSnapshot": true,
+              "priceAtSnapshot": "30.00",
+              "currency": "USD",
+              "option1": "5.1m (Genesis XL)",
+              "option2": "1",
+              "option3": null
+            },
+            {
+              "variantId": 40349063479394,
+              "title": "5.1m (Genesis XL) / 2",
+              "sku": "v1.6 Vacuum Pump Cable 5.1m (Genesis XL) / 2",
+              "availableAtSnapshot": true,
+              "priceAtSnapshot": "30.00",
+              "currency": "USD",
+              "option1": "5.1m (Genesis XL)",
+              "option2": "2",
+              "option3": null
+            },
+            {
+              "variantId": 40349063512162,
+              "title": "5.1m (Genesis XL) / 3",
+              "sku": "v1.6 Vacuum Pump Cable 5.1m (Genesis XL) / 3",
+              "availableAtSnapshot": true,
+              "priceAtSnapshot": "30.00",
+              "currency": "USD",
+              "option1": "5.1m (Genesis XL)",
+              "option2": "3",
+              "option3": null
+            }
+          ],
+          "qualificationStatus": "incompatible-published-variant-length",
+          "revisionVerified": false,
+          "packagingUnitVerified": false
+        }
+      ],
+      "matchStatus": "incompatible-published-variant-length",
+      "qualificationNotes": "Supplier XL cable is 5.1m; v1.8 XL BOM is 4.1m."
+    },
+    {
+      "catalogId": "vacuum-pump",
+      "documentedRevision": "B",
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "gantry-column",
+      "documentedRevision": "D",
+      "documentedQuantity": 2,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "gantry-main-beam--1",
+      "documentedRevision": "A",
+      "documentedQuantity": 2,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [
+        {
+          "productId": 769006076002,
+          "title": "Gantry Main Beam",
+          "handle": "gantry-main-beam",
+          "url": "https://farm.bot/products/gantry-main-beam",
+          "supplierUpdatedAt": "2026-10-01T19:23:25-07:00",
+          "variants": [
+            {
+              "variantId": 8234485284962,
+              "title": "Default Title",
+              "sku": "Gantry Main Beam",
+              "availableAtSnapshot": false,
+              "priceAtSnapshot": "35.00",
+              "currency": "USD",
+              "option1": "Default Title",
+              "option2": null,
+              "option3": null
+            }
+          ],
+          "qualificationStatus": "incompatible-published-specifications",
+          "revisionVerified": false,
+          "packagingUnitVerified": false
+        }
+      ],
+      "matchStatus": "incompatible-published-specifications",
+      "qualificationNotes": "Supplier lists a 1500mm main beam. Standard v1.8 BOM requires two 750mm segments. Do not substitute."
+    },
+    {
+      "catalogId": "gantry-main-beam--2",
+      "documentedRevision": "A",
+      "documentedQuantity": 0,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [
+        {
+          "productId": 769006076002,
+          "title": "Gantry Main Beam",
+          "handle": "gantry-main-beam",
+          "url": "https://farm.bot/products/gantry-main-beam",
+          "supplierUpdatedAt": "2026-10-01T19:23:25-07:00",
+          "variants": [
+            {
+              "variantId": 8234485284962,
+              "title": "Default Title",
+              "sku": "Gantry Main Beam",
+              "availableAtSnapshot": false,
+              "priceAtSnapshot": "35.00",
+              "currency": "USD",
+              "option1": "Default Title",
+              "option2": null,
+              "option3": null
+            }
+          ],
+          "qualificationStatus": "incompatible-published-specifications",
+          "revisionVerified": false,
+          "packagingUnitVerified": false
+        }
+      ],
+      "matchStatus": "incompatible-published-specifications",
+      "qualificationNotes": "Supplier lists 1500mm; XL v1.8 BOM specifies 1000mm segments. Do not substitute."
+    },
+    {
+      "catalogId": "track-extrusion",
+      "documentedRevision": "D",
+      "documentedQuantity": 6,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [
+        {
+          "productId": 769005977698,
+          "title": "Tracks",
+          "handle": "tracks",
+          "url": "https://farm.bot/products/tracks",
+          "supplierUpdatedAt": "2026-10-01T19:23:25-07:00",
+          "variants": [
+            {
+              "variantId": 8234485186658,
+              "title": "Default Title",
+              "sku": "Tracks",
+              "availableAtSnapshot": false,
+              "priceAtSnapshot": "30.00",
+              "currency": "USD",
+              "option1": "Default Title",
+              "option2": null,
+              "option3": null
+            }
+          ],
+          "qualificationStatus": "incompatible-published-specifications",
+          "revisionVerified": false,
+          "packagingUnitVerified": false
+        }
+      ],
+      "matchStatus": "incompatible-published-specifications",
+      "qualificationNotes": "Supplier lists 1500mm length and 20mm x 40mm V-Slot. v1.8 BOM specifies 1000mm custom profile. Do not substitute."
+    },
+    {
+      "catalogId": "z-axis-extrusion",
+      "documentedRevision": null,
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "allen-key-2-5mm",
+      "documentedRevision": null,
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "allen-key-2mm",
+      "documentedRevision": null,
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "bit-t10",
+      "documentedRevision": "A",
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "bit-t25",
+      "documentedRevision": "A",
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "eccentric-spacer",
+      "documentedRevision": "A",
+      "documentedQuantity": 9,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "flathead-wood-screw-t10",
+      "documentedRevision": null,
+      "documentedQuantity": 2,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "hex-driver-3mm",
+      "documentedRevision": null,
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "m2-5-screw-4mm",
+      "documentedRevision": null,
+      "documentedQuantity": 8,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "m2-5-screw-6mm",
+      "documentedRevision": null,
+      "documentedQuantity": 2,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "m3-flat-head-screw-16mm",
+      "documentedRevision": null,
+      "documentedQuantity": 2,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "m3-locknut",
+      "documentedRevision": null,
+      "documentedQuantity": 23,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "m3-screw-10mm",
+      "documentedRevision": null,
+      "documentedQuantity": 4,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "m3-screw-12mm",
+      "documentedRevision": null,
+      "documentedQuantity": 31,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "m3-screw-35mm",
+      "documentedRevision": null,
+      "documentedQuantity": 4,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "m3-setscrew-4mm",
+      "documentedRevision": null,
+      "documentedQuantity": 6,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "m4-setscrew-4mm",
+      "documentedRevision": null,
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "m5-flange-locknut",
+      "documentedRevision": null,
+      "documentedQuantity": 53,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "m5-flat-head-screw-16mm",
+      "documentedRevision": null,
+      "documentedQuantity": 3,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "m5-screw-10mm",
+      "documentedRevision": null,
+      "documentedQuantity": 53,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "m5-screw-12mm",
+      "documentedRevision": null,
+      "documentedQuantity": 8,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "m5-screw-16mm",
+      "documentedRevision": null,
+      "documentedQuantity": 20,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "m5-screw-20mm",
+      "documentedRevision": null,
+      "documentedQuantity": 11,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "m5-screw-25mm",
+      "documentedRevision": null,
+      "documentedQuantity": 4,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "m5-screw-30mm",
+      "documentedRevision": null,
+      "documentedQuantity": 25,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "m5-setscrew-4mm",
+      "documentedRevision": null,
+      "documentedQuantity": 25,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "magnet-countersunk",
+      "documentedRevision": "A",
+      "documentedQuantity": 3,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [
+        {
+          "productId": 6837087993954,
+          "title": "Countersunk Ring Magnets",
+          "handle": "countersunk-ring-magnets",
+          "url": "https://farm.bot/products/countersunk-ring-magnets",
+          "supplierUpdatedAt": "2026-10-01T19:23:25-07:00",
+          "variants": [
+            {
+              "variantId": 40236056772706,
+              "title": "Default Title",
+              "sku": "Countersunk Ring Magnet",
+              "availableAtSnapshot": false,
+              "priceAtSnapshot": "20.00",
+              "currency": "USD",
+              "option1": "Default Title",
+              "option2": null,
+              "option3": null
+            }
+          ],
+          "qualificationStatus": "specifications-match-revision-unverified",
+          "revisionVerified": false,
+          "packagingUnitVerified": false
+        }
+      ],
+      "matchStatus": "specifications-match-revision-unverified",
+      "qualificationNotes": "Neodymium, nickel coating, through-ring magnetization, 15mm OD, 5mm ID, 7.5mm thickness agree. BOM revision A not published. Supplier sells a pack of three."
+    },
+    {
+      "catalogId": "magnet-standard",
+      "documentedRevision": "A",
+      "documentedQuantity": 12,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [
+        {
+          "productId": 769009614946,
+          "title": "Ring Magnets",
+          "handle": "ring-magnets",
+          "url": "https://farm.bot/products/ring-magnets",
+          "supplierUpdatedAt": "2026-10-01T19:23:25-07:00",
+          "variants": [
+            {
+              "variantId": 8234491215970,
+              "title": "Default Title",
+              "sku": "Ring Magnets",
+              "availableAtSnapshot": true,
+              "priceAtSnapshot": "10.00",
+              "currency": "USD",
+              "option1": "Default Title",
+              "option2": null,
+              "option3": null
+            }
+          ],
+          "qualificationStatus": "specifications-match-revision-unverified",
+          "revisionVerified": false,
+          "packagingUnitVerified": false
+        }
+      ],
+      "matchStatus": "specifications-match-revision-unverified",
+      "qualificationNotes": "Neodymium, nickel coating, through-ring magnetization, 15mm OD, 5mm ID, 5mm thickness agree. BOM revision A not published. Supplier sells a pack of three."
+    },
+    {
+      "catalogId": "nut-bar-10mm",
+      "documentedRevision": "A",
+      "documentedQuantity": 12,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "nut-bar-160mm",
+      "documentedRevision": "A",
+      "documentedQuantity": 3,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "nut-bar-20mm",
+      "documentedRevision": "A",
+      "documentedQuantity": 6,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "nut-bar-40mm",
+      "documentedRevision": "A",
+      "documentedQuantity": 19,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "nut-bar-60mm",
+      "documentedRevision": null,
+      "documentedQuantity": 4,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "rotary-tool-chuck-adapter",
+      "documentedRevision": "B",
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "rotary-tool-chuck",
+      "documentedRevision": null,
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "rotary-tool-m5-shaft-adapter",
+      "documentedRevision": "C",
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "rotary-tool-shaft-extension",
+      "documentedRevision": "B",
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "rotary-tool-trimmer-mount",
+      "documentedRevision": "C",
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "rotary-tool-trimmer",
+      "documentedRevision": null,
+      "documentedQuantity": 30,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "standard-spacer",
+      "documentedRevision": "A",
+      "documentedQuantity": 11,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "wood-screw-t25",
+      "documentedRevision": null,
+      "documentedQuantity": 35,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "wrench-8mm",
+      "documentedRevision": null,
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "zip-tie-200mm",
+      "documentedRevision": null,
+      "documentedQuantity": 4,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "cable-carrier-spacer-block-40mm",
+      "documentedRevision": "B",
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "cable-carrier-support-horizontal-40mm-extruded",
+      "documentedRevision": "E",
+      "documentedQuantity": 3,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "cable-carrier-support-vertical-40mm-extruded",
+      "documentedRevision": "D",
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "cable-carrier-support-vertical-40mm",
+      "documentedRevision": "A",
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "camera-mount-half",
+      "documentedRevision": "A",
+      "documentedQuantity": 2,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "motor-housing-horizontal-75mm",
+      "documentedRevision": "A",
+      "documentedQuantity": 3,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "motor-housing-vertical-80mm",
+      "documentedRevision": "B",
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "rotary-tool-bottom",
+      "documentedRevision": "A",
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "rotary-tool-top",
+      "documentedRevision": "A",
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "seed-bin",
+      "documentedRevision": "A",
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "seed-tray",
+      "documentedRevision": "A",
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [
+        {
+          "productId": 769007911010,
+          "title": "Seed Tray",
+          "handle": "seed-trays",
+          "url": "https://farm.bot/products/seed-trays",
+          "supplierUpdatedAt": "2026-10-01T19:23:25-07:00",
+          "variants": [
+            {
+              "variantId": 8234487677026,
+              "title": "Default Title",
+              "sku": "Seed Trays",
+              "availableAtSnapshot": true,
+              "priceAtSnapshot": "3.00",
+              "currency": "USD",
+              "option1": "Default Title",
+              "option2": null,
+              "option3": null
+            }
+          ],
+          "qualificationStatus": "specifications-match-revision-unverified",
+          "revisionVerified": false,
+          "packagingUnitVerified": false
+        }
+      ],
+      "matchStatus": "specifications-match-revision-unverified",
+      "qualificationNotes": "Gray UV stabilized ABS agrees. BOM revision A and geometry are not identified by supplier."
+    },
+    {
+      "catalogId": "seed-trough-holder",
+      "documentedRevision": "B",
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "seed-trough",
+      "documentedRevision": "A",
+      "documentedQuantity": 2,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "seeder",
+      "documentedRevision": "A",
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "soil-sensor",
+      "documentedRevision": "A",
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "solenoid-valve-mount",
+      "documentedRevision": "A",
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "utm",
+      "documentedRevision": "B",
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "vacuum-pump-cover",
+      "documentedRevision": "A",
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "watering-nozzle-bottom",
+      "documentedRevision": "A",
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "watering-nozzle-top",
+      "documentedRevision": "A",
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "belt-clip",
+      "documentedRevision": "B",
+      "documentedQuantity": 6,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "cable-carrier-mount-60mm",
+      "documentedRevision": "A",
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "cable-carrier-mount-x-axis",
+      "documentedRevision": "A",
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "cross-slide-plate",
+      "documentedRevision": "D",
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "gantry-corner-bracket-left",
+      "documentedRevision": "C",
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "gantry-corner-bracket-right",
+      "documentedRevision": "C",
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "gantry-joining-bar",
+      "documentedRevision": "A",
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "gantry-wheel-plate",
+      "documentedRevision": "D",
+      "documentedQuantity": 2,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "seed-trough-holder-mount",
+      "documentedRevision": "A",
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "toolbay-3-slot",
+      "documentedRevision": "C",
+      "documentedQuantity": 2,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "vacuum-pump-mount",
+      "documentedRevision": "B",
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "z-axis-hardstop",
+      "documentedRevision": "A",
+      "documentedQuantity": 2,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [
+        {
+          "productId": 769007386722,
+          "title": "Z-Axis Hardstop",
+          "handle": "z-axis-hardstops",
+          "url": "https://farm.bot/products/z-axis-hardstops",
+          "supplierUpdatedAt": "2026-10-01T19:23:25-07:00",
+          "variants": [
+            {
+              "variantId": 8234486956130,
+              "title": "Default Title",
+              "sku": "Z-Axis Hardstop",
+              "availableAtSnapshot": true,
+              "priceAtSnapshot": "3.00",
+              "currency": "USD",
+              "option1": "Default Title",
+              "option2": null,
+              "option3": null
+            }
+          ],
+          "qualificationStatus": "specifications-match-revision-unverified",
+          "revisionVerified": false,
+          "packagingUnitVerified": false
+        }
+      ],
+      "matchStatus": "specifications-match-revision-unverified",
+      "qualificationNotes": "5mm 6061 aluminum, tumble polished, sandblasted, clear anodized agree. BOM revision A is not published by supplier."
+    },
+    {
+      "catalogId": "z-axis-motor-mount",
+      "documentedRevision": "E",
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "90-degree-barb",
+      "documentedRevision": "A",
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "garden-hose-to-barb-adapter",
+      "documentedRevision": "A",
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "inline-air-filter",
+      "documentedRevision": null,
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [
+        {
+          "productId": 4489026895970,
+          "title": "Inline Air Filter",
+          "handle": "inline-air-filter",
+          "url": "https://farm.bot/products/inline-air-filter",
+          "supplierUpdatedAt": "2026-10-01T19:23:25-07:00",
+          "variants": [
+            {
+              "variantId": 31902018797666,
+              "title": "Default Title",
+              "sku": "Inline Air Filter",
+              "availableAtSnapshot": false,
+              "priceAtSnapshot": "5.00",
+              "currency": "USD",
+              "option1": "Default Title",
+              "option2": null,
+              "option3": null
+            }
+          ],
+          "qualificationStatus": "part-title-match-specifications-unverified",
+          "revisionVerified": false,
+          "packagingUnitVerified": false
+        }
+      ],
+      "matchStatus": "part-title-match-specifications-unverified",
+      "qualificationNotes": "Title and function agree; complete technical specifications have not been established."
+    },
+    {
+      "catalogId": "luer-lock-adapter",
+      "documentedRevision": null,
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "luer-lock-needle-16-gauge",
+      "documentedRevision": null,
+      "documentedQuantity": 3,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "luer-lock-needle-19-gauge",
+      "documentedRevision": null,
+      "documentedQuantity": 3,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "m5-barb",
+      "documentedRevision": "A",
+      "documentedQuantity": 3,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "npt-to-barb-adapter",
+      "documentedRevision": "A",
+      "documentedQuantity": 2,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [
+        {
+          "productId": 1658022101090,
+          "title": "NPT to Barb Adapter",
+          "handle": "npt-barb-adapter",
+          "url": "https://farm.bot/products/npt-barb-adapter",
+          "supplierUpdatedAt": "2026-10-01T19:23:25-07:00",
+          "variants": [
+            {
+              "variantId": 15021800718434,
+              "title": "Default Title",
+              "sku": "NPT to Barb Adapter",
+              "availableAtSnapshot": true,
+              "priceAtSnapshot": "5.00",
+              "currency": "USD",
+              "option1": "Default Title",
+              "option2": null,
+              "option3": null
+            }
+          ],
+          "qualificationStatus": "partial-specifications-revision-unverified",
+          "revisionVerified": false,
+          "packagingUnitVerified": false
+        }
+      ],
+      "matchStatus": "partial-specifications-revision-unverified",
+      "qualificationNotes": "Brass, 6mm tube ID, 3/4 inch female NPT, included gasket agree. BOM revision A and NPT engraving not verified."
+    },
+    {
+      "catalogId": "o-ring",
+      "documentedRevision": null,
+      "documentedQuantity": 3,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "pressure-regulator",
+      "documentedRevision": null,
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [
+        {
+          "productId": 769009483874,
+          "title": "Pressure Regulator",
+          "handle": "pressure-regulator",
+          "url": "https://farm.bot/products/pressure-regulator",
+          "supplierUpdatedAt": "2026-10-01T19:23:25-07:00",
+          "variants": [
+            {
+              "variantId": 8234490527842,
+              "title": "Default Title",
+              "sku": "Pressure Regulator",
+              "availableAtSnapshot": false,
+              "priceAtSnapshot": "8.00",
+              "currency": "USD",
+              "option1": "Default Title",
+              "option2": null,
+              "option3": null
+            }
+          ],
+          "qualificationStatus": "partial-specifications-revision-unverified",
+          "revisionVerified": false,
+          "packagingUnitVerified": false
+        }
+      ],
+      "matchStatus": "partial-specifications-revision-unverified",
+      "qualificationNotes": "Published material/diameter/pressure agree, but source requires NPT connections and included gasket; supplier inlet/outlet description does not establish these details."
+    },
+    {
+      "catalogId": "rubber-gasket",
+      "documentedRevision": null,
+      "documentedQuantity": 4,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "tube-vacuum--1",
+      "documentedRevision": null,
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "tube-vacuum--2",
+      "documentedRevision": null,
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "tube-water--1",
+      "documentedRevision": null,
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "tube-water--2",
+      "documentedRevision": null,
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "tube-water--3",
+      "documentedRevision": null,
+      "documentedQuantity": 1,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "tube-water--4",
+      "documentedRevision": null,
+      "documentedQuantity": 0,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "tube-water--5",
+      "documentedRevision": null,
+      "documentedQuantity": 0,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "packaging--main-carton",
+      "documentedRevision": null,
+      "documentedQuantity": null,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "packaging--main-carton-tray-insert",
+      "documentedRevision": null,
+      "documentedQuantity": null,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "packaging--main-carton-fill",
+      "documentedRevision": null,
+      "documentedQuantity": null,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "packaging--main-carton-edge-protectors",
+      "documentedRevision": null,
+      "documentedQuantity": null,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "packaging--main-carton-polystrapping",
+      "documentedRevision": null,
+      "documentedQuantity": null,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "packaging--extrusion-kit-genesis",
+      "documentedRevision": null,
+      "documentedQuantity": null,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "packaging--extrusion-kit-genesis-xl",
+      "documentedRevision": null,
+      "documentedQuantity": null,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "packaging--extrusion-kit-wrapping",
+      "documentedRevision": null,
+      "documentedQuantity": null,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "packaging--extrusion-kit-end-stops",
+      "documentedRevision": null,
+      "documentedQuantity": null,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "packaging--extrusion-kit-fill",
+      "documentedRevision": null,
+      "documentedQuantity": null,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "packaging--extrusion-kit-edge-protectors",
+      "documentedRevision": null,
+      "documentedQuantity": null,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "packaging--extrusion-kit-polystrapping",
+      "documentedRevision": null,
+      "documentedQuantity": null,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "packaging--hardware-kit-box",
+      "documentedRevision": null,
+      "documentedQuantity": null,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "packaging--press-to-seal-bag",
+      "documentedRevision": null,
+      "documentedQuantity": null,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    },
+    {
+      "catalogId": "packaging--100-recycled-50lb-kraft-paper",
+      "documentedRevision": null,
+      "documentedQuantity": null,
+      "purchaseUrl": null,
+      "orderReady": false,
+      "checkoutIntegrated": false,
+      "supplierCandidates": [],
+      "matchStatus": "unverified-no-qualified-product-match",
+      "qualificationNotes": "No exact specification/variant/revision supplier match established; no product link inferred."
+    }
+  ],
+  "dataIssues": [
+    {
+      "id": "standard-kit-sold-out",
+      "severity": "procurement-gap",
+      "detail": "Official standard FarmBot Genesis v1.8 kit is sold out at supplier snapshot; v1.9 preorders and XL are different revision/configuration.",
+      "url": "https://farm.bot/products/farmbot-genesis-v1-8"
+    },
+    {
+      "id": "retail-extrusions-incompatible",
+      "severity": "supplier-specification-mismatch",
+      "detail": "Official shop tracks are 1500mm versus v1.8 BOM 1000mm; shop main beam is 1500mm versus standard BOM 750mm segments."
+    },
+    {
+      "id": "retail-belt-incompatible",
+      "severity": "supplier-specification-mismatch",
+      "detail": "Official shop GT2 belts publish 5mm width/0.75mm thickness; v1.8 BOM requires 5.8–6.0mm/1.25mm. Matching length does not qualify these belts."
+    },
+    {
+      "id": "retail-cables-incompatible",
+      "severity": "supplier-specification-mismatch",
+      "detail": "Supplier v1.6+ UTM/vacuum-pump cable variants list standard 3.6m and XL5.1m; v1.8 BOM requires 2.6m and4.1m respectively."
+    },
+    {
+      "id": "farmduino-revision-contradiction",
+      "severity": "source-revision-gap",
+      "detail": "v1.8 BOM internal-name field says Farmduino v1.6; current official shop product says v1.7+. A replacement board has not been qualified."
+    }
+  ],
+  "completeOrderReady": false,
+  "checkoutIntegrated": false,
+  "mutationPerformed": false
+}

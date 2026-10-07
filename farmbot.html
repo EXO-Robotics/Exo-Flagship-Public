@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en" data-storage-namespace="exo-flagship">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="Explore FarmBot Genesis v1.8 through published source CAD and documented parts references, with source gaps and revision differences identified.">
+  <title>FarmBot Genesis v1.8 · Interactive CAD Showcase</title>
+  <link rel="canonical" href="https://farmbot-genesis-cad-showcase.alert-buddy-5171.chatgpt.site/farmbot.html">
+  <link rel="icon" href="./favicon.ico">
+  <link rel="stylesheet" href="/shop/shop.css?v=order-1"><link rel="stylesheet" href="./showcase.css?v=context-2">
+  <link rel="stylesheet" href="/minimal-viewer.css?v=minimal-1"><link rel="stylesheet" href="/exploration-shell.css?v=purchase-1">
+  <script type="importmap">{"imports":{"three":"./vendor/three-r160/build/three.module.min.js","three/addons/":"./vendor/three-r160/examples/jsm/"}}</script>
+</head>
+<body class="minimal-viewer v7-viewer">
+  <header class="topbar">
+    <a class="wordmark" href="./"><span>EXO</span><b>Flagship</b></a>
+    <span class="edition">FARMBOT / GENESIS V1.8 / STANDARD</span>
+    <a class="machine-navigation" href="/parts/?mode=parts&amp;machine=farmbot&amp;availability=verified-product">Parts &amp; retailers</a><a class="machine-navigation" href="/shop/saved/">Parts desk</a>
+  </header>
+
+  <main>
+    <section class="stage" aria-labelledby="product-title">
+      <div id="viewport" tabindex="0" role="region" aria-label="FarmBot CAD viewer" aria-describedby="view-instructions"></div>
+      <div class="identity"><p class="eyebrow"><i></i>Open-source garden robotics</p><h1 id="product-title">FarmBot<span>Genesis.</span></h1><p class="intro">Explore the published CAD.<br>Inspect the documented parts.</p><a class="text-link" href="#parts">Explore the parts <span>↗</span></a></div>
+      <div class="stage-status" id="stage-status" role="status"><span class="loading-dot"></span><span id="model-status">Preparing official CAD</span></div>
+      <div class="source-message" id="source-message" hidden><span class="eyebrow">Official assembly</span><h2>Source geometry first.</h2><p id="source-message-copy">The CAD assembly is being verified. Explore the documented parts below.</p><a id="assembly-source" href="https://cad.onshape.com/documents/6626b842adca229e69544ad1/v/29ff27176ad028c3b865f257/e/460407715c4d7785c8d45098" target="_blank" rel="noopener">Open official CAD ↗</a><button id="retry-cad" class="text-button" hidden>Retry CAD download</button></div>
+      <div class="view-toolbar" role="group" aria-label="CAD presentation controls"><button id="browse-cad" aria-controls="cad-browser" aria-expanded="false" disabled>Find a component</button><button id="reset-view">Reset view</button><button id="explode" aria-pressed="false" disabled>Exploded view</button><button id="isolate" aria-pressed="false" disabled>Isolate part</button></div>
+      <p class="view-hint" id="view-instructions">Drag to orbit · Scroll to zoom · Click / tap a part · Cycle overlapping components<br><span>Arrow keys orbit · + / − zoom · 0 resets · Esc clears</span></p>
+      <div id="cad-hover" class="cad-hover" hidden></div>
+      <aside class="part-inspector" id="part-inspector" aria-labelledby="part-title" hidden>
+        <button class="close-button" id="close-inspector" aria-label="Close part inspector">×</button>
+        <p class="eyebrow" id="part-category">Selected component</p><h2 id="part-title" tabindex="-1"></h2><p id="part-identity" class="part-identity"></p>
+        <div id="farmbot-commerce"></div><div class="selection-controls" id="selection-controls" hidden><p id="selection-context" class="small-copy"></p><div class="selection-actions"><button id="focus-part">Focus component</button><button id="browse-instance">Find in assembly</button></div><label class="instance-label" for="cad-instance">CAD instance <select id="cad-instance"></select></label><div class="overlap-controls" id="overlap-controls" hidden><span id="overlap-status" role="status"></span><button id="previous-hit" aria-label="Previous overlapping component">←</button><button id="next-hit" aria-label="Next overlapping component">→</button></div><details id="overlap-details" hidden><summary>Choose an overlapping component</summary><div id="overlap-list"></div></details></div>
+        <button class="primary-action" id="add-selected">Add to BOM checklist</button><p class="small-copy" id="part-order-note"></p>
+        <dl id="part-specs"></dl><p id="part-notes" class="small-copy"></p><div class="part-links" id="part-links"></div>
+      </aside>
+      <div class="stage-footer"><span id="assembly-revision">Official source CAD · v1.8</span><a href="#source-title" id="geometry-summary">Geometry verification pending</a></div>
+    </section>
+
+    <section class="catalog-section" id="parts" aria-labelledby="catalog-title">
+      <div class="section-heading"><div><p class="eyebrow">A machine is every component</p><h2 id="catalog-title">The parts, in detail.</h2></div><p id="catalog-summary" role="status">Loading the official bill of materials.</p></div>
+      <div class="catalog-tools"><label class="search-field"><span class="sr-only">Search parts</span><input type="search" id="part-search" placeholder="Search a part, dimension, or material…"></label><label><span class="sr-only">Part category</span><select id="category-filter"><option value="all">All categories</option></select></label><label class="alternative-toggle"><input type="checkbox" id="show-alternatives"> Include XL alternatives</label><button class="text-button" id="export-bom" disabled>Download full BOM ↓</button><button class="order-toggle" id="order-toggle" aria-controls="order-panel" aria-expanded="false">BOM checklist <span id="order-count">0</span></button></div>
+      <div class="table-wrap"><table><thead><tr><th scope="col">Component</th><th scope="col">Category</th><th scope="col">Standard qty</th><th scope="col">Sales status</th><th scope="col">Assigned value</th><th scope="col"><span class="sr-only">Inspect</span></th></tr></thead><tbody id="parts-body"></tbody></table></div>
+      <p id="empty-search" hidden>No parts match this search.</p><p class="catalog-footnote">The complete source list retains preassembled components, tools, consumables, and packaging. Included subcomponents may already be supplied within an assembly; use the source notes when ordering.</p>
+    </section>
+
+    <section class="source-section" aria-labelledby="source-title"><div><p class="eyebrow">Design you can trace</p><h2 id="source-title">From the source.<br>Down to the screw.</h2><p class="source-dimensions" id="source-dimensions"></p></div><div class="source-details"><p>This showcase uses FarmBot’s published design resources for one hardware revision. Select a component to follow its documentation and CAD.</p><dl><div><dt>Hardware configuration</dt><dd>Genesis v1.8 · Standard</dd></div><div><dt>Parts list</dt><dd id="bom-verification">Source verification pending</dd></div><div><dt>Assembly coverage</dt><dd id="coverage-status">CAD reconciliation pending</dd></div><div><dt>Purchasing</dt><dd>Parts request · supplier confirmation required</dd></div><div><dt>Official v1.8 kit</dt><dd id="kit-availability">Checking supplier snapshot</dd></div></dl><details class="source-issues"><summary id="source-issues-summary">Source gaps and revision differences</summary><ul id="source-issues"></ul></details><div class="source-links"><a href="https://genesis.farm.bot/v1.8/bom.html" target="_blank" rel="noopener">Official bill of materials ↗</a><a href="./docs/research/farmbot/README.md">Source and scope ↗</a><a href="/license.html">Sources &amp; licenses ↗</a><a id="native-cad-download" hidden>Download source STEP ↓</a><span id="native-cad-status" class="small-copy" role="status" aria-live="polite"></span><a href="https://farm.bot/products/farmbot-genesis-v1-8" target="_blank" rel="noopener">View official v1.8 kit ↗</a></div><p class="small-copy">Independent showcase by Equipment Explorer. Source CAD remains authoritative for engineering dimensions and tolerances. A parts request is not a confirmed order; supplier stock, variants, pricing, and shipping must be checked.</p></div></section>
+  </main>
+
+  <dialog id="cad-browser" aria-labelledby="cad-browser-title"><div class="order-header"><div><p class="eyebrow">Published assembly · Genesis v1.8</p><h2 id="cad-browser-title">Find a component.</h2></div><button id="close-cad-browser" class="close-button" aria-label="Close component browser">×</button></div><p class="small-copy">Every source CAD body, grouped by its assembly. A verified BOM match is required to add it to a parts request.</p><label class="cad-search"><span class="sr-only">Search source CAD components</span><input type="search" id="cad-search" placeholder="Search a component or assembly…"></label><label class="cad-group-label">Assembly <select id="cad-group"><option value="all">All source assemblies</option></select></label><p id="cad-results-status" class="small-copy" role="status"></p><div id="cad-body-list"></div></dialog>
+  <dialog id="order-panel" aria-labelledby="order-title"><div class="order-header"><div><p class="eyebrow">Genesis v1.8 · Standard</p><h2 id="order-title">FarmBot BOM checklist.</h2></div><button id="close-order" class="close-button" aria-label="Close parts request">×</button></div><p class="small-copy">Review quantities and included subcomponents before buying. Supplier links open separately; availability and compatibility are not yet checkout-verified.</p><div id="order-items"></div><p id="empty-order">Select parts from the machine or the list to start.</p><div class="order-actions"><button class="primary-action" id="export-order" disabled>Download request ↓</button><button class="text-button" id="clear-order" disabled>Clear request</button></div><p class="small-copy">Request includes exact source revision, component names, quantities, and documentation links. No payment or order is submitted.</p></dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script type="module" src="./showcase.js?v=purchase-1"></script>
+</body>
+</html>

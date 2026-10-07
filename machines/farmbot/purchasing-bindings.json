@@ -1,0 +1,896 @@
+{
+  "schemaVersion": 1,
+  "sourceCadSha256": "8ff533f07be517290b297b100aa701c8267a62d6d8f071d01d611047cf0af34e",
+  "documentationCommit": "44e0fa24d4a538dfa1255a4e89308ccabf3abaeb",
+  "entries": [
+    {
+      "nodeName": "farmbot_node_00901",
+      "catalogId": "m3-setscrew-4mm",
+      "sourceCadName": "M3 Setscrew",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/fasteners-and-hardware/m3-setscrew-4mm.md",
+        "path": "v1.8/bom/fasteners-and-hardware/m3-setscrew-4mm.md",
+        "sha256": "377804fdbb09df03a2517c6cc9ee2a7cbd2ed5c2f57d8ac00d1113dd8ea1e21c",
+        "verifiedLocalSourceSha256": "377804fdbb09df03a2517c6cc9ee2a7cbd2ed5c2f57d8ac00d1113dd8ea1e21c"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_00905",
+      "catalogId": "m3-setscrew-4mm",
+      "sourceCadName": "M3 Setscrew",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/fasteners-and-hardware/m3-setscrew-4mm.md",
+        "path": "v1.8/bom/fasteners-and-hardware/m3-setscrew-4mm.md",
+        "sha256": "377804fdbb09df03a2517c6cc9ee2a7cbd2ed5c2f57d8ac00d1113dd8ea1e21c",
+        "verifiedLocalSourceSha256": "377804fdbb09df03a2517c6cc9ee2a7cbd2ed5c2f57d8ac00d1113dd8ea1e21c"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_01751",
+      "catalogId": "m3-setscrew-4mm",
+      "sourceCadName": "M3 Setscrew",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/fasteners-and-hardware/m3-setscrew-4mm.md",
+        "path": "v1.8/bom/fasteners-and-hardware/m3-setscrew-4mm.md",
+        "sha256": "377804fdbb09df03a2517c6cc9ee2a7cbd2ed5c2f57d8ac00d1113dd8ea1e21c",
+        "verifiedLocalSourceSha256": "377804fdbb09df03a2517c6cc9ee2a7cbd2ed5c2f57d8ac00d1113dd8ea1e21c"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_01753",
+      "catalogId": "m3-setscrew-4mm",
+      "sourceCadName": "M3 Setscrew",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/fasteners-and-hardware/m3-setscrew-4mm.md",
+        "path": "v1.8/bom/fasteners-and-hardware/m3-setscrew-4mm.md",
+        "sha256": "377804fdbb09df03a2517c6cc9ee2a7cbd2ed5c2f57d8ac00d1113dd8ea1e21c",
+        "verifiedLocalSourceSha256": "377804fdbb09df03a2517c6cc9ee2a7cbd2ed5c2f57d8ac00d1113dd8ea1e21c"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_02512",
+      "catalogId": "m3-setscrew-4mm",
+      "sourceCadName": "M3 Setscrew",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/fasteners-and-hardware/m3-setscrew-4mm.md",
+        "path": "v1.8/bom/fasteners-and-hardware/m3-setscrew-4mm.md",
+        "sha256": "377804fdbb09df03a2517c6cc9ee2a7cbd2ed5c2f57d8ac00d1113dd8ea1e21c",
+        "verifiedLocalSourceSha256": "377804fdbb09df03a2517c6cc9ee2a7cbd2ed5c2f57d8ac00d1113dd8ea1e21c"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_02514",
+      "catalogId": "m3-setscrew-4mm",
+      "sourceCadName": "M3 Setscrew",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/fasteners-and-hardware/m3-setscrew-4mm.md",
+        "path": "v1.8/bom/fasteners-and-hardware/m3-setscrew-4mm.md",
+        "sha256": "377804fdbb09df03a2517c6cc9ee2a7cbd2ed5c2f57d8ac00d1113dd8ea1e21c",
+        "verifiedLocalSourceSha256": "377804fdbb09df03a2517c6cc9ee2a7cbd2ed5c2f57d8ac00d1113dd8ea1e21c"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_00783",
+      "catalogId": "precision-shim",
+      "sourceCadName": "M5 Shim",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/drivetrain/precision-shim.md",
+        "path": "v1.8/bom/drivetrain/precision-shim.md",
+        "sha256": "21d38f97dd99c300cfc79ad9732576acda90d6a21973fab1ef142d46458ce5d2",
+        "verifiedLocalSourceSha256": "21d38f97dd99c300cfc79ad9732576acda90d6a21973fab1ef142d46458ce5d2"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_00799",
+      "catalogId": "precision-shim",
+      "sourceCadName": "M5 Shim",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/drivetrain/precision-shim.md",
+        "path": "v1.8/bom/drivetrain/precision-shim.md",
+        "sha256": "21d38f97dd99c300cfc79ad9732576acda90d6a21973fab1ef142d46458ce5d2",
+        "verifiedLocalSourceSha256": "21d38f97dd99c300cfc79ad9732576acda90d6a21973fab1ef142d46458ce5d2"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_00817",
+      "catalogId": "precision-shim",
+      "sourceCadName": "M5 Shim",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/drivetrain/precision-shim.md",
+        "path": "v1.8/bom/drivetrain/precision-shim.md",
+        "sha256": "21d38f97dd99c300cfc79ad9732576acda90d6a21973fab1ef142d46458ce5d2",
+        "verifiedLocalSourceSha256": "21d38f97dd99c300cfc79ad9732576acda90d6a21973fab1ef142d46458ce5d2"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_00835",
+      "catalogId": "precision-shim",
+      "sourceCadName": "M5 Shim",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/drivetrain/precision-shim.md",
+        "path": "v1.8/bom/drivetrain/precision-shim.md",
+        "sha256": "21d38f97dd99c300cfc79ad9732576acda90d6a21973fab1ef142d46458ce5d2",
+        "verifiedLocalSourceSha256": "21d38f97dd99c300cfc79ad9732576acda90d6a21973fab1ef142d46458ce5d2"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_00847",
+      "catalogId": "precision-shim",
+      "sourceCadName": "M5 Shim",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/drivetrain/precision-shim.md",
+        "path": "v1.8/bom/drivetrain/precision-shim.md",
+        "sha256": "21d38f97dd99c300cfc79ad9732576acda90d6a21973fab1ef142d46458ce5d2",
+        "verifiedLocalSourceSha256": "21d38f97dd99c300cfc79ad9732576acda90d6a21973fab1ef142d46458ce5d2"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_01789",
+      "catalogId": "precision-shim",
+      "sourceCadName": "M5 Shim",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/drivetrain/precision-shim.md",
+        "path": "v1.8/bom/drivetrain/precision-shim.md",
+        "sha256": "21d38f97dd99c300cfc79ad9732576acda90d6a21973fab1ef142d46458ce5d2",
+        "verifiedLocalSourceSha256": "21d38f97dd99c300cfc79ad9732576acda90d6a21973fab1ef142d46458ce5d2"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_01805",
+      "catalogId": "precision-shim",
+      "sourceCadName": "M5 Shim",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/drivetrain/precision-shim.md",
+        "path": "v1.8/bom/drivetrain/precision-shim.md",
+        "sha256": "21d38f97dd99c300cfc79ad9732576acda90d6a21973fab1ef142d46458ce5d2",
+        "verifiedLocalSourceSha256": "21d38f97dd99c300cfc79ad9732576acda90d6a21973fab1ef142d46458ce5d2"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_01825",
+      "catalogId": "precision-shim",
+      "sourceCadName": "M5 Shim",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/drivetrain/precision-shim.md",
+        "path": "v1.8/bom/drivetrain/precision-shim.md",
+        "sha256": "21d38f97dd99c300cfc79ad9732576acda90d6a21973fab1ef142d46458ce5d2",
+        "verifiedLocalSourceSha256": "21d38f97dd99c300cfc79ad9732576acda90d6a21973fab1ef142d46458ce5d2"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_01843",
+      "catalogId": "precision-shim",
+      "sourceCadName": "M5 Shim",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/drivetrain/precision-shim.md",
+        "path": "v1.8/bom/drivetrain/precision-shim.md",
+        "sha256": "21d38f97dd99c300cfc79ad9732576acda90d6a21973fab1ef142d46458ce5d2",
+        "verifiedLocalSourceSha256": "21d38f97dd99c300cfc79ad9732576acda90d6a21973fab1ef142d46458ce5d2"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_01857",
+      "catalogId": "precision-shim",
+      "sourceCadName": "M5 Shim",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/drivetrain/precision-shim.md",
+        "path": "v1.8/bom/drivetrain/precision-shim.md",
+        "sha256": "21d38f97dd99c300cfc79ad9732576acda90d6a21973fab1ef142d46458ce5d2",
+        "verifiedLocalSourceSha256": "21d38f97dd99c300cfc79ad9732576acda90d6a21973fab1ef142d46458ce5d2"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_02570",
+      "catalogId": "precision-shim",
+      "sourceCadName": "M5 Shim",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/drivetrain/precision-shim.md",
+        "path": "v1.8/bom/drivetrain/precision-shim.md",
+        "sha256": "21d38f97dd99c300cfc79ad9732576acda90d6a21973fab1ef142d46458ce5d2",
+        "verifiedLocalSourceSha256": "21d38f97dd99c300cfc79ad9732576acda90d6a21973fab1ef142d46458ce5d2"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_02586",
+      "catalogId": "precision-shim",
+      "sourceCadName": "M5 Shim",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/drivetrain/precision-shim.md",
+        "path": "v1.8/bom/drivetrain/precision-shim.md",
+        "sha256": "21d38f97dd99c300cfc79ad9732576acda90d6a21973fab1ef142d46458ce5d2",
+        "verifiedLocalSourceSha256": "21d38f97dd99c300cfc79ad9732576acda90d6a21973fab1ef142d46458ce5d2"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_02608",
+      "catalogId": "precision-shim",
+      "sourceCadName": "M5 Shim",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/drivetrain/precision-shim.md",
+        "path": "v1.8/bom/drivetrain/precision-shim.md",
+        "sha256": "21d38f97dd99c300cfc79ad9732576acda90d6a21973fab1ef142d46458ce5d2",
+        "verifiedLocalSourceSha256": "21d38f97dd99c300cfc79ad9732576acda90d6a21973fab1ef142d46458ce5d2"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_02622",
+      "catalogId": "precision-shim",
+      "sourceCadName": "M5 Shim",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/drivetrain/precision-shim.md",
+        "path": "v1.8/bom/drivetrain/precision-shim.md",
+        "sha256": "21d38f97dd99c300cfc79ad9732576acda90d6a21973fab1ef142d46458ce5d2",
+        "verifiedLocalSourceSha256": "21d38f97dd99c300cfc79ad9732576acda90d6a21973fab1ef142d46458ce5d2"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_02638",
+      "catalogId": "precision-shim",
+      "sourceCadName": "M5 Shim",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/drivetrain/precision-shim.md",
+        "path": "v1.8/bom/drivetrain/precision-shim.md",
+        "sha256": "21d38f97dd99c300cfc79ad9732576acda90d6a21973fab1ef142d46458ce5d2",
+        "verifiedLocalSourceSha256": "21d38f97dd99c300cfc79ad9732576acda90d6a21973fab1ef142d46458ce5d2"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_02650",
+      "catalogId": "precision-shim",
+      "sourceCadName": "M5 Shim",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/drivetrain/precision-shim.md",
+        "path": "v1.8/bom/drivetrain/precision-shim.md",
+        "sha256": "21d38f97dd99c300cfc79ad9732576acda90d6a21973fab1ef142d46458ce5d2",
+        "verifiedLocalSourceSha256": "21d38f97dd99c300cfc79ad9732576acda90d6a21973fab1ef142d46458ce5d2"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_02672",
+      "catalogId": "precision-shim",
+      "sourceCadName": "M5 Shim",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/drivetrain/precision-shim.md",
+        "path": "v1.8/bom/drivetrain/precision-shim.md",
+        "sha256": "21d38f97dd99c300cfc79ad9732576acda90d6a21973fab1ef142d46458ce5d2",
+        "verifiedLocalSourceSha256": "21d38f97dd99c300cfc79ad9732576acda90d6a21973fab1ef142d46458ce5d2"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_02682",
+      "catalogId": "precision-shim",
+      "sourceCadName": "M5 Shim",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/drivetrain/precision-shim.md",
+        "path": "v1.8/bom/drivetrain/precision-shim.md",
+        "sha256": "21d38f97dd99c300cfc79ad9732576acda90d6a21973fab1ef142d46458ce5d2",
+        "verifiedLocalSourceSha256": "21d38f97dd99c300cfc79ad9732576acda90d6a21973fab1ef142d46458ce5d2"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_02696",
+      "catalogId": "precision-shim",
+      "sourceCadName": "M5 Shim",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/drivetrain/precision-shim.md",
+        "path": "v1.8/bom/drivetrain/precision-shim.md",
+        "sha256": "21d38f97dd99c300cfc79ad9732576acda90d6a21973fab1ef142d46458ce5d2",
+        "verifiedLocalSourceSha256": "21d38f97dd99c300cfc79ad9732576acda90d6a21973fab1ef142d46458ce5d2"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_02712",
+      "catalogId": "precision-shim",
+      "sourceCadName": "M5 Shim",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/drivetrain/precision-shim.md",
+        "path": "v1.8/bom/drivetrain/precision-shim.md",
+        "sha256": "21d38f97dd99c300cfc79ad9732576acda90d6a21973fab1ef142d46458ce5d2",
+        "verifiedLocalSourceSha256": "21d38f97dd99c300cfc79ad9732576acda90d6a21973fab1ef142d46458ce5d2"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_02103",
+      "catalogId": "shaft-coupler",
+      "sourceCadName": "5mm to 8mm Shaft Coupler",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/drivetrain/shaft-coupler.md",
+        "path": "v1.8/bom/drivetrain/shaft-coupler.md",
+        "sha256": "637ec32af1299f95906692178933ed07a294ee720f3487b91ee90e45442b740e",
+        "verifiedLocalSourceSha256": "637ec32af1299f95906692178933ed07a294ee720f3487b91ee90e45442b740e"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_00914",
+      "catalogId": "motor-housing-horizontal-75mm",
+      "sourceCadName": "75mm Horizontal Motor Housing",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/plastic-parts/motor-housing-horizontal-75mm.md",
+        "path": "v1.8/bom/plastic-parts/motor-housing-horizontal-75mm.md",
+        "sha256": "d6c384218f49100c357bcd55fef8a23cf398c43b99633379c91df21d0e8e5de4",
+        "verifiedLocalSourceSha256": "d6c384218f49100c357bcd55fef8a23cf398c43b99633379c91df21d0e8e5de4"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_01741",
+      "catalogId": "motor-housing-horizontal-75mm",
+      "sourceCadName": "75mm Horizontal Motor Housing",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/plastic-parts/motor-housing-horizontal-75mm.md",
+        "path": "v1.8/bom/plastic-parts/motor-housing-horizontal-75mm.md",
+        "sha256": "d6c384218f49100c357bcd55fef8a23cf398c43b99633379c91df21d0e8e5de4",
+        "verifiedLocalSourceSha256": "d6c384218f49100c357bcd55fef8a23cf398c43b99633379c91df21d0e8e5de4"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_02507",
+      "catalogId": "motor-housing-horizontal-75mm",
+      "sourceCadName": "75mm Horizontal Motor Housing",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/plastic-parts/motor-housing-horizontal-75mm.md",
+        "path": "v1.8/bom/plastic-parts/motor-housing-horizontal-75mm.md",
+        "sha256": "d6c384218f49100c357bcd55fef8a23cf398c43b99633379c91df21d0e8e5de4",
+        "verifiedLocalSourceSha256": "d6c384218f49100c357bcd55fef8a23cf398c43b99633379c91df21d0e8e5de4"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_02051",
+      "catalogId": "motor-housing-vertical-80mm",
+      "sourceCadName": "80mm Vertical Motor Housing",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/plastic-parts/motor-housing-vertical-80mm.md",
+        "path": "v1.8/bom/plastic-parts/motor-housing-vertical-80mm.md",
+        "sha256": "d5f0a4ea983a40a29f08f056290fca7ad2ad5e99b615b9f61f2faa228cdd5054",
+        "verifiedLocalSourceSha256": "d5f0a4ea983a40a29f08f056290fca7ad2ad5e99b615b9f61f2faa228cdd5054"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_02044",
+      "catalogId": "z-axis-extrusion",
+      "sourceCadName": "20mm x 20mm x 1000mm Extrusion",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/extrusions/z-axis-extrusion.md",
+        "path": "v1.8/bom/extrusions/z-axis-extrusion.md",
+        "sha256": "371aebe0bbb2372c053f5f163ccc83b33de3ac98236d08670d24655631e5fa8f",
+        "verifiedLocalSourceSha256": "371aebe0bbb2372c053f5f163ccc83b33de3ac98236d08670d24655631e5fa8f"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_00550",
+      "catalogId": "rubber-gasket",
+      "sourceCadName": "3/4\" Rubber Gasket",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/tubing/rubber-gasket.md",
+        "path": "v1.8/bom/tubing/rubber-gasket.md",
+        "sha256": "a2f8dc981c8a312cf26097b9cc7b060695ad02b89ddf9aad8094e29cc40f9eb9",
+        "verifiedLocalSourceSha256": "a2f8dc981c8a312cf26097b9cc7b060695ad02b89ddf9aad8094e29cc40f9eb9"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_01551",
+      "catalogId": "rubber-gasket",
+      "sourceCadName": "3/4\" Rubber Gasket",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/tubing/rubber-gasket.md",
+        "path": "v1.8/bom/tubing/rubber-gasket.md",
+        "sha256": "a2f8dc981c8a312cf26097b9cc7b060695ad02b89ddf9aad8094e29cc40f9eb9",
+        "verifiedLocalSourceSha256": "a2f8dc981c8a312cf26097b9cc7b060695ad02b89ddf9aad8094e29cc40f9eb9"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_01556",
+      "catalogId": "rubber-gasket",
+      "sourceCadName": "3/4\" Rubber Gasket",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/tubing/rubber-gasket.md",
+        "path": "v1.8/bom/tubing/rubber-gasket.md",
+        "sha256": "a2f8dc981c8a312cf26097b9cc7b060695ad02b89ddf9aad8094e29cc40f9eb9",
+        "verifiedLocalSourceSha256": "a2f8dc981c8a312cf26097b9cc7b060695ad02b89ddf9aad8094e29cc40f9eb9"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_01575",
+      "catalogId": "rubber-gasket",
+      "sourceCadName": "3/4\" Rubber Gasket",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/tubing/rubber-gasket.md",
+        "path": "v1.8/bom/tubing/rubber-gasket.md",
+        "sha256": "a2f8dc981c8a312cf26097b9cc7b060695ad02b89ddf9aad8094e29cc40f9eb9",
+        "verifiedLocalSourceSha256": "a2f8dc981c8a312cf26097b9cc7b060695ad02b89ddf9aad8094e29cc40f9eb9"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_02265",
+      "catalogId": "90-degree-barb",
+      "sourceCadName": "90 Degree Barb",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/tubing/90-degree-barb.md",
+        "path": "v1.8/bom/tubing/90-degree-barb.md",
+        "sha256": "40b9f3a13373021c714eaf8ec429414b341df9d6ecc595695bda050cf9967897",
+        "verifiedLocalSourceSha256": "40b9f3a13373021c714eaf8ec429414b341df9d6ecc595695bda050cf9967897"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_02131",
+      "catalogId": "magnet-countersunk",
+      "sourceCadName": "UTM Magnet",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/fasteners-and-hardware/magnet-countersunk.md",
+        "path": "v1.8/bom/fasteners-and-hardware/magnet-countersunk.md",
+        "sha256": "073591d4a9c14912e72126821bf239b02d11197f451f576b88c7d0f8a05e32cd",
+        "verifiedLocalSourceSha256": "073591d4a9c14912e72126821bf239b02d11197f451f576b88c7d0f8a05e32cd"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_02137",
+      "catalogId": "magnet-countersunk",
+      "sourceCadName": "UTM Magnet",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/fasteners-and-hardware/magnet-countersunk.md",
+        "path": "v1.8/bom/fasteners-and-hardware/magnet-countersunk.md",
+        "sha256": "073591d4a9c14912e72126821bf239b02d11197f451f576b88c7d0f8a05e32cd",
+        "verifiedLocalSourceSha256": "073591d4a9c14912e72126821bf239b02d11197f451f576b88c7d0f8a05e32cd"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_02155",
+      "catalogId": "magnet-countersunk",
+      "sourceCadName": "UTM Magnet",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/fasteners-and-hardware/magnet-countersunk.md",
+        "path": "v1.8/bom/fasteners-and-hardware/magnet-countersunk.md",
+        "sha256": "073591d4a9c14912e72126821bf239b02d11197f451f576b88c7d0f8a05e32cd",
+        "verifiedLocalSourceSha256": "073591d4a9c14912e72126821bf239b02d11197f451f576b88c7d0f8a05e32cd"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_00028",
+      "catalogId": "magnet-standard",
+      "sourceCadName": "Tool Magnet",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/fasteners-and-hardware/magnet-standard.md",
+        "path": "v1.8/bom/fasteners-and-hardware/magnet-standard.md",
+        "sha256": "9f6879c5ec1097627a8398a6fd3fc0e9e4e655ac45e77b4472ccc8571a159a2b",
+        "verifiedLocalSourceSha256": "9f6879c5ec1097627a8398a6fd3fc0e9e4e655ac45e77b4472ccc8571a159a2b"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_00037",
+      "catalogId": "magnet-standard",
+      "sourceCadName": "Tool Magnet",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/fasteners-and-hardware/magnet-standard.md",
+        "path": "v1.8/bom/fasteners-and-hardware/magnet-standard.md",
+        "sha256": "9f6879c5ec1097627a8398a6fd3fc0e9e4e655ac45e77b4472ccc8571a159a2b",
+        "verifiedLocalSourceSha256": "9f6879c5ec1097627a8398a6fd3fc0e9e4e655ac45e77b4472ccc8571a159a2b"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_00044",
+      "catalogId": "magnet-standard",
+      "sourceCadName": "Tool Magnet",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/fasteners-and-hardware/magnet-standard.md",
+        "path": "v1.8/bom/fasteners-and-hardware/magnet-standard.md",
+        "sha256": "9f6879c5ec1097627a8398a6fd3fc0e9e4e655ac45e77b4472ccc8571a159a2b",
+        "verifiedLocalSourceSha256": "9f6879c5ec1097627a8398a6fd3fc0e9e4e655ac45e77b4472ccc8571a159a2b"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_00078",
+      "catalogId": "magnet-standard",
+      "sourceCadName": "Tool Magnet",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/fasteners-and-hardware/magnet-standard.md",
+        "path": "v1.8/bom/fasteners-and-hardware/magnet-standard.md",
+        "sha256": "9f6879c5ec1097627a8398a6fd3fc0e9e4e655ac45e77b4472ccc8571a159a2b",
+        "verifiedLocalSourceSha256": "9f6879c5ec1097627a8398a6fd3fc0e9e4e655ac45e77b4472ccc8571a159a2b"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_00080",
+      "catalogId": "magnet-standard",
+      "sourceCadName": "Tool Magnet",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/fasteners-and-hardware/magnet-standard.md",
+        "path": "v1.8/bom/fasteners-and-hardware/magnet-standard.md",
+        "sha256": "9f6879c5ec1097627a8398a6fd3fc0e9e4e655ac45e77b4472ccc8571a159a2b",
+        "verifiedLocalSourceSha256": "9f6879c5ec1097627a8398a6fd3fc0e9e4e655ac45e77b4472ccc8571a159a2b"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_00082",
+      "catalogId": "magnet-standard",
+      "sourceCadName": "Tool Magnet",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/fasteners-and-hardware/magnet-standard.md",
+        "path": "v1.8/bom/fasteners-and-hardware/magnet-standard.md",
+        "sha256": "9f6879c5ec1097627a8398a6fd3fc0e9e4e655ac45e77b4472ccc8571a159a2b",
+        "verifiedLocalSourceSha256": "9f6879c5ec1097627a8398a6fd3fc0e9e4e655ac45e77b4472ccc8571a159a2b"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_00174",
+      "catalogId": "magnet-standard",
+      "sourceCadName": "Tool Magnet",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/fasteners-and-hardware/magnet-standard.md",
+        "path": "v1.8/bom/fasteners-and-hardware/magnet-standard.md",
+        "sha256": "9f6879c5ec1097627a8398a6fd3fc0e9e4e655ac45e77b4472ccc8571a159a2b",
+        "verifiedLocalSourceSha256": "9f6879c5ec1097627a8398a6fd3fc0e9e4e655ac45e77b4472ccc8571a159a2b"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_00191",
+      "catalogId": "magnet-standard",
+      "sourceCadName": "Tool Magnet",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/fasteners-and-hardware/magnet-standard.md",
+        "path": "v1.8/bom/fasteners-and-hardware/magnet-standard.md",
+        "sha256": "9f6879c5ec1097627a8398a6fd3fc0e9e4e655ac45e77b4472ccc8571a159a2b",
+        "verifiedLocalSourceSha256": "9f6879c5ec1097627a8398a6fd3fc0e9e4e655ac45e77b4472ccc8571a159a2b"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_00196",
+      "catalogId": "magnet-standard",
+      "sourceCadName": "Tool Magnet",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/fasteners-and-hardware/magnet-standard.md",
+        "path": "v1.8/bom/fasteners-and-hardware/magnet-standard.md",
+        "sha256": "9f6879c5ec1097627a8398a6fd3fc0e9e4e655ac45e77b4472ccc8571a159a2b",
+        "verifiedLocalSourceSha256": "9f6879c5ec1097627a8398a6fd3fc0e9e4e655ac45e77b4472ccc8571a159a2b"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_00246",
+      "catalogId": "magnet-standard",
+      "sourceCadName": "Tool Magnet",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/fasteners-and-hardware/magnet-standard.md",
+        "path": "v1.8/bom/fasteners-and-hardware/magnet-standard.md",
+        "sha256": "9f6879c5ec1097627a8398a6fd3fc0e9e4e655ac45e77b4472ccc8571a159a2b",
+        "verifiedLocalSourceSha256": "9f6879c5ec1097627a8398a6fd3fc0e9e4e655ac45e77b4472ccc8571a159a2b"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_00253",
+      "catalogId": "magnet-standard",
+      "sourceCadName": "Tool Magnet",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/fasteners-and-hardware/magnet-standard.md",
+        "path": "v1.8/bom/fasteners-and-hardware/magnet-standard.md",
+        "sha256": "9f6879c5ec1097627a8398a6fd3fc0e9e4e655ac45e77b4472ccc8571a159a2b",
+        "verifiedLocalSourceSha256": "9f6879c5ec1097627a8398a6fd3fc0e9e4e655ac45e77b4472ccc8571a159a2b"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_00262",
+      "catalogId": "magnet-standard",
+      "sourceCadName": "Tool Magnet",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/fasteners-and-hardware/magnet-standard.md",
+        "path": "v1.8/bom/fasteners-and-hardware/magnet-standard.md",
+        "sha256": "9f6879c5ec1097627a8398a6fd3fc0e9e4e655ac45e77b4472ccc8571a159a2b",
+        "verifiedLocalSourceSha256": "9f6879c5ec1097627a8398a6fd3fc0e9e4e655ac45e77b4472ccc8571a159a2b"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_00149",
+      "catalogId": "rotary-tool-motor",
+      "sourceCadName": "Rotary Tool Motor (500TB-12560)",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/electronics-and-wiring/rotary-tool-motor.md",
+        "path": "v1.8/bom/electronics-and-wiring/rotary-tool-motor.md",
+        "sha256": "abc93ce5cc0ebe0d2da0182394c970c4dce7794c9a843f3ede3bf17a677dc5b5",
+        "verifiedLocalSourceSha256": "abc93ce5cc0ebe0d2da0182394c970c4dce7794c9a843f3ede3bf17a677dc5b5"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_01681",
+      "catalogId": "supergland",
+      "sourceCadName": "Supergland Half",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/electronics-and-wiring/supergland.md",
+        "path": "v1.8/bom/electronics-and-wiring/supergland.md",
+        "sha256": "b8e0b38130bd2e0e2bb1aa09cde54b0342243fb00764a399eac74262fa33a308",
+        "verifiedLocalSourceSha256": "b8e0b38130bd2e0e2bb1aa09cde54b0342243fb00764a399eac74262fa33a308"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_01691",
+      "catalogId": "supergland",
+      "sourceCadName": "Supergland Half",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/electronics-and-wiring/supergland.md",
+        "path": "v1.8/bom/electronics-and-wiring/supergland.md",
+        "sha256": "b8e0b38130bd2e0e2bb1aa09cde54b0342243fb00764a399eac74262fa33a308",
+        "verifiedLocalSourceSha256": "b8e0b38130bd2e0e2bb1aa09cde54b0342243fb00764a399eac74262fa33a308"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_01697",
+      "catalogId": "electronics-box--2",
+      "sourceCadName": "Electronics Box Lid",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/electronics-and-wiring/electronics-box.md",
+        "path": "v1.8/bom/electronics-and-wiring/electronics-box.md",
+        "sha256": "aad475ad42bf43eaff8d57d99dc01edbd987c8218f1edc381c29c8e16d10c797",
+        "verifiedLocalSourceSha256": "aad475ad42bf43eaff8d57d99dc01edbd987c8218f1edc381c29c8e16d10c797"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_01685",
+      "catalogId": "electronics-box--3",
+      "sourceCadName": "Electronics Box Gasket",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/electronics-and-wiring/electronics-box.md",
+        "path": "v1.8/bom/electronics-and-wiring/electronics-box.md",
+        "sha256": "aad475ad42bf43eaff8d57d99dc01edbd987c8218f1edc381c29c8e16d10c797",
+        "verifiedLocalSourceSha256": "aad475ad42bf43eaff8d57d99dc01edbd987c8218f1edc381c29c8e16d10c797"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_01677",
+      "catalogId": "electronics-box--4",
+      "sourceCadName": "Electronics Box Latch",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/electronics-and-wiring/electronics-box.md",
+        "path": "v1.8/bom/electronics-and-wiring/electronics-box.md",
+        "sha256": "aad475ad42bf43eaff8d57d99dc01edbd987c8218f1edc381c29c8e16d10c797",
+        "verifiedLocalSourceSha256": "aad475ad42bf43eaff8d57d99dc01edbd987c8218f1edc381c29c8e16d10c797"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_01679",
+      "catalogId": "electronics-box--4",
+      "sourceCadName": "Electronics Box Latch",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/electronics-and-wiring/electronics-box.md",
+        "path": "v1.8/bom/electronics-and-wiring/electronics-box.md",
+        "sha256": "aad475ad42bf43eaff8d57d99dc01edbd987c8218f1edc381c29c8e16d10c797",
+        "verifiedLocalSourceSha256": "aad475ad42bf43eaff8d57d99dc01edbd987c8218f1edc381c29c8e16d10c797"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_01646",
+      "catalogId": "push-button-red",
+      "sourceCadName": "Push Button - Red",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/electronics-and-wiring/push-button-red.md",
+        "path": "v1.8/bom/electronics-and-wiring/push-button-red.md",
+        "sha256": "37c018b94af03f4e92ce89f84509ba1119544d99d7304fc9059d4a5e62ef7f13",
+        "verifiedLocalSourceSha256": "37c018b94af03f4e92ce89f84509ba1119544d99d7304fc9059d4a5e62ef7f13"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_01656",
+      "catalogId": "push-button-white",
+      "sourceCadName": "Push Button - White",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/electronics-and-wiring/push-button-white.md",
+        "path": "v1.8/bom/electronics-and-wiring/push-button-white.md",
+        "sha256": "2f274a56a4bac2f6cd925a7e0e00ee2e08e37ea0cc8d9c0bd8527dc4884b8e62",
+        "verifiedLocalSourceSha256": "2f274a56a4bac2f6cd925a7e0e00ee2e08e37ea0cc8d9c0bd8527dc4884b8e62"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_01651",
+      "catalogId": "push-button-yellow",
+      "sourceCadName": "Push Button - Yellow",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/electronics-and-wiring/push-button-yellow.md",
+        "path": "v1.8/bom/electronics-and-wiring/push-button-yellow.md",
+        "sha256": "bf65892877bd924b71b9afd6a29b8e3f15e9323916ce91606e99af23ad875d22",
+        "verifiedLocalSourceSha256": "bf65892877bd924b71b9afd6a29b8e3f15e9323916ce91606e99af23ad875d22"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_02255",
+      "catalogId": "tube-vacuum--1",
+      "sourceCadName": "Vacuum Tube - Z, 0.95m",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/tubing/tube-vacuum.md",
+        "path": "v1.8/bom/tubing/tube-vacuum.md",
+        "sha256": "01e0fd662922d6d9c093e6b71c1eb523ecbf714716845b4b7bec016711eeefca",
+        "verifiedLocalSourceSha256": "01e0fd662922d6d9c093e6b71c1eb523ecbf714716845b4b7bec016711eeefca"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_02523",
+      "catalogId": "tube-vacuum--2",
+      "sourceCadName": "Vacuum Tube - Z, 0.15m",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/tubing/tube-vacuum.md",
+        "path": "v1.8/bom/tubing/tube-vacuum.md",
+        "sha256": "01e0fd662922d6d9c093e6b71c1eb523ecbf714716845b4b7bec016711eeefca",
+        "verifiedLocalSourceSha256": "01e0fd662922d6d9c093e6b71c1eb523ecbf714716845b4b7bec016711eeefca"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_01478",
+      "catalogId": "motor-cable--1",
+      "sourceCadName": "Motor Cable - X1",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/electronics-and-wiring/motor-cable.md",
+        "path": "v1.8/bom/electronics-and-wiring/motor-cable.md",
+        "sha256": "ea944e427744393c4e0d65e0a0dc6dd979d0e813afd8491892159673e1b4cc7a",
+        "verifiedLocalSourceSha256": "ea944e427744393c4e0d65e0a0dc6dd979d0e813afd8491892159673e1b4cc7a"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_00753",
+      "catalogId": "motor-cable--2",
+      "sourceCadName": "Motor Cable - X2",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/electronics-and-wiring/motor-cable.md",
+        "path": "v1.8/bom/electronics-and-wiring/motor-cable.md",
+        "sha256": "ea944e427744393c4e0d65e0a0dc6dd979d0e813afd8491892159673e1b4cc7a",
+        "verifiedLocalSourceSha256": "ea944e427744393c4e0d65e0a0dc6dd979d0e813afd8491892159673e1b4cc7a"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_01023",
+      "catalogId": "motor-cable--3",
+      "sourceCadName": "Motor Cable - Y",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/electronics-and-wiring/motor-cable.md",
+        "path": "v1.8/bom/electronics-and-wiring/motor-cable.md",
+        "sha256": "ea944e427744393c4e0d65e0a0dc6dd979d0e813afd8491892159673e1b4cc7a",
+        "verifiedLocalSourceSha256": "ea944e427744393c4e0d65e0a0dc6dd979d0e813afd8491892159673e1b4cc7a"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_01025",
+      "catalogId": "motor-cable--4",
+      "sourceCadName": "Motor Cable - ZY",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/electronics-and-wiring/motor-cable.md",
+        "path": "v1.8/bom/electronics-and-wiring/motor-cable.md",
+        "sha256": "ea944e427744393c4e0d65e0a0dc6dd979d0e813afd8491892159673e1b4cc7a",
+        "verifiedLocalSourceSha256": "ea944e427744393c4e0d65e0a0dc6dd979d0e813afd8491892159673e1b4cc7a"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_02261",
+      "catalogId": "motor-cable--8",
+      "sourceCadName": "ZZ Motor Cable",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/electronics-and-wiring/motor-cable.md",
+        "path": "v1.8/bom/electronics-and-wiring/motor-cable.md",
+        "sha256": "ea944e427744393c4e0d65e0a0dc6dd979d0e813afd8491892159673e1b4cc7a",
+        "verifiedLocalSourceSha256": "ea944e427744393c4e0d65e0a0dc6dd979d0e813afd8491892159673e1b4cc7a"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_01474",
+      "catalogId": "encoder-cable--1",
+      "sourceCadName": "Encoder Cable - X1",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/electronics-and-wiring/encoder-cable.md",
+        "path": "v1.8/bom/electronics-and-wiring/encoder-cable.md",
+        "sha256": "dcb7873ec56c9a6c0352deb2f92ec0849e95e6101340fbf33b36f018de5b1dce",
+        "verifiedLocalSourceSha256": "dcb7873ec56c9a6c0352deb2f92ec0849e95e6101340fbf33b36f018de5b1dce"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_00751",
+      "catalogId": "encoder-cable--2",
+      "sourceCadName": "Encoder Cable - X2",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/electronics-and-wiring/encoder-cable.md",
+        "path": "v1.8/bom/electronics-and-wiring/encoder-cable.md",
+        "sha256": "dcb7873ec56c9a6c0352deb2f92ec0849e95e6101340fbf33b36f018de5b1dce",
+        "verifiedLocalSourceSha256": "dcb7873ec56c9a6c0352deb2f92ec0849e95e6101340fbf33b36f018de5b1dce"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_01027",
+      "catalogId": "encoder-cable--3",
+      "sourceCadName": "Encoder Cable - Y",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/electronics-and-wiring/encoder-cable.md",
+        "path": "v1.8/bom/electronics-and-wiring/encoder-cable.md",
+        "sha256": "dcb7873ec56c9a6c0352deb2f92ec0849e95e6101340fbf33b36f018de5b1dce",
+        "verifiedLocalSourceSha256": "dcb7873ec56c9a6c0352deb2f92ec0849e95e6101340fbf33b36f018de5b1dce"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_01037",
+      "catalogId": "encoder-cable--4",
+      "sourceCadName": "Encoder Cable - ZY",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/electronics-and-wiring/encoder-cable.md",
+        "path": "v1.8/bom/electronics-and-wiring/encoder-cable.md",
+        "sha256": "dcb7873ec56c9a6c0352deb2f92ec0849e95e6101340fbf33b36f018de5b1dce",
+        "verifiedLocalSourceSha256": "dcb7873ec56c9a6c0352deb2f92ec0849e95e6101340fbf33b36f018de5b1dce"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    },
+    {
+      "nodeName": "farmbot_node_02263",
+      "catalogId": "encoder-cable--8",
+      "sourceCadName": "ZZ Encoder Cable",
+      "authority": {
+        "url": "https://github.com/FarmBot-Docs/farmbot-genesis/blob/44e0fa24d4a538dfa1255a4e89308ccabf3abaeb/v1.8/bom/electronics-and-wiring/encoder-cable.md",
+        "path": "v1.8/bom/electronics-and-wiring/encoder-cable.md",
+        "sha256": "dcb7873ec56c9a6c0352deb2f92ec0849e95e6101340fbf33b36f018de5b1dce",
+        "verifiedLocalSourceSha256": "dcb7873ec56c9a6c0352deb2f92ec0849e95e6101340fbf33b36f018de5b1dce"
+      },
+      "identityBasis": "documentary-contextual-alias"
+    }
+  ],
+  "policy": "Exact node IDs only; review-only candidates excluded. Parent product identity is never inherited by a child source body."
+}
