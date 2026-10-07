@@ -11,8 +11,8 @@ parts reference. Customers can inspect visually or search directly by name or nu
 
 [**Launch the FarmBot GPT Site →**](https://farmbot-genesis-cad-showcase.alert-buddy-5171.chatgpt.site)
 
-The GPT Site works remotely; no local server is required. Its access is currently
-restricted to authorized accounts. Sign in with an account granted Site access.
+The GPT Site is public and works remotely; no local server or sign-in is required.
+Open the link above to explore the demo.
 This public repository contains the evaluation package; GitHub Pages is not enabled.
 
 ## Try the experience
