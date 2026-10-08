@@ -38,7 +38,7 @@
   document.getElementById('copy-brief')?.addEventListener('click', async () => {
     try {
       await navigator.clipboard.writeText(brief());
-      status.textContent = 'Brief copied. Paste it into your conversation with Blake; nothing has been sent.';
+      status.textContent = 'Brief copied. Paste it into an email to Blake Grove at AionForgestudios@gmail.com; nothing has been sent.';
     } catch {
       const details = preview?.closest('details');
       if (details) details.open = true;
