@@ -1818,6 +1818,7 @@
     },
     {
       "id": "camera",
+      "displayNote": "Camera includes its attached 1 m cable and connector. Extension cable is separate; internal subpart CAD is not supplied.",
       "name": "Camera",
       "partName": "Camera",
       "variant": null,
@@ -1917,7 +1918,8 @@
         "fitNeedsReview": true,
         "identityBasis": "manufacturer-declared-compatible-replacement"
       },
-      "identityBasis": "manufacturer-declared-compatible-replacement"
+      "identityBasis": "manufacturer-declared-compatible-replacement",
+      "displayDepthNote": "Camera + attached cable · deeper subparts not supplied"
     },
     {
       "id": "electronics-box--1",

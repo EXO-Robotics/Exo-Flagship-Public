@@ -21,7 +21,7 @@ export function mountExplorationShell({surface,toolbar,title,hasModel=true,onMod
  const modes=el('div',null,'exploration-modes');modes.setAttribute('role','group');modes.setAttribute('aria-label','Exploration mode');
  const chooseMode=mode=>{if(!hasModel)return;state.mode=mode;render();onMode?.(mode)};
  const showcase=button('Showcase','mode-showcase',()=>chooseMode('showcase'));
- const cad=button('CAD mode','mode-cad',()=>chooseMode('cad'));
+ const cad=button('Explore parts','mode-cad',()=>chooseMode('cad'));
  showcase.disabled=cad.disabled=!hasModel;modes.append(showcase,cad);
  const find=button('Find a part','find-part',()=>openCatalog());find.setAttribute('aria-haspopup','dialog');
  modebar.append(modes,find);shell.append(modebar);
@@ -60,7 +60,7 @@ export function mountExplorationShell({surface,toolbar,title,hasModel=true,onMod
    row.append(el('span',labelOf(part),'part-search-name'));
    const number=numberOf(part),sku=skuOf(part),identity=part.displayIdentifier;row.append(el('span',identity?`${identity.label}: ${identity.value}`:number?`Part number: ${number}`:sku?`Retailer SKU: ${sku}`:'Part number not verified','part-search-number'));
    // Status comes from the same qualified records used by the ordering card.
-   if(part.orderable===true)row.append(el('span','Order link available','part-search-orderable'));
+   if(part.orderable===true)row.append(el('span','Replacement eligibility confirmed','part-search-orderable'));
    frag.append(row);
   }
   if(parts.length&&!matches.length)frag.append(el('p','No matching documented parts.','part-search-empty'));

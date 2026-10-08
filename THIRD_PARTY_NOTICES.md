@@ -35,3 +35,5 @@ FarmBot names and marks belong to their owners; this independent viewer does
 not imply endorsement. The retained manifests identify source versions and
 geometry hashes. CC0 terms: <https://creativecommons.org/publicdomain/zero/1.0/>.
 
+
+The landing-page FarmBot preview is a still rendering of the same CC0 source CAD used by this demonstration, composed in the EXO viewer. It is not a manufacturer marketing photograph.

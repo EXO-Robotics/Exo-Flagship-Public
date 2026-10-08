@@ -11,6 +11,7 @@ import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
 import { MeshoptDecoder } from './vendor/meshoptimizer/meshopt_decoder.module.js';
+import { mountGuidedTask } from './guided-task.js';
 import { loadChunkedAsset } from './chunked-assets.js';
 import './webmcp.js?v=20261002-selection-v4';
 import { applyFarmbotAppearance } from './material-appearance.js';
@@ -421,8 +422,10 @@ async function loadModel() {
       audit.appearance = applyFarmbotAppearance(root, await finishResponse.json(), assembly);
     } catch (error) { audit.appearance = { displayOnly: true, applied: false, error: error.message }; }
     batchSourceGeometry(); indexBodies();
-    experience=createPlatformExperience({root,meshes,camera,controls,presentationMotion:false,bodyOf:sourceBody,surface:document.querySelector('.stage'),toolbar:document.querySelector('.view-toolbar'),title:'FarmBot Genesis v1.8',parts:shopData?.parts??parts,resolvePartMeshes:p=>meshes.filter(m=>meshBindings.get(m)===p.id),depthNote:n=>n.body?.userData.cadName==='Camera'?'Camera includes attached cable and connector · no deeper source CAD':'Single CAD body · deeper subparts are not supplied',showPart:p=>inspectPart(p,null,{frame:false}),selectMesh:m=>selectBody(sourceBody(m),{frame:false,preserveCandidates:true}),clearPart:()=>closeInspector(),fit:box=>{animations.length=0;frameBounds(box,true)},sync:()=>updateBatches(),invalidate:()=>renderDirty=true,cancelMotion:()=>{animations.length=0;clearHover()}});
+    experience=createPlatformExperience({root,meshes,camera,controls,presentationMotion:false,bodyOf:sourceBody,surface:document.querySelector('.stage'),toolbar:document.querySelector('.view-toolbar'),title:'FarmBot Genesis v1.8',parts:shopData?.parts??parts,resolvePartMeshes:p=>meshes.filter(m=>meshBindings.get(m)===p.id),depthNote:n=>partsById.get(meshBindings.get(n.representative))?.displayDepthNote??'Single CAD body · deeper subparts are not supplied',showPart:p=>inspectPart(p,null,{frame:false}),selectMesh:m=>selectBody(sourceBody(m),{frame:false,preserveCandidates:true}),clearPart:()=>closeInspector(),fit:box=>{animations.length=0;frameBounds(box,true)},sync:()=>updateBatches(),invalidate:()=>renderDirty=true,cancelMotion:()=>{animations.length=0;clearHover()}});
     window.farmbotShowcase.experience=experience;
+    try { const response=await fetch('./machines/farmbot/demo.json');if(response.ok)mountGuidedTask({experience,config:await response.json(),parts,selectedPartId:()=>selectedPart?.id}); } catch { /* Optional guide never blocks free exploration. */ }
+    $('loading-help').hidden=true;
     resize(); const layoutObserver=new ResizeObserver(resize);layoutObserver.observe($('viewport'));layoutObserver.observe($('part-inspector'));layoutObserver.observe(explosionUI.panel);
     $('explode').disabled = false; $('model-status').textContent = 'Official CAD assembly'; $('stage-status').classList.add('ready'); $('geometry-summary').textContent = `${assembly.metrics.bodyInstances.toLocaleString()} CAD bodies retained · BOM differences ↗`;
     $('coverage-status').textContent = assembly.coverageLabel ?? 'Export loaded · BOM reconciliation pending';
@@ -432,7 +435,7 @@ async function loadModel() {
     installPicking();
     $('viewport').addEventListener('keydown', (event) => { if (!['ArrowLeft','ArrowRight','ArrowUp','ArrowDown','+','=','-','0'].includes(event.key)) return; event.preventDefault(); if (event.key === '0') return experience.session.reset(); const offset = camera.position.clone().sub(controls.target); if (['+','=','-'].includes(event.key)) offset.multiplyScalar(event.key === '-' ? 1.12 : .89); else { const spherical = new THREE.Spherical().setFromVector3(offset); if (event.key === 'ArrowLeft') spherical.theta -= .1; if (event.key === 'ArrowRight') spherical.theta += .1; if (event.key === 'ArrowUp') spherical.phi -= .1; if (event.key === 'ArrowDown') spherical.phi += .1; spherical.makeSafe(); offset.setFromSpherical(spherical); } camera.position.copy(controls.target).add(offset); controls.update(); });
     requestAnimationFrame(renderFrame);
-  } catch (error) { $('retry-cad').hidden = false; audit.failures.push(error.message); $('source-message').hidden = false; $('source-message-copy').textContent = `The complete CAD assembly is not available in this build. ${error.message}. All acquired parts remain listed below.`; $('model-status').textContent = 'CAD assembly pending'; $('stage-status').classList.add('ready'); $('geometry-summary').textContent = 'No substitute machine geometry'; $('reset-view').disabled = true; }
+  } catch (error) { $('loading-help').hidden=true; $('retry-cad').hidden = false; audit.failures.push(error.message); $('source-message').hidden = false; $('source-message-copy').textContent = `The 3D model could not load. ${error.message} You can still use the documented parts list.`; $('model-status').textContent = 'CAD assembly pending'; $('stage-status').classList.add('ready'); $('geometry-summary').textContent = 'No substitute machine geometry'; $('reset-view').disabled = true; }
 }
 async function start() {
   try {
@@ -455,8 +458,8 @@ async function start() {
       $('kit-availability').textContent = `${procurement.kit.availableAtSnapshot ? 'Available' : 'Sold out'} at ${date} snapshot`;
     } catch { $('kit-availability').textContent = 'Supplier stock not verified'; }
     try { const saved = JSON.parse(localStorage.getItem(storageKey) ?? '[]'); if (Array.isArray(saved)) for (const [id, count] of saved) { if (partsById.has(id) && partsById.get(id).quantity !== 0 && Number.isInteger(count) && count > 0 && count <= 9999) order.set(id, count); } } catch { /* Corrupt storage does not block the catalog. */ }
-    renderCatalog(); renderOrder(); await loadModel();const deepLink=new URLSearchParams(location.search).get('part');if(deepLink){const p=partsById.get(deepLink)??shopData?.parts.find(x=>x.id===deepLink);if(p)experience.openPart(p)} window.dispatchEvent(new Event('farmbot:ready'));
-  } catch (error) { audit.failures.push(error.message); $('catalog-summary').textContent = error.message; $('source-message').hidden = false; $('source-message-copy').textContent = 'Source acquisition has not completed. No guessed parts or geometry are shown.'; $('model-status').textContent = 'Source data unavailable'; }
+    renderCatalog(); renderOrder(); await loadModel();const deepLink=new URLSearchParams(location.search).get('part');if(deepLink){const p=partsById.get(deepLink)??shopData?.parts.find(x=>x.id===deepLink);if(p)experience?.openPart(p)} window.dispatchEvent(new Event('farmbot:ready'));
+  } catch (error) { $('loading-help').hidden=true; $('retry-cad').hidden=false; audit.failures.push(error.message); $('catalog-summary').textContent = error.message; $('source-message').hidden = false; $('source-message-copy').textContent = 'The model reference data could not load. Retry, or use the documented parts list.'; $('model-status').textContent = 'Source data unavailable'; }
 }
 $('part-search').addEventListener('input', renderCatalog); $('category-filter').addEventListener('change', renderCatalog); $('show-alternatives').addEventListener('change', renderCatalog);
 $('close-inspector').addEventListener('click', ()=>experience?.clearSelection()); $('add-selected').addEventListener('click', () => addPart(selectedPart));

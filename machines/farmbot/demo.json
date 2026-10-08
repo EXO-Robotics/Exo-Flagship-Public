@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "partId": "camera",
+  "assemblyLabel": "Z-Axis <1>",
+  "introduction": "1 of 3 \u00b7 Find the camera on the Z-axis. This example shows how a documented component leads to a fit-confirmation request.",
+  "openAssemblyLabel": "Open Z-axis",
+  "assemblyInstruction": "2 of 3 \u00b7 This assembly carries the camera. Inspect its documented reference to see what is supplied and what still needs confirmation.",
+  "inspectPartLabel": "Inspect camera",
+  "partInstruction": "3 of 3 \u00b7 Camera selected. Confirm revision B before choosing a replacement."
+}

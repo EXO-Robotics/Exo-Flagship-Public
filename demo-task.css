@@ -1,0 +1,19 @@
+.v7-viewer .guided-task{display:flex;align-items:center;gap:12px;margin-top:10px;padding-top:10px;border-top:1px solid var(--line);font-size:13px}
+.guided-task p{flex:1;margin:0;max-width:70ch;line-height:1.45}
+.v7-viewer .guided-task button,.v7-viewer .guided-toggle{min-height:44px;font:inherit;cursor:pointer}
+.v7-viewer .guided-task #guided-next{background:var(--accent);color:var(--bg);white-space:nowrap}
+.v7-viewer .guided-dismiss{font-size:12px;text-decoration:underline;border:0;background:transparent}
+.v7-viewer .guided-toggle{margin-top:6px;border:0;background:transparent;text-decoration:underline;color:var(--accent);padding:0}
+.v7-viewer .loading-help{position:absolute;inset:18% 8% auto;z-index:8;text-align:center;max-width:700px;margin:auto;color:var(--ink)}
+.loading-help h2{font-size:clamp(24px,4vw,42px);letter-spacing:-.04em;margin:12px 0}
+.loading-help p{max-width:48ch;margin:12px auto}
+.loading-help a,.source-message a{display:inline-block;min-height:44px;padding:10px;color:var(--accent)}
+.v7-viewer .source-message{z-index:9;background:var(--bg);padding:20px;max-height:80%;overflow:auto}
+.v7-viewer .snippet-confirm{width:100%;font:inherit;border:0;cursor:pointer}
+@media(max-width:760px){.v7-viewer .guided-task{display:grid;grid-template-columns:1fr auto;gap:4px;font-size:12px;margin-top:4px;padding-top:4px}.guided-task p{grid-column:1/-1}.v7-viewer .guided-task button{font-size:12px;min-height:40px;padding:6px 9px}.v7-viewer .guided-toggle{min-height:32px;font-size:12px}.v7-viewer .has-selection .part-inspector{max-height:38%}}
+
+.v7-viewer .part-inspector{animation:none}
+
+@media(max-width:760px){.v7-viewer .guided-task[data-step="2"]{grid-template-columns:1fr auto;align-items:center}.guided-task[data-step="2"] p{grid-column:auto}}
+
+@media(max-width:760px){.v7-viewer .part-inspector #part-title{font-size:18px;margin-bottom:12px}.v7-viewer .snippet-number{margin-bottom:10px}.v7-viewer .snippet-unavailable{padding-top:8px;font-size:13px;line-height:1.4}.v7-viewer .snippet-confirm{margin-top:8px}.v7-viewer .snippet-number dd{font-size:14px;line-height:1.4}}

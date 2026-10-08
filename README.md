@@ -9,15 +9,17 @@ parts reference. Customers can inspect visually or search directly by name or nu
 
 ## Open the hosted demo
 
-[**Launch the FarmBot GPT Site →**](https://farmbot-genesis-cad-showcase.alert-buddy-5171.chatgpt.site)
+[**Open EXO and the working example →**](https://farmbot-genesis-cad-showcase.alert-buddy-5171.chatgpt.site)
 
 The GPT Site is public and works remotely; no local server or sign-in is required.
-Open the link above to explore the demo.
+The lightweight entry page explains the one-machine service.
+[Start the guided FarmBot example](https://farmbot-genesis-cad-showcase.alert-buddy-5171.chatgpt.site/farmbot.html?tour=1)
+or [explore freely](https://farmbot-genesis-cad-showcase.alert-buddy-5171.chatgpt.site/farmbot.html).
 This public repository contains the evaluation package; GitHub Pages is not enabled.
 
 ## Try the experience
 
-1. Open the machine and switch between Showcase and CAD mode.
+1. Open the machine and switch between Showcase and Explore parts.
 2. Open an assembly, then use Explode to see its components.
 3. Select a component, inspect its reference and fit qualifications, and isolate it.
 4. Search for a part, save useful references and download a parts request.
@@ -26,6 +28,12 @@ This public repository contains the evaluation package; GitHub Pages is not enab
 No request or order is sent automatically. The model contains 1,187 source CAD
 bodies; a body is not necessarily an individually sold replacement part.
 This is a reference demonstration, not an approved production parts catalog.
+
+The homepage does not download the 3D model. Opening the interactive example
+downloads about 36.3 MB of compressed model data; the full model must finish
+loading before interaction. The documented parts list also works without 3D.
+Product links are references; unresolved fit uses a locally prepared confirmation
+request. No manufacturer acceptance is implied.
 
 ## Optional local preview
 

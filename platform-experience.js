@@ -1,6 +1,6 @@
 import {LayeredExplorer} from '/layered-explorer.js?v=purchase-1';
 import {mountExplorationShell} from '/exploration-shell.js?v=purchase-1';
-import {qualifiedOffers} from '/shop/commerce.js?v=purchase-1';
+import {qualifiedOffers,replacementAction} from '/shop/commerce.js?v=purchase-1';
 import {sourceIdentifier} from '/part-identity.js?v=purchase-1';
 
 // The session owns display scopes and poses. The source adapters own part identity.
@@ -19,7 +19,7 @@ export function createPlatformExperience(adapter){
  const openPart=part=>{if(root)setMode('cad');const matches=adapter.resolvePartMeshes?.(part)??[],owners=[...new Set(matches.map(m=>session?.ownerOf(m)).filter(Boolean))];if(owners.length===1){session.enter(owners[0].parent.id);session.enter(owners[0].id);}else{session?.home();}showPart?.(part);refresh()};
  const catalog=parts.filter(p=>p.status!=='visual-component-unidentified'&&p.status!=='unmatched-cad-body'&&p.catalogKind!=='semantic-assembly');
  shell=mountExplorationShell({surface,toolbar,title,hasModel:!!root,onMode:setMode,onHome:()=>session?.home(),onBack:id=>id==null?session?.back():session?.enter(id),onReset:()=>session?.reset(),onExplode:()=>session?.setExploded(!session.exploded),onIsolate:()=>session?.setIsolated(!session.isolated),onEnter:id=>session?.enter(id),onCatalog:openPart});
- shell.setCatalog(catalog.map(p=>{const offer=qualifiedOffers(p)[0];return {...p,manufacturerPartNumber:p.manufacturerPartNumber??offer?.manufacturerPartNumber,sku:offer?.sku??p.sku,displayIdentifier:sourceIdentifier(p,offer),orderable:!!offer}}),openPart);
+ shell.setCatalog(catalog.map(p=>{const offer=qualifiedOffers(p)[0];return {...p,manufacturerPartNumber:p.manufacturerPartNumber??offer?.manufacturerPartNumber,sku:offer?.sku??p.sku,displayIdentifier:sourceIdentifier(p,offer),orderable:replacementAction(p).ready}}),openPart);
  if(root){
   session=new LayeredExplorer({root,meshes,bodyOf,unitOf,majorOf,nativeUnits,title:'Machine',isReference:adapter.isReference??(()=>false),onPart:mesh=>{adapter.selectMesh(mesh);refresh()},onClear:clear,fit,renderSync:()=>{sync?.(session);refresh()},onChange:refresh});
   session.home();
