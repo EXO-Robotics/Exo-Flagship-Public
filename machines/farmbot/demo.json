@@ -6,5 +6,5 @@
   "openAssemblyLabel": "Open Z-axis",
   "assemblyInstruction": "2 of 3 \u00b7 This assembly carries the camera. Inspect its documented reference to see what is supplied and what still needs confirmation.",
   "inspectPartLabel": "Inspect camera",
-  "partInstruction": "3 of 3 \u00b7 Camera selected. Confirm revision B before choosing a replacement."
+  "partInstruction": "3 of 3 \u00b7 Camera selected. Use Confirm fit on the part card to prepare a request. Nothing is sent automatically."
 }

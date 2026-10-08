@@ -14,7 +14,7 @@ export function mountGuidedTask({experience,config,parts,selectedPartId}) {
   const render=()=>{
     panel.dataset.step=String(step);dismiss.hidden=step===2;
     text.textContent=[config.introduction,config.assemblyInstruction,config.partInstruction][step];
-    action.textContent=[config.openAssemblyLabel,config.inspectPartLabel,'Finish guide'][step];
+    action.textContent=[config.openAssemblyLabel,config.inspectPartLabel,'Close guide'][step];
   };
   const close=()=>{panel.hidden=true;toggle.hidden=false;};
   action.addEventListener('click',()=>{
